@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"firstIsValidForIdentity:" : "DaveMcKenzie 4/21/2016 11:00",
+		"lastIsValidForIdentity:" : "DaveMcKenzie 4/20/2016 10:45",
+		"newWithFirst:Last:" : "DaveMcKenzie 4/14/2016 08:53" },
+	"instance" : {
+		"first" : "DaveMcKenzie 2/23/2016 15:00",
+		"first:" : "DaveMcKenzie 4/14/2016 14:10",
+		"firstIsValidForUpdate:" : "DaveMcKenzie 4/20/2016 23:03",
+		"initializeWithFirst:Last:" : "DaveMcKenzie 5/5/2016 16:36",
+		"last" : "DaveMcKenzie 2/23/2016 14:59",
+		"last:" : "DaveMcKenzie 4/14/2016 12:57" } }

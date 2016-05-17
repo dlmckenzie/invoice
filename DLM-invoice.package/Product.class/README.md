@@ -1,0 +1,1 @@
+I represent a product that can be sold.
