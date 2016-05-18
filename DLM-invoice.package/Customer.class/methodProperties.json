@@ -1,12 +1,16 @@
 {
 	"class" : {
 		"firstIsValidForIdentity:" : "DaveMcKenzie 4/21/2016 11:00",
+		"generateNextID" : "DaveMcKenzie 5/17/2016 10:14",
+		"initialize" : "DaveMcKenzie 5/17/2016 10:48",
 		"lastIsValidForIdentity:" : "DaveMcKenzie 4/20/2016 10:45",
-		"newWithFirst:Last:" : "DaveMcKenzie 4/14/2016 08:53" },
+		"newWithFirst:Last:" : "DaveMcKenzie 5/17/2016 13:01",
+		"nextID" : "DaveMcKenzie 5/17/2016 11:24" },
 	"instance" : {
 		"first" : "DaveMcKenzie 2/23/2016 15:00",
-		"first:" : "DaveMcKenzie 4/14/2016 14:10",
-		"firstIsValidForUpdate:" : "DaveMcKenzie 4/20/2016 23:03",
-		"initializeWithFirst:Last:" : "DaveMcKenzie 5/5/2016 16:36",
+		"first:" : "DaveMcKenzie 5/18/2016 09:31",
+		"firstIsValidForUpdate:" : "DaveMcKenzie 5/18/2016 09:32",
+		"id" : "DaveMcKenzie 5/17/2016 12:02",
+		"initializeWithID:First:Last:" : "DaveMcKenzie 5/18/2016 09:29",
 		"last" : "DaveMcKenzie 2/23/2016 14:59",
-		"last:" : "DaveMcKenzie 4/14/2016 12:57" } }
+		"last:" : "DaveMcKenzie 5/18/2016 09:32" } }
