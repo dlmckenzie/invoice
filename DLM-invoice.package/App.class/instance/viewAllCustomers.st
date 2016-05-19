@@ -1,5 +1,5 @@
 interface - customer
-viewAll
+viewAllCustomers
 	"view list of all customers"
 
 	customers size = 0
