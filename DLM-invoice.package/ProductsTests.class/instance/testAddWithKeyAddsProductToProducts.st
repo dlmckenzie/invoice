@@ -1,5 +1,5 @@
 testing
-testAddWithKeyAddProductToProducts
+testAddWithKeyAddsProductToProducts
 	"test that product gets added to products"
 
 	| prod products key |
