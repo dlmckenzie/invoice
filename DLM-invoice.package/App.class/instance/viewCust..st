@@ -1,14 +1,12 @@
 interface - customer
 viewCust: anInteger
 	| cust |
-	cust := customers at: anInteger ifAbsent: [ nil ].
+	cust := customers retrieveByID: anInteger.
 	cust isNil
-		ifTrue: [ 
-			Transcript
+		ifTrue: [ Transcript
 				show: 'Customer ID ' , anInteger asString , ' does not exist.';
 				cr ]
-		ifFalse: [ 
-			Transcript
+		ifFalse: [ Transcript
 				show: 'Customer ID: ' , anInteger asString;
 				cr;
 				show: '  First name: ' , (customers at: anInteger) first;

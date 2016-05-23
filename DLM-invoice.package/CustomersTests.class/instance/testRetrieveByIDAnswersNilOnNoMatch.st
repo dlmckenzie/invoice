@@ -1,6 +1,6 @@
 testing
-testRetrieveByIDRaisesErrorOnNoMatch
-	"test that error gets raised when no cust exists for id"
+testRetrieveByIDAnswersNilOnNoMatch
+	"test that retrieveByID ansers nil when matching key is not found"
 
 	self
 		assert: [ (Customers new retrieveByID: 1) isNil ]
