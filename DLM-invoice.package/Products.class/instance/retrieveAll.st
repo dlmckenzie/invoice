@@ -1,3 +1,3 @@
-as yet unclassified
+collection ops
 retrieveAll
 	"returns itself"

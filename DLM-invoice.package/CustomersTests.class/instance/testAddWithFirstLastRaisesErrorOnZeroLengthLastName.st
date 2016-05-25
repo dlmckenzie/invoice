@@ -1,7 +1,5 @@
 testing
 testAddWithFirstLastRaisesErrorOnZeroLengthLastName
-"last name is required, test that it is not an empty string"
+	"last name is required, test that it is not an empty string"
 
-	| customers |
-	customers := Customers new.
-	self should: [ customers addWithFirst: 'Joe' Last: ''. ] raise: Error.
+	self should: [ Customers new addWithFirst: 'Joe' Last: '' ] raise: Error

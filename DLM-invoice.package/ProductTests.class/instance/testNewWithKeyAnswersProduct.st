@@ -1,6 +1,6 @@
 testing
-testInitializeWithKeyAnswersSelf
-	"test that method answers self"
+testNewWithKeyAnswersProduct
+	"test that method answers new instance of product"
 
 	self
 		assert: [ (Product newWithKey: 'PR01') isMemberOf: Product ]

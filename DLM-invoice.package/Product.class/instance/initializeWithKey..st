@@ -1,8 +1,9 @@
-private
+private - initialization
 initializeWithKey: aProductKeyString
 	"initialization using product key"
 
 	super initialize.
-	aProductKeyString isEmptyOrNil
-		ifTrue: [ Error signal: 'Invalid Product Key' ]
-		ifFalse: [ key := aProductKeyString ]
+	(Product keyIsValidForIdentity: aProductKeyString)
+		ifTrue: [ key := aProductKeyString ]
+		ifFalse: [ Error signal: 'Invalid Product Key' ]
+		

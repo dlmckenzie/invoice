@@ -1,4 +1,4 @@
-as yet unclassified
+collection ops
 retrieveByKey: aString 
 	"answer with product that matches key, or nil if none found"
 

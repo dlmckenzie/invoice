@@ -2,5 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAddWithKeyAddsProductToProducts" : "DaveMcKenzie 5/23/2016 10:20",
-		"testProductsClassExistence" : "DaveMcKenzie 5/11/2016 08:43" } }
+		"testAddWithKeyAccepts1Arg" : "DaveMcKenzie 5/23/2016 12:10",
+		"testAddWithKeyAddsProductToProducts" : "DaveMcKenzie 5/23/2016 23:18",
+		"testAddWithKeyAnswersSelf" : "DaveMcKenzie 5/23/2016 22:55",
+		"testAddWithKeyExists" : "DaveMcKenzie 5/23/2016 12:09",
+		"testAddWithKeyRaisesErrorOnDuplicateKey" : "DaveMcKenzie 5/24/2016 09:12",
+		"testKeyIsUniqueAccepts1Arg" : "DaveMcKenzie 5/24/2016 10:23",
+		"testKeyIsUniqueAnswersBoolean" : "DaveMcKenzie 5/24/2016 10:25",
+		"testKeyIsUniqueAnswersFalseForDuplicateKey" : "DaveMcKenzie 5/24/2016 11:10",
+		"testKeyIsUniqueAnswersTrueForUniqueKey" : "DaveMcKenzie 5/24/2016 11:03",
+		"testKeyIsUniqueExists" : "DaveMcKenzie 5/24/2016 10:22",
+		"testProductsClassExistence" : "DaveMcKenzie 5/11/2016 08:43",
+		"testRetrieveByKeyAccepts1Arg" : "DaveMcKenzie 5/23/2016 12:05",
+		"testRetrieveByKeyExists" : "DaveMcKenzie 5/23/2016 12:05" } }

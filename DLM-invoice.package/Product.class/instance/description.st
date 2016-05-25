@@ -1,5 +1,5 @@
 accesing
 description
-	"answers product name"
+	"answers product description"
 
-	^ name.
+	^ description

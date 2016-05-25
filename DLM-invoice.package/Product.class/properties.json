@@ -7,7 +7,7 @@
 	"commentStamp" : "DaveMcKenzie 5/4/2016 10:27",
 	"instvars" : [
 		"key",
-		"name",
+		"description",
 		"price" ],
 	"name" : "Product",
 	"pools" : [

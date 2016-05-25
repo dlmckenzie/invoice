@@ -1,5 +1,5 @@
 validation
-nameIsValid: aString
+descriptionIsValid: aString
 	"validate that product name is valid"
 
 	aString isString

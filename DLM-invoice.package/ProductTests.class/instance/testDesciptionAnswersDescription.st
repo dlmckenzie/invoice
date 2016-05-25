@@ -4,4 +4,6 @@ testDesciptionAnswersDescription
 
 	| description |
 	description := 'Part ABC'.
-	self assert: [ (Product new updateDescription: description) description = description ] description: 'method did not answer with correct product name'.
+	self
+		assert: [ (Product new updateDescription: 'Part ABC') description = description ]
+		description: 'method did not answer with correct product name'
