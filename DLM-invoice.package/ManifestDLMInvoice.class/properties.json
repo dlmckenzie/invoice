@@ -1,0 +1,14 @@
+{
+	"category" : "DLM-Invoice",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "ManifestDLMInvoice",
+	"pools" : [
+		 ],
+	"super" : "PackageManifest",
+	"type" : "normal" }
