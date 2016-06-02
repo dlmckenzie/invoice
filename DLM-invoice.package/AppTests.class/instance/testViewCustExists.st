@@ -1,5 +1,5 @@
 testing
-testViewCustForIDExists
+testViewCustExists
 	"test that the viewCustForID: method exists"
 
 	| app |

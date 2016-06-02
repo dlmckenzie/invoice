@@ -1,5 +1,5 @@
 testing
-testDesciptionAnswersString
+testDescriptionAnswersString
 	"should answer with a string"
 
 	self

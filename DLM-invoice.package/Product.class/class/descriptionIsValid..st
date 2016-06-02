@@ -4,7 +4,6 @@ descriptionIsValid: aString
 
 	aString isString
 		ifFalse: [ ^ false ]
-		ifTrue: [ 
-			aString isEmptyOrNil
+		ifTrue: [ aString isEmptyOrNil
 				ifTrue: [ ^ false ]
 				ifFalse: [ ^ true ] ]

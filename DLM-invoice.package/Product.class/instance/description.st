@@ -2,4 +2,4 @@ accesing
 description
 	"answers product description"
 
-	^ description
+	description isNil ifTrue: [ ^ '' ] ifFalse: [ ^ description  ]

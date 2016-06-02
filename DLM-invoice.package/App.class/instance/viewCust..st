@@ -4,12 +4,17 @@ viewCust: anInteger
 	cust := customers retrieveByID: anInteger.
 	cust isNil
 		ifTrue: [ Transcript
-				show: 'Customer ID ' , anInteger asString , ' does not exist.';
+				show: 'Customer ID ';
+				show: anInteger asString;
+				show: ' does not exist.';
 				cr ]
 		ifFalse: [ Transcript
-				show: 'Customer ID: ' , anInteger asString;
+				show: 'Customer ID: ';
+				show: cust id asString;
 				cr;
-				show: '  First name: ' , (customers at: anInteger) first;
+				show: '  First name: ';
+				show: cust first;
 				cr;
-				show: '  Last name: ' , (customers at: anInteger) last;
+				show: '  Last name: ';
+				show: cust last;
 				cr ]

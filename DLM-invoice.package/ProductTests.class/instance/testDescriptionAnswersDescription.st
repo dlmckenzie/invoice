@@ -1,5 +1,5 @@
 testing
-testDesciptionAnswersDescription
+testDescriptionAnswersDescription
 	"should answer with product name"
 
 	| description |

@@ -15,7 +15,7 @@ helpCust
 		show: '     View all  -  viewAllCustomers';
 		cr.
 	Transcript
-		show: '     View by last  -  viewByLast:';
+		show: '     Search by last  -  searchCustByLast:';
 		cr.
 	Transcript
 		show: '     Update first name  -  updateCust:WithFirst:';

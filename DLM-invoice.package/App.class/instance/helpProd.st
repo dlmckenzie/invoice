@@ -18,7 +18,7 @@ helpProd
 		show: '     View all  -  viewAllProducts';
 		cr.
 	Transcript
-		show: '     View by description  -  viewByDesc:';
+		show: '     Search by description  -  searchProdByDesc:';
 		cr.
 	Transcript
 		show: '     Update description  -  updateProd:WithDesc:';
