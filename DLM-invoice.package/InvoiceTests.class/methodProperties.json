@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testGenerateNextNumberIncrementsBy1" : "DaveMcKenzie 7/20/2016 22:11",
+		"testGenerateNextNumberInterface" : "DaveMcKenzie 7/20/2016 22:07",
+		"testInitializeInterface" : "DaveMcKenzie 7/20/2016 22:33",
+		"testInitializeResetsInvoiceNumber" : "DaveMcKenzie 7/21/2016 07:36",
+		"testInitializeWithCustInterface" : "DaveMcKenzie 7/21/2016 09:08",
+		"testInitializeWithCustSetsCust" : "DaveMcKenzie 7/21/2016 09:39",
+		"testInitializeWithCustSetsNumber" : "DaveMcKenzie 7/21/2016 09:38",
+		"testInvoiceClassExists" : "DaveMcKenzie 7/20/2016 18:25",
+		"testNewWithCustInterface" : "DaveMcKenzie 7/21/2016 02:14",
+		"testNewWithCustSuccesfullyCreatesInvoice" : "DaveMcKenzie 7/21/2016 07:52",
+		"testNextNumberAnswersCorrectly" : "DaveMcKenzie 7/21/2016 07:51",
+		"testNextNumberInterface" : "DaveMcKenzie 7/21/2016 09:35" } }
