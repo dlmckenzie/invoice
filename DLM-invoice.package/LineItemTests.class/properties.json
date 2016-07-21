@@ -1,0 +1,14 @@
+{
+	"category" : "DLM-invoice",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DaveMcKenzie 7/21/2016 10:51",
+	"instvars" : [
+		 ],
+	"name" : "LineItemTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

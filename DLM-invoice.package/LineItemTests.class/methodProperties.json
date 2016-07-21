@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testInitializeWithKeyDescPriceQtyInterface" : "DaveMcKenzie 7/21/2016 11:37",
+		"testInitializeWithKeyDescPriceQtySuccessfullyCreatesLineItem" : "DaveMcKenzie 7/21/2016 11:46",
+		"testLineItemClassExists" : "DaveMcKenzie 7/21/2016 10:52",
+		"testNewWithKeyDescPriceQtyInterface" : "DaveMcKenzie 7/21/2016 11:25" } }
