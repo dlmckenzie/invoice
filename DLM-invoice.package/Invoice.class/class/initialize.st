@@ -1,3 +1,3 @@
 class initialization
 initialize
-	nextNumber := nil
+	nextNumber := 1

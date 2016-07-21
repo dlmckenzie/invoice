@@ -6,5 +6,5 @@ testNextNumberInterface
 		description: 'Invoice nextNumber does not exist'.
 		
 	self
-		assert: [ Invoice nextNumber isKindOf: Integer ]
+		assert: [ Invoice initialize nextNumber isKindOf: Integer ]
 		description: 'Method did not answer with integer' 

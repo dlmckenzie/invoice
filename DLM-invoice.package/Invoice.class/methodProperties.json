@@ -1,10 +1,10 @@
 {
 	"class" : {
 		"generateNextNumber" : "DaveMcKenzie 7/20/2016 22:18",
-		"initialize" : "DaveMcKenzie 7/21/2016 01:54",
+		"initialize" : "DaveMcKenzie 7/21/2016 09:56",
 		"newWithCust:" : "DaveMcKenzie 7/21/2016 08:18",
 		"nextNumber" : "DaveMcKenzie 7/21/2016 07:48" },
 	"instance" : {
 		"customer" : "DaveMcKenzie 7/21/2016 07:55",
-		"initializeWithCust:" : "DaveMcKenzie 7/21/2016 09:40",
+		"initializeWithCust:" : "DaveMcKenzie 7/21/2016 10:20",
 		"number" : "DaveMcKenzie 7/21/2016 00:17" } }

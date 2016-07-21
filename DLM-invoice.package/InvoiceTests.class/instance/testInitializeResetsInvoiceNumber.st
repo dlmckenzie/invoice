@@ -5,5 +5,5 @@ testInitializeResetsInvoiceNumber
 	Invoice generateNextNumber.
 	Invoice initialize.
 	self
-		assert: [ Invoice nextNumber isNil  ]
+		assert: [ Invoice nextNumber = 1  ]
 		description: 'Invoice initialization did not reset invoice number'
