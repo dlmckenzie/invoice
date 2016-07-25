@@ -1,3 +1,8 @@
 testing
 testRetrieveByNumberInterface
-	self assert: [ false ] description: 'invoice by number failed'
+	self
+		assert: [ Invoices new respondsTo: #retrieveByNumber: ]
+		description: 'method Invoices retrieveAByNumber: does not exist'.
+		
+
+		

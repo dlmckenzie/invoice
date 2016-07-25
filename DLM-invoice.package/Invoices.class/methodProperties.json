@@ -3,4 +3,6 @@
 		 },
 	"instance" : {
 		"add:" : "DaveMcKenzie 7/22/2016 10:01",
-		"remove:" : "DaveMcKenzie 7/25/2016 10:07" } }
+		"remove:" : "DaveMcKenzie 7/25/2016 10:07",
+		"retrieveAll" : "DaveMcKenzie 7/25/2016 10:31",
+		"retrieveByNumber:" : "DaveMcKenzie 7/25/2016 11:18" } }
