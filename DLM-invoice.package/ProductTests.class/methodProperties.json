@@ -10,7 +10,7 @@
 		"testInitializeWithKeyAccepts1Arg" : "DaveMcKenzie 5/5/2016 23:07",
 		"testInitializeWithKeyAnswersSelf" : "DaveMcKenzie 5/23/2016 13:34",
 		"testInitializeWithKeyExists" : "DaveMcKenzie 5/5/2016 23:03",
-		"testInitializeWithKeyInitializesProduct" : "DaveMcKenzie 5/8/2016 23:06",
+		"testInitializeWithKeyInitializesProduct" : "DaveMcKenzie 7/25/2016 14:11",
 		"testInitializeWithKeyRaisesErrorWithEmptyKey" : "DaveMcKenzie 5/6/2016 08:24",
 		"testInitializeWithKeyRaisesErrorWithNilKey" : "DaveMcKenzie 5/6/2016 08:24",
 		"testInitializeWithKeyRaisesErrorWithNonStringKey" : "DaveMcKenzie 5/10/2016 10:21",
