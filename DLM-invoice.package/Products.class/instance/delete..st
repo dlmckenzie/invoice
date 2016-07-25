@@ -1,7 +1,6 @@
 collection ops
-delete: aString
-	"delete product by key"
-	
-		self removeKey: aString
+delete: aProduct
+	"delete product"
 
-	
+	self removeKey: aProduct key.
+	^ aProduct

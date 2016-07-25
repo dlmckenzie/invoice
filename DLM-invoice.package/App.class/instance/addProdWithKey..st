@@ -8,7 +8,7 @@ addProdWithKey: aString
 				cr.
 			^ self ].
 	(products keyIsUnique: aString)
-		ifTrue: [ products addWithKey: aString.
+		ifTrue: [ products add: aString.
 			Transcript
 				show: 'Product added:';
 				cr;

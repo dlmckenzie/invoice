@@ -1,6 +1,8 @@
 {
 	"class" : {
 		"ruleRBBadMessageRuleV1FalsePositive" : "DaveMcKenzie 7/20/2016 22:04",
-		"ruleRBCodeCruftLeftInMethodsRuleV1FalsePositive" : "DaveMcKenzie 6/1/2016 10:05" },
+		"ruleRBCodeCruftLeftInMethodsRuleV1FalsePositive" : "DaveMcKenzie 6/1/2016 10:05",
+		"ruleRBInconsistentMethodClassificationRuleV1FalsePositive" : "DaveMcKenzie 7/25/2016 12:12",
+		"ruleRBUsesAddRuleV1FalsePositive" : "DaveMcKenzie 7/25/2016 12:22" },
 	"instance" : {
 		 } }

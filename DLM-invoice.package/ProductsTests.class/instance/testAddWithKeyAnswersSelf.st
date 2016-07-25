@@ -1,8 +1,8 @@
 testing
 testAddWithKeyAnswersSelf
-	"test that this method answers with ID of cust just added to Customers"
+	"test that this method answers with the argument"
 
 	| products result |
 	products := Products new.
-	result := products addWithKey: 'X101'.
-	self assert: [ result isKindOf: Products ] description: 'method did not answer self'
+	result := products add: (Product newWithKey: 'A1').
+	self assert: [ result isKindOf: Product ] description: 'method did not answer with argument'

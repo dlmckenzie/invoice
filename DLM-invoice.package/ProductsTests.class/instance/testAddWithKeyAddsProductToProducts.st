@@ -5,7 +5,8 @@ testAddWithKeyAddsProductToProducts
 	| prod products key |
 	key := 'A1'.
 	prod := Product newWithKey: key.
-	products := Products new addWithKey: prod key.
+	products := Products new.
+	products add: prod.
 	self
-		assert: [ prod key = (products retrieveByKey: key) key ]
+		assert: [ prod key = (products retrieveByKey: prod key) key ]
 		description: 'product unsuccessfully added to products'

@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addWithKey:" : "DaveMcKenzie 5/25/2016 11:20",
-		"delete:" : "DaveMcKenzie 5/26/2016 13:13",
+		"add:" : "DaveMcKenzie 7/25/2016 12:16",
+		"delete:" : "DaveMcKenzie 7/25/2016 12:41",
 		"keyIsUnique:" : "DaveMcKenzie 5/25/2016 14:20",
 		"retrieveAll" : "DaveMcKenzie 5/9/2016 10:28",
 		"retrieveByDescription:" : "DaveMcKenzie 6/1/2016 21:21",

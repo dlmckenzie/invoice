@@ -4,10 +4,9 @@ testRetrieveByDescriptionAnswersCorrectlyForSubstringMatch
 
 	| products |
 	products := Products new.
-	products
-		addWithKey: 'A';
-		addWithKey: 'B';
-		addWithKey: 'C'.
+	products add: (Product newWithKey: 'A').
+	products add: (Product newWithKey: 'B').
+	products add: (Product newWithKey: 'C').
 	(products retrieveByKey: 'A') updateDescription: 'External fastener'.
 	(products retrieveByKey: 'B') updateDescription: 'INTERNAL FASTENER'.
 	(products retrieveByKey: 'C') updateDescription: 'Internal O-ring'.

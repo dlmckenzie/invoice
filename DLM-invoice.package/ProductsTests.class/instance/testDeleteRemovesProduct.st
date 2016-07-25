@@ -2,7 +2,11 @@ testing
 testDeleteRemovesProduct
 	"test that this method removes product"
 
-	| products key |
+	| products key product |
 	key := 'X101'.
-	products := Products new addWithKey: key.
-	self assert: [ (products delete: key) isEmpty ] description: 'method failed to remove product'
+	product := Product newWithKey: key.
+	products := Products new.
+	products add: product.
+	self assert: [ products size = 1 ] description: 'error adding product'.
+	products delete: product.
+	self assert: [ products isEmpty ] description: 'method failed to remove product'
