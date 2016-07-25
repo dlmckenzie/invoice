@@ -8,7 +8,7 @@ addProdWithKey: aString
 				cr.
 			^ self ].
 	(products keyIsUnique: aString)
-		ifTrue: [ products add: aString.
+		ifTrue: [ products add: (Product newWithKey: aString).
 			Transcript
 				show: 'Product added:';
 				cr;
@@ -19,4 +19,6 @@ addProdWithKey: aString
 				cr;
 				show: '	Price: ';
 				cr ]
-		ifFalse: [ Transcript show: 'Duplicate product key - no changes made'; cr ]
+		ifFalse: [ Transcript
+				show: 'Duplicate product key - no changes made';
+				cr ]

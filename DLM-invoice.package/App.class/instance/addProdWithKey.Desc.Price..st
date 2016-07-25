@@ -13,13 +13,13 @@ addProdWithKey: aKeyString Desc: aDescString Price: aPriceFloat
 				show: 'Invalid product description - no changes made';
 				cr.
 			^ self ].
-	(Product priceIsValid: aPriceFloat )
+	(Product priceIsValid: aPriceFloat)
 		ifFalse: [ Transcript
 				show: 'Invalid product price - no changes made';
 				cr.
 			^ self ].
 	(products keyIsUnique: aKeyString)
-		ifTrue: [ products add: aKeyString.
+		ifTrue: [ products add: (Product newWithKey: aKeyString).
 			prod := products retrieveByKey: aKeyString.
 			prod
 				updateDescription: aDescString;
