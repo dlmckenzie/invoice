@@ -5,5 +5,5 @@ testAddRaisesErrorOnDuplicateKey
 	| product products |
 	product := Product newWithKey: 'A1'.
 	products := Products new.
-	products add: product.
-	self should: [ products add: product ] raise: Error
+	products addProd: product.
+	self should: [ products addProd: product ] raise: Error

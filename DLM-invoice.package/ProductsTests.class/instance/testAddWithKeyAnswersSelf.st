@@ -4,5 +4,5 @@ testAddWithKeyAnswersSelf
 
 	| products result |
 	products := Products new.
-	result := products add: (Product newWithKey: 'A1').
+	result := products addProd: (Product newWithKey: 'A1').
 	self assert: [ result isKindOf: Product ] description: 'method did not answer with argument'

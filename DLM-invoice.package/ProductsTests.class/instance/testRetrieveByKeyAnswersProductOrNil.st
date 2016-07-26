@@ -4,6 +4,6 @@ testRetrieveByKeyAnswersProductOrNil
 
 	| products |
 	products := Products new.
-	products add: (Product newWithKey: 'AA').
+	products addProd: (Product newWithKey: 'AA').
 	self assert: [ (products retrieveByKey: 'AA') isMemberOf: Product ] description: 'method did not answer with a product'.
 	self deny: [ (products retrieveByKey: 'BB') isMemberOf: Product ] description: 'method did not answer with a product'

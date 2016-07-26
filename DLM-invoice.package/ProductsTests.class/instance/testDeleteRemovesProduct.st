@@ -6,7 +6,7 @@ testDeleteRemovesProduct
 	key := 'X101'.
 	product := Product newWithKey: key.
 	products := Products new.
-	products add: product.
+	products addProd: product.
 	self assert: [ products size = 1 ] description: 'error adding product'.
 	products delete: product.
 	self assert: [ products isEmpty ] description: 'method failed to remove product'

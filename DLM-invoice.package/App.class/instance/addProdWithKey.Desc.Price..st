@@ -19,7 +19,7 @@ addProdWithKey: aKeyString Desc: aDescString Price: aPriceFloat
 				cr.
 			^ self ].
 	(products keyIsUnique: aKeyString)
-		ifTrue: [ products add: (Product newWithKey: aKeyString).
+		ifTrue: [ products addProd: (Product newWithKey: aKeyString).
 			prod := products retrieveByKey: aKeyString.
 			prod
 				updateDescription: aDescString;

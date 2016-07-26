@@ -1,5 +1,5 @@
 collection ops
-add: aProduct
+addProd: aProduct
 	"add product to myself"
 
 	(self keyIsUnique: aProduct key)
