@@ -2,7 +2,7 @@ testing
 testRemoveInterface
 | result |
 	self
-		assert: [ Invoices new respondsTo: #remove: ]
+		assert: [ Invoices new respondsTo: #delete: ]
 		description: 'class method remove does not exist'.
 	result := Invoices new addInvoice: Invoice new.
 	self assert: [ result isMemberOf: Invoice ]

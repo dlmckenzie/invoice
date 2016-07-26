@@ -1,3 +1,3 @@
 collection ops
-remove: anInvoice
+delete: anInvoice
 	self removeKey: anInvoice number

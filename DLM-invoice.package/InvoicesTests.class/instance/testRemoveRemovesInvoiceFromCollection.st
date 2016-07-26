@@ -6,7 +6,7 @@ testRemoveRemovesInvoiceFromCollection
 	invoices := Invoices new.
 	invoices addInvoice: invoice.
 	self assert: [ invoices size = 1 ] description: 'setup for test failed'.
-	invoices remove: invoice.
+	invoices delete: invoice.
 	self
 		assert: [ invoices isEmpty ]
 		description: 'invoice removal failed'
