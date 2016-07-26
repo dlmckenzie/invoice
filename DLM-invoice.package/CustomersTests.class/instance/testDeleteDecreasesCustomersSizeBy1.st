@@ -1,13 +1,13 @@
 testing
 testDeleteDecreasesCustomersSizeBy1
 	"Test that deleting customer reduces # of customers by 1"
-	
-	| customers id before after |
+
+	| customers cust before after |
 	customers := Customers new.
-	customers addWithFirst: 'John' Last: 'Smith'.
-	id := customers addWithFirst: 'Amy' Last: 'Sanders'.
+	customers addCust: (Customer newWithFirst: 'John' Last: 'Smith').
+	cust := Customer newWithFirst: 'Amy' Last: 'Sanders'.
+	customers addCust: cust.
 	before := customers size.
-	customers delete: id.	
-	after := customers size. 	
-	self assert: [ after = (before - 1) ] 
-		description: 'Deleting cust did not reduce Customers count by 1'
+	customers delete: cust id.
+	after := customers size.
+	self assert: [ after = (before - 1) ] description: 'Deleting cust did not reduce Customers count by 1'

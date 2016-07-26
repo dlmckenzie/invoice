@@ -2,10 +2,10 @@ testing
 testRetrieveByLastNameWorksOnSubstringMatchAtStart
 	"Customers whose last name does not match search string are not included"
 
-	| customers id |
+	| customers  cust |
 	customers := Customers new.
-	id := customers addWithFirst: 'Joe' Last: 'Richardson'.
-	self assert: [ ((customers retrieveByLastName: 'Richard') at: id) last = 'Richardson'] 
+	cust := Customer newWithFirst: 'Joe' Last: 'Richardson'.
+	customers addCust: cust.
+	self
+		assert: [ ((customers retrieveByLastName: 'Richard') at: cust id) last = 'Richardson' ]
 		description: 'Failed to answer with search string matching beginning of customer last name'
-	 
-	
