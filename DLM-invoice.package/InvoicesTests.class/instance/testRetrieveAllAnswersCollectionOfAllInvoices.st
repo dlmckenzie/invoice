@@ -3,7 +3,7 @@ testRetrieveAllAnswersCollectionOfAllInvoices
 
 	| invoices invoice |
 	invoices := Invoices new.
-	10 timesRepeat: [ invoice := Invoice newWithCust: (Customer newWithFirst: 'Dave' Last: 'Smith'). invoices add: invoice ].
+	10 timesRepeat: [ invoice := Invoice newWithCust: (Customer newWithFirst: 'Dave' Last: 'Smith'). invoices addInvoice: invoice ].
 
 	self
 		assert: [ Invoices new retrieveAll isMemberOf: Invoices ]

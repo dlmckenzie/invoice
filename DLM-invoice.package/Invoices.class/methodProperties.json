@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"add:" : "DaveMcKenzie 7/22/2016 10:01",
+		"addInvoice:" : "DaveMcKenzie 7/26/2016 11:22",
 		"remove:" : "DaveMcKenzie 7/25/2016 10:07",
 		"retrieveAll" : "DaveMcKenzie 7/25/2016 10:31",
 		"retrieveByNumber:" : "DaveMcKenzie 7/25/2016 11:18" } }

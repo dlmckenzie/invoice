@@ -3,8 +3,8 @@ testAddInvoiceInterface
 	"validate method interface"
 
 	self
-		assert: [ Invoices new respondsTo: #add: ]
+		assert: [ Invoices new respondsTo: #addInvoice: ]
 		description: 'class method addInvoice does not exist'.
 	self
-		assert: [ (Invoices new add: Invoice new) isMemberOf: Invoice ]
+		assert: [ (Invoices new addInvoice: Invoice new) isMemberOf: Invoice ]
 		description: 'method did not answer with self'
