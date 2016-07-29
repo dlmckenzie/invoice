@@ -1,5 +1,7 @@
 collection ops
-delete: anInteger 
+delete: anInteger
 	"delete customer"
+
+	self removeKey: anInteger 
+		
 	
-	self removeKey: anInteger.
