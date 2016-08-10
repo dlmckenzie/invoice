@@ -4,9 +4,8 @@ start
 
 	World submorphs detect: [ :m | m model = Transcript ] ifNone: [ Transcript open ].
 	Transcript
+		clear;
 		show: 'Invoicing App Started';
 		cr.
-		
-		customers := Customers new.
-	products := Products new.
-	
+	customers := Customers new.
+	products := Products new

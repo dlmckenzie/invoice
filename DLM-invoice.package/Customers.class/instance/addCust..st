@@ -1,4 +1,4 @@
-as yet unclassified
+collection ops
 addCust: aCustomer
 	"add customer to myself"
 

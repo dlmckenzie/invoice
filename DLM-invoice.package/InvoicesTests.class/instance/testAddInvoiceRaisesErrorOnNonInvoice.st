@@ -1,5 +1,5 @@
 testing
-testAddRaisesErrorOnNonInvoice
+testAddInvoiceRaisesErrorOnNonInvoice
 	"Error raised if selector to add is not Invoice"
 
 	self

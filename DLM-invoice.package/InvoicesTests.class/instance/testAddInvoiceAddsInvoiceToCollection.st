@@ -1,5 +1,5 @@
 testing
-testAddAddsInvoiceToCollection
+testAddInvoiceAddsInvoiceToCollection
 	| cust invoice invoices |
 	cust := Customer newWithFirst: 'Amy' Last: 'Schwartz'.
 	invoice := Invoice newWithCust: cust.

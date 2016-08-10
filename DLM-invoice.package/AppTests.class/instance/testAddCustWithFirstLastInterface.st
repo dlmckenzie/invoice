@@ -1,5 +1,5 @@
 testing
-testAddCustWithFirstLastExists
+testAddCustWithFirstLastInterface
 	"test that method addCsutWithFirst:Last exists"
 	
 	| app |
