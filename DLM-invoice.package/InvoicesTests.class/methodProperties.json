@@ -11,6 +11,8 @@
 		"testRetrieveAllAnswersCollectionOfAllInvoices" : "DaveMcKenzie 7/26/2016 11:22",
 		"testRetrieveAllAnswersEmptyCollectionIfNoInvoices" : "DaveMcKenzie 7/25/2016 10:46",
 		"testRetrieveAllInterface" : "DaveMcKenzie 7/25/2016 10:29",
+		"testRetrieveByCustAnswersAllInvoicesForCust" : "DaveMcKenzie 8/10/2016 11:51",
+		"testRetrieveByCustInterface" : "DaveMcKenzie 8/10/2016 11:18",
 		"testRetrieveByNumberAnswersInvoiceIfFound" : "DaveMcKenzie 7/26/2016 11:22",
 		"testRetrieveByNumberAnswersNilIfNotFound" : "DaveMcKenzie 7/25/2016 11:17",
 		"testRetrieveByNumberInterface" : "DaveMcKenzie 7/25/2016 11:11" } }

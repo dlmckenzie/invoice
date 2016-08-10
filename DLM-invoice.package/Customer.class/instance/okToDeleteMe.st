@@ -1,6 +1,5 @@
 experimental
 okToDeleteMe
-
-	invoices size even
-	ifTrue: [ ^ true ]
-	ifFalse: [^ false] 
+	(invoices select: [ :a | a customer = self ]) size > 0
+		ifTrue: [ ^ false ]
+		ifFalse: [ ^ true ]

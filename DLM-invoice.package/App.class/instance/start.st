@@ -8,4 +8,5 @@ start
 		show: 'Invoicing App Started';
 		cr.
 	customers := Customers new.
-	products := Products new
+	products := Products new.
+	invoices := Invoices new.

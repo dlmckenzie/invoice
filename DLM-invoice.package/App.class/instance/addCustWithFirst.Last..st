@@ -4,7 +4,8 @@ addCustWithFirst: aString Last: aString2
 
 	| cust |
 	((Customer firstIsValidForIdentity: aString) and: (Customer lastIsValidForIdentity: aString2))
-		ifTrue: [ cust := Customer newWithFirst: aString Last: aString2. 
+		ifTrue: [ cust := Customer newWithFirst: aString Last: aString2.
+			cust invoiceAccess: invoices.
 			customers addCust: cust.
 			Transcript
 				show: 'Customer added:';
