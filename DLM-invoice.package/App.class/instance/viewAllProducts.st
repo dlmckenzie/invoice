@@ -19,7 +19,6 @@ viewAllProducts
 						show: prod description;
 						show: ' - ';
 						show:
-							(prod price ifNil: [ '[price unspecified]' ] 
-											ifNotNil: [ '$' , (prod price printShowingDecimalPlaces: 2) ]);
-						cr;
-						space ] ]
+							(prod price ifNil: [ '[price unspecified]' ] ifNotNil: [ '$' , (prod price printShowingDecimalPlaces: 2) ]);
+						cr
+						 ] ]

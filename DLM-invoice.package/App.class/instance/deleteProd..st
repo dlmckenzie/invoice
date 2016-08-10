@@ -1,4 +1,4 @@
-interface - customer
+interface - products
 deleteProd: aString
 	"deletes customer"
 

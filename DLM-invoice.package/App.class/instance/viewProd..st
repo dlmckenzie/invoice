@@ -12,5 +12,5 @@ viewProd: aString
 				show: '  Description: ' , prod description;
 				cr;
 				show: '  Price: ';
-				show: (prod price ifNil: [''] ifNotNil: [ '$' , prod price printShowingDecimalPlaces: 2 ]);
+				show: (prod price ifNil: [ '' ] ifNotNil: [ '$' , (prod price printShowingDecimalPlaces: 2) ]);
 				cr ]
