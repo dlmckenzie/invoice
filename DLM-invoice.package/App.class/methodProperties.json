@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addCustWithFirst:Last:" : "DaveMcKenzie 8/10/2016 12:44",
+		"addCustWithFirst:Last:" : "DaveMcKenzie 8/10/2016 16:03",
 		"addProdWithKey:" : "DaveMcKenzie 7/26/2016 11:18",
 		"addProdWithKey:Desc:Price:" : "DaveMcKenzie 7/26/2016 11:18",
 		"customers" : "DaveMcKenzie 4/22/2016 10:15",
@@ -17,7 +17,8 @@
 		"helpProd" : "DaveMcKenzie 6/2/2016 10:21",
 		"searchCustByLast:" : "DaveMcKenzie 6/1/2016 20:49",
 		"searchProdByDesc:" : "DaveMcKenzie 6/1/2016 22:59",
-		"start" : "DaveMcKenzie 8/10/2016 12:41",
+		"start" : "DaveMcKenzie 8/10/2016 14:16",
+		"startCLI" : "DaveMcKenzie 8/10/2016 15:34",
 		"updateCust:WithFirst:" : "DaveMcKenzie 4/22/2016 10:42",
 		"updateCust:WithLast:" : "DaveMcKenzie 4/22/2016 10:59",
 		"updateProd:WithDescription:" : "DaveMcKenzie 6/2/2016 01:13",

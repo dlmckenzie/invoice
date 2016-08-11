@@ -4,11 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "DaveMcKenzie 4/14/2016 22:59",
+	"commentStamp" : "DaveMcKenzie 8/10/2016 22:34",
 	"instvars" : [
 		"customers",
 		"products",
-		"invoices" ],
+		"invoices",
+		"cli" ],
 	"name" : "App",
 	"pools" : [
 		 ],

@@ -2,11 +2,6 @@ interface - app
 start
 	"initializes components for invoicing app."
 
-	World submorphs detect: [ :m | m model = Transcript ] ifNone: [ Transcript open ].
-	Transcript
-		clear;
-		show: 'Invoicing App Started';
-		cr.
 	customers := Customers new.
 	products := Products new.
-	invoices := Invoices new.
+	invoices := Invoices new
