@@ -2,11 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addCustWithFirst:Last:" : "DaveMcKenzie 8/10/2016 16:03",
+		"addCustWithFirst:Last:" : "DaveMcKenzie 8/11/2016 02:14",
 		"addProdWithKey:" : "DaveMcKenzie 7/26/2016 11:18",
 		"addProdWithKey:Desc:Price:" : "DaveMcKenzie 7/26/2016 11:18",
 		"customers" : "DaveMcKenzie 4/22/2016 10:15",
-		"deleteCust:" : "DaveMcKenzie 6/2/2016 10:45",
+		"deleteCust:" : "DaveMcKenzie 8/11/2016 01:18",
 		"deleteProd:" : "DaveMcKenzie 6/2/2016 10:51",
 		"executeUpdateOnCustID:WithFirst:" : "DaveMcKenzie 4/21/2016 21:38",
 		"executeUpdateOnCustID:WithLast:" : "DaveMcKenzie 4/22/2016 00:54",

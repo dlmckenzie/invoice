@@ -7,7 +7,10 @@ testDeleteDecreasesCustomersSizeBy1
 	customers addCust: (Customer newWithFirst: 'John' Last: 'Smith').
 	cust := Customer newWithFirst: 'Amy' Last: 'Sanders'.
 	customers addCust: cust.
+	cust accessInvoices: Invoices new.
 	before := customers size.
-	customers delete: cust id.
+	customers delete: cust.
 	after := customers size.
-	self assert: [ after = (before - 1) ] description: 'Deleting cust did not reduce Customers count by 1'
+	self
+		assert: [ after = (before - 1) ]
+		description: 'Deleting cust did not reduce Customers count by 1'

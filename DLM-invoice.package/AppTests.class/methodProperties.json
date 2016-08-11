@@ -12,7 +12,6 @@
 		"testAppExists" : "DaveMcKenzie 4/14/2016 22:58",
 		"testAppStartExists" : "DaveMcKenzie 4/14/2016 23:06",
 		"testDeleteCustInterface" : "DaveMcKenzie 6/2/2016 10:37",
-		"testDeleteCustRaisesErrorIfAttachedToInvoice" : "DaveMcKenzie 7/26/2016 18:06",
 		"testDeleteProdInterface" : "DaveMcKenzie 6/2/2016 10:40",
 		"testSearchProdByDescInterface" : "DaveMcKenzie 6/1/2016 23:13",
 		"testUpdateCustWithFirstAccepts2Args" : "DaveMcKenzie 4/22/2016 00:45",

@@ -4,7 +4,7 @@
 	"instance" : {
 		"testClassFirstIsValidForIdentityExists" : "DaveMcKenzie 4/14/2016 08:36",
 		"testClassLastIsValidForIdentityExists" : "DaveMcKenzie 4/14/2016 08:36",
-		"testDeletedCustIDNotReused" : "DaveMcKenzie 7/26/2016 11:05",
+		"testDeletedCustIDNotReused" : "DaveMcKenzie 8/11/2016 02:14",
 		"testFirstInterface" : "DaveMcKenzie 4/6/2016 11:56",
 		"testFirstIsValidForIdentityAccepts1arg" : "DaveMcKenzie 4/14/2016 13:27",
 		"testFirstIsValidForIdentityAnswersFalseForNil" : "DaveMcKenzie 4/21/2016 10:58",

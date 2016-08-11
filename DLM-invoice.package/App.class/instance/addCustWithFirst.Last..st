@@ -4,5 +4,5 @@ addCustWithFirst: aString Last: aString2
 
 	| cust |
 	cust := Customer newWithFirst: aString Last: aString2.
-	cust invoiceAccess: invoices.
+	cust accessInvoices: invoices.
 	^ customers addCust: cust

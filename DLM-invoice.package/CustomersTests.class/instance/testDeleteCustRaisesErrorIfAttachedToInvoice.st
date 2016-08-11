@@ -9,4 +9,5 @@ testDeleteCustRaisesErrorIfAttachedToInvoice
 	invoice := Invoice newWithCust: cust.
 	invoices := Invoices new.
 	invoices addInvoice: invoice.
-	self should: [ customers delete: cust id ] raise: Error
+	cust accessInvoices: invoices.
+	self should: [ customers delete: cust ] raise: Error

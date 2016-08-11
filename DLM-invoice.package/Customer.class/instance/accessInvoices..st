@@ -1,3 +1,3 @@
 experimental
-invoiceAccess: anInvoices
+accessInvoices: anInvoices
 	invoices := anInvoices 

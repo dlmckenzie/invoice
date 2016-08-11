@@ -1,11 +1,13 @@
 testing
 testDeleteRemovesCust
-	"test taht delete removes customer from dictionary"
+	"test that delete removes customer from dictionary"
 
-	| customers cust id |
+	| customers cust |
 	customers := Customers new.
 	cust := Customer newWithFirst: 'Julie' Last: 'Andrews'.
+	cust accessInvoices: Invoices new.
 	customers addCust: cust.
-	id := cust id.
-	customers delete: id.
-	self deny: [ customers includesKey: id ] description: 'cust not removed from customers'
+	customers delete: cust.
+	self
+		deny: [ customers includesKey: cust id ]
+		description: 'cust not removed from customers'

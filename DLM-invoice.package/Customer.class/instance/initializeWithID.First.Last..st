@@ -5,4 +5,5 @@ initializeWithID: anInteger First: aString Last: aString2
 	self initialize.
 	id := anInteger.
 	first := aString.
-	last := aString2
+	last := aString2.
+	invoices := Invoices new.

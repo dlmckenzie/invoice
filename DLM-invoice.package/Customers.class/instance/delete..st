@@ -1,6 +1,7 @@
 collection ops
-delete: anInteger
+delete: aCustomer
 	"delete customer"
 
-	
-	self removeKey: anInteger
+	(self okToDeleteCust: aCustomer)
+		ifTrue: [ self removeKey: aCustomer id ]
+		ifFalse: [ Error signal: 'cust has invoices attached' ]
