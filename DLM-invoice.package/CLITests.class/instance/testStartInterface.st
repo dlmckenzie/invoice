@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testStartInterface
 	"test method accepts 1 argument"
 

@@ -2,12 +2,14 @@ testing
 testAddCustWithFirstLastInterface
 	"test method interface"
 
-	| app |
+	| app cli |
 	app := App new.
+	cli := CLI new.
 	app start.
+	cli start: app.
 	self
-		assert: [ app respondsTo: #addCustWithFirst:Last: ]
+		assert: [ cli respondsTo: #addCustWithFirst:Last: ]
 		description: 'addCustWithFirst:Last: method does not exist'.
 	self
-		assert: [ (app addCustWithFirst: 'Joe' Last: 'Smith') isMemberOf: Customer ]
+		assert: [ (cli addCustWithFirst: 'Joe' Last: 'Smith') isMemberOf: CLI ]
 		description: 'method did not answer with a Customer'

@@ -1,0 +1,3 @@
+private - customer
+products
+	^ products

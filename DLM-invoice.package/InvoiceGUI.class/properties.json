@@ -1,0 +1,16 @@
+{
+	"category" : "DLM-Invoice",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"browser",
+		"customers",
+		"products" ],
+	"name" : "InvoiceGUI",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

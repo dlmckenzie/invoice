@@ -6,9 +6,13 @@ deleteCust: anInteger
 	cust := customers retrieveByID: anInteger.
 	cust isNil
 		ifTrue: [ Transcript
-				show: 'Customer ID ' , anInteger asString , ' does not exist - no changes made.';
+				show: 'Customer ID ';
+				show: anInteger asString;
+				show: ' does not exist - no changes made.';
 				cr ]
 		ifFalse: [ customers delete: cust.
 			Transcript
-				show: 'Customer ' , anInteger asString , ' deleted.';
+				show: 'Customer ';
+				show: anInteger asString;
+				show: ' deleted.';
 				cr ]

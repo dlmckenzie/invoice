@@ -1,4 +1,4 @@
-as yet unclassified
+interface - app
 start: anApp
 	app := anApp. World submorphs
 		detect: [ :m | m model = Transcript ]

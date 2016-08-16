@@ -2,7 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAddCustWithFirstLastInterface" : "DaveMcKenzie 8/10/2016 08:36",
+		"testAddCustWithFirstLastAddsValidCust" : "DaveMcKenzie 8/11/2016 10:12",
+		"testAddCustWithFirstLastAddsValidCustWithEmptyFirstName" : "DaveMcKenzie 8/12/2016 09:44",
+		"testAddCustWithFirstLastInterface" : "DaveMcKenzie 8/11/2016 10:18",
+		"testAddCustWithFirstLastRaisesErrorOnEmptyLastName" : "DaveMcKenzie 8/12/2016 09:45",
 		"testAddProdWithKeyDescPriceHandlesInvalidDescription" : "DaveMcKenzie 6/1/2016 13:56",
 		"testAddProdWithKeyDescPriceHandlesInvalidKey" : "DaveMcKenzie 6/1/2016 13:56",
 		"testAddProdWithKeyDescPriceHandlesInvalidPrice" : "DaveMcKenzie 6/1/2016 14:02",

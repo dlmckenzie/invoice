@@ -2,11 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addCustWithFirst:Last:" : "DaveMcKenzie 8/11/2016 02:14",
+		"addCustWithFirst:Last:" : "DaveMcKenzie 8/11/2016 02:54",
 		"addProdWithKey:" : "DaveMcKenzie 7/26/2016 11:18",
 		"addProdWithKey:Desc:Price:" : "DaveMcKenzie 7/26/2016 11:18",
 		"customers" : "DaveMcKenzie 4/22/2016 10:15",
-		"deleteCust:" : "DaveMcKenzie 8/11/2016 01:18",
+		"deleteCust:" : "DaveMcKenzie 8/11/2016 07:37",
 		"deleteProd:" : "DaveMcKenzie 6/2/2016 10:51",
 		"executeUpdateOnCustID:WithFirst:" : "DaveMcKenzie 4/21/2016 21:38",
 		"executeUpdateOnCustID:WithLast:" : "DaveMcKenzie 4/22/2016 00:54",
@@ -15,6 +15,7 @@
 		"helpCust" : "DaveMcKenzie 6/1/2016 20:06",
 		"helpIntro" : "DaveMcKenzie 4/21/2016 09:57",
 		"helpProd" : "DaveMcKenzie 6/2/2016 10:21",
+		"products" : "DaveMcKenzie 8/14/2016 15:44",
 		"searchCustByLast:" : "DaveMcKenzie 6/1/2016 20:49",
 		"searchProdByDesc:" : "DaveMcKenzie 6/1/2016 22:59",
 		"start" : "DaveMcKenzie 8/10/2016 14:16",
