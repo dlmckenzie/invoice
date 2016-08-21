@@ -1,4 +1,4 @@
 as yet unclassified
 open
-self buildBrowser.
-browser openOn: self organizer.
+	self buildBrowser.
+	browser openOn: '"Enter commands here"'

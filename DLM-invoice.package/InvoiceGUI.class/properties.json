@@ -8,7 +8,8 @@
 	"instvars" : [
 		"browser",
 		"customers",
-		"products" ],
+		"products",
+		"app" ],
 	"name" : "InvoiceGUI",
 	"pools" : [
 		 ],
