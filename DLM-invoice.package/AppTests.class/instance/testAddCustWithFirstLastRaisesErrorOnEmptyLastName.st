@@ -1,4 +1,4 @@
-testing
+testing - customer
 testAddCustWithFirstLastRaisesErrorOnEmptyLastName
 	"test exception - method raises error on empty last name"
 

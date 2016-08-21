@@ -1,4 +1,4 @@
-testing
+testing - app
 testAppExists
 	"test that the invoice application object exists"
 

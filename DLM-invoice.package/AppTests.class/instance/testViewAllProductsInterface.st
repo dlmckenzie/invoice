@@ -1,4 +1,4 @@
-testing
+testing - product
 testViewAllProductsInterface
 	"test interface for viewAllProducts"
 

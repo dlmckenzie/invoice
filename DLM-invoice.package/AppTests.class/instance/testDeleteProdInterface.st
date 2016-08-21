@@ -1,4 +1,4 @@
-testing
+testing - product
 testDeleteProdInterface
 	"test method interface"
 

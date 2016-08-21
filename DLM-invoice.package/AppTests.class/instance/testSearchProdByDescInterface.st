@@ -1,4 +1,4 @@
-testing
+testing - product
 testSearchProdByDescInterface
 	"confirm method's interface"
 

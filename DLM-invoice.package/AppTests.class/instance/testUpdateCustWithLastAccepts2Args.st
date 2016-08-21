@@ -1,4 +1,4 @@
-testing
+testing - customer
 testUpdateCustWithLastAccepts2Args
 	"test number of arguments"
 

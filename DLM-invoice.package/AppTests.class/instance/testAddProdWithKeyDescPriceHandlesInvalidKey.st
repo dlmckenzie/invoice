@@ -1,4 +1,4 @@
-testing
+testing - product
 testAddProdWithKeyDescPriceHandlesInvalidKey
 	"test that method handles invalid key"
 

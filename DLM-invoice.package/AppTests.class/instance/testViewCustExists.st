@@ -1,4 +1,4 @@
-testing
+testing - customer
 testViewCustExists
 	"test that the viewCustForID: method exists"
 

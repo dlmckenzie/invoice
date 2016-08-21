@@ -1,4 +1,4 @@
-testing
+testing - customer
 testUpdateCustWithFirstExists
 	"test that method updateCustFirstNameWith: aString ForID: anInteger exixts"
 	

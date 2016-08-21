@@ -1,4 +1,4 @@
-testing
+testing - customer
 testAddCustWithFirstLastAddsValidCust
 	"test happy path - method adds customer to customers"
 

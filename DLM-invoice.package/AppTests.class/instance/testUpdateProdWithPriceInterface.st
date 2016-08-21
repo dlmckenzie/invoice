@@ -1,4 +1,4 @@
-testing
+testing - product
 testUpdateProdWithPriceInterface
 	"confirm method's interface"
 

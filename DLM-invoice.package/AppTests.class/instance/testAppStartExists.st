@@ -1,4 +1,4 @@
-testing
+testing - app
 testAppStartExists
 	"test that the start method exists"
 

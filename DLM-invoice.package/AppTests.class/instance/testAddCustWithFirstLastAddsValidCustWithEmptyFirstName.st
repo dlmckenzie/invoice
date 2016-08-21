@@ -1,4 +1,4 @@
-testing
+testing - customer
 testAddCustWithFirstLastAddsValidCustWithEmptyFirstName
 	"test edge case - customer gets added even with missing first name"
 

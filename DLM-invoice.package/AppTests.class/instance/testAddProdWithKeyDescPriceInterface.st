@@ -1,4 +1,4 @@
-testing
+testing - product
 testAddProdWithKeyDescPriceInterface
 	"test that ethod exists"
 
