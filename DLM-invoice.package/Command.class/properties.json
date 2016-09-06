@@ -1,0 +1,14 @@
+{
+	"category" : "DLM-Invoice",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DaveMcKenzie 9/5/2016 23:24",
+	"instvars" : [
+		 ],
+	"name" : "Command",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

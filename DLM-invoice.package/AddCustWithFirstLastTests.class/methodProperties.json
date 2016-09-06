@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testExecuteCmdAddsCust" : "DaveMcKenzie 9/6/2016 13:37",
+		"testExecuteCmdInterface" : "DaveMcKenzie 9/6/2016 13:10",
+		"testInitializeWithFirstLastAppAcceptsEmtpyAgs" : "DaveMcKenzie 9/6/2016 14:20",
+		"testInitializeWithFirstLastAppSetsInstanceVariables" : "DaveMcKenzie 9/6/2016 14:21",
+		"testInitializeWithFirstLastInterface" : "DaveMcKenzie 9/6/2016 14:22",
+		"testNewWithFirstLastAcceptsEmtpyAgs" : "DaveMcKenzie 9/6/2016 14:15",
+		"testNewWithFirstLastAppInterface" : "DaveMcKenzie 9/6/2016 14:16",
+		"testNewWithFirstLastSetsInstanceVariables" : "DaveMcKenzie 9/6/2016 14:14" } }

@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"browser",
-		"customers",
-		"products",
-		"app" ],
-	"name" : "InvoiceGUI",
+		 ],
+	"name" : "AddCustWithFirstLastTests",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "CommandTests",
 	"type" : "normal" }

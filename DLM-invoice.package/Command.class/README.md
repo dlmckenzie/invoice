@@ -1,0 +1,1 @@
+Abstract class representing commands used by the Command Level Interface.

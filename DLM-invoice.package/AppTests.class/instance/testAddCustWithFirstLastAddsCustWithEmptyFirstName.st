@@ -1,11 +1,9 @@
-testing
-testAddCustWithFirstLastAddsValidCustWithEmptyFirstName
+testing - customer
+testAddCustWithFirstLastAddsCustWithEmptyFirstName
 	"test edge case - customer gets added even with missing first name"
 
-	| app cli |
+	| app |
 	app := App new.
 	app start.
-	cli := CLI new.
-	cli start: app.
-	cli addCustWithFirst: '' Last: 'Smith'.
+	app addCustWithFirst: '' Last: 'Smith'.
 	self assert: [ app customers size = 1 ] description: 'customer not added'

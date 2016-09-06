@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAddCustWithFirstLastAddsValidCust" : "DaveMcKenzie 8/11/2016 10:40",
-		"testAddCustWithFirstLastAddsValidCustWithEmptyFirstName" : "DaveMcKenzie 8/12/2016 09:43",
+		"testAddCustWithFirstLastAddsCust" : "DaveMcKenzie 8/22/2016 10:36",
+		"testAddCustWithFirstLastAddsCustWithEmptyFirstName" : "DaveMcKenzie 8/22/2016 10:36",
 		"testAddCustWithFirstLastInterface" : "DaveMcKenzie 8/11/2016 10:21",
 		"testAddCustWithFirstLastPreventsAddingCustWithEmptyLastName" : "DaveMcKenzie 8/12/2016 09:39",
 		"testStartInterface" : "DaveMcKenzie 8/10/2016 23:10" } }

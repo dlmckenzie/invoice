@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAddCustWithFirstLastAddsValidCust" : "DaveMcKenzie 8/11/2016 10:12",
-		"testAddCustWithFirstLastAddsValidCustWithEmptyFirstName" : "DaveMcKenzie 8/12/2016 09:44",
+		"testAddCustWithFirstLastAddsCust" : "DaveMcKenzie 8/22/2016 10:36",
+		"testAddCustWithFirstLastAddsCustWithEmptyFirstName" : "DaveMcKenzie 8/22/2016 10:36",
 		"testAddCustWithFirstLastInterface" : "DaveMcKenzie 8/11/2016 10:18",
 		"testAddCustWithFirstLastRaisesErrorOnEmptyLastName" : "DaveMcKenzie 8/12/2016 09:45",
 		"testAddProdWithKeyDescPriceHandlesInvalidDescription" : "DaveMcKenzie 6/1/2016 13:56",
@@ -14,7 +14,8 @@
 		"testAddProdWithKeyInterface" : "DaveMcKenzie 8/10/2016 09:49",
 		"testAppExists" : "DaveMcKenzie 4/14/2016 22:58",
 		"testAppStartExists" : "DaveMcKenzie 4/14/2016 23:06",
-		"testDeleteCustInterface" : "DaveMcKenzie 6/2/2016 10:37",
+		"testDeleteCustDeletesCustFromCustomers" : "DaveMcKenzie 8/22/2016 14:12",
+		"testDeleteCustInterface" : "DaveMcKenzie 8/21/2016 23:37",
 		"testDeleteProdInterface" : "DaveMcKenzie 6/2/2016 10:40",
 		"testSearchProdByDescInterface" : "DaveMcKenzie 6/1/2016 23:13",
 		"testUpdateCustWithFirstAccepts2Args" : "DaveMcKenzie 4/22/2016 00:45",
