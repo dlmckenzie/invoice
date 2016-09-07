@@ -4,6 +4,6 @@
 	"instance" : {
 		"testAddCustWithFirstLastAddsCust" : "DaveMcKenzie 8/22/2016 10:36",
 		"testAddCustWithFirstLastAddsCustWithEmptyFirstName" : "DaveMcKenzie 8/22/2016 10:36",
-		"testAddCustWithFirstLastInterface" : "DaveMcKenzie 8/11/2016 10:21",
-		"testAddCustWithFirstLastPreventsAddingCustWithEmptyLastName" : "DaveMcKenzie 8/12/2016 09:39",
+		"testAddCustWithFirstLastInterface" : "DaveMcKenzie 9/7/2016 07:09",
+		"testAddCustWithFirstLastPreventsAddingCustWithEmptyLastName" : "DaveMcKenzie 9/7/2016 07:49",
 		"testStartInterface" : "DaveMcKenzie 8/10/2016 23:10" } }

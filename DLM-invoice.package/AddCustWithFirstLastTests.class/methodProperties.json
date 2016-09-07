@@ -2,11 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testExecuteCmdAddsCust" : "DaveMcKenzie 9/6/2016 13:37",
+		"testExecuteCmdAddsCust" : "DaveMcKenzie 9/7/2016 07:30",
 		"testExecuteCmdInterface" : "DaveMcKenzie 9/6/2016 13:10",
-		"testInitializeWithFirstLastAppAcceptsEmtpyAgs" : "DaveMcKenzie 9/6/2016 14:20",
-		"testInitializeWithFirstLastAppSetsInstanceVariables" : "DaveMcKenzie 9/6/2016 14:21",
-		"testInitializeWithFirstLastInterface" : "DaveMcKenzie 9/6/2016 14:22",
-		"testNewWithFirstLastAcceptsEmtpyAgs" : "DaveMcKenzie 9/6/2016 14:15",
-		"testNewWithFirstLastAppInterface" : "DaveMcKenzie 9/6/2016 14:16",
-		"testNewWithFirstLastSetsInstanceVariables" : "DaveMcKenzie 9/6/2016 14:14" } }
+		"testInitializeWithFirstLastAppAcceptsEmtpyAgs" : "DaveMcKenzie 9/7/2016 07:31",
+		"testInitializeWithFirstLastAppSetsInstanceVariables" : "DaveMcKenzie 9/7/2016 07:31",
+		"testInitializeWithFirstLastInterface" : "DaveMcKenzie 9/7/2016 07:27",
+		"testNewWithFirstLastAcceptsEmtpyAgs" : "DaveMcKenzie 9/7/2016 07:33",
+		"testNewWithFirstLastAppInterface" : "DaveMcKenzie 9/7/2016 07:32",
+		"testNewWithFirstLastSetsInstanceVariables" : "DaveMcKenzie 9/7/2016 07:32" } }

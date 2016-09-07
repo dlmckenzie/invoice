@@ -4,8 +4,8 @@ executeCmd
 
 	| cust |
 	((Customer firstIsValidForIdentity: first) and: (Customer lastIsValidForIdentity: last))
-		ifTrue: [ cust := Customer newWithFirst: first Last: last. 
-		app customers addCust: cust.
+		ifTrue: [ cust := Customer newWithFirst: first Last: last.
+			app customers addCust: cust.
 			Transcript
 				show: 'Customer added:';
 				cr;

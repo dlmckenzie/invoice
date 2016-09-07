@@ -1,9 +1,5 @@
-as yet unclassified
+testing
 testExecuteRaisesSubClassResponsibilityError
-	"test method raises error, as t his is an abstract class method"
-	
-	self should: [ Command new executeCmd  ] raise: Error
+	"test method raises error, as this is an abstract class method"
 
-
-		
-	
+	self should: [ Command new executeCmd ] raise: Error
