@@ -8,7 +8,10 @@
 	"instvars" : [
 		"first",
 		"last",
-		"app" ],
+		"app",
+		"argumentsAreValid",
+		"validFirstName",
+		"validLastName" ],
 	"name" : "AddCustWithFirstLast",
 	"pools" : [
 		 ],

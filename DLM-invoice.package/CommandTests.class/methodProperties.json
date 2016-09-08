@@ -2,5 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testDisplayResultInterface" : "DaveMcKenzie 9/7/2016 08:45",
+		"testDisplayResultRaisesSubClassResponsibilityError" : "DaveMcKenzie 9/7/2016 08:46",
 		"testExecuteCmdInterface" : "DaveMcKenzie 9/6/2016 13:08",
-		"testExecuteRaisesSubClassResponsibilityError" : "DaveMcKenzie 9/6/2016 22:33" } }
+		"testExecuteCmdRaisesSubClassResponsibilityError" : "DaveMcKenzie 9/7/2016 08:45" } }

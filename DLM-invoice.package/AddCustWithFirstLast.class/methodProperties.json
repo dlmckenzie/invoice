@@ -1,10 +1,15 @@
 {
 	"class" : {
-		"newWithFirst:Last:" : "DaveMcKenzie 9/6/2016 23:30",
-		"newWithFirst:Last:App:" : "DaveMcKenzie 9/6/2016 13:36" },
+		"newWithFirst:Last:" : "DaveMcKenzie 9/7/2016 10:07" },
 	"instance" : {
+		"argumentsAreValid" : "DaveMcKenzie 9/8/2016 11:23",
 		"displayResult" : "DaveMcKenzie 9/6/2016 11:32",
-		"executeCmd" : "DaveMcKenzie 9/7/2016 07:24",
+		"executeCmd" : "DaveMcKenzie 9/8/2016 13:10",
 		"first" : "DaveMcKenzie 9/6/2016 12:22",
 		"initializeWithFirst:Last:" : "DaveMcKenzie 9/7/2016 07:24",
-		"last" : "DaveMcKenzie 9/6/2016 12:22" } }
+		"last" : "DaveMcKenzie 9/6/2016 12:22",
+		"validFirstName" : "DaveMcKenzie 9/8/2016 11:51",
+		"validLastName" : "DaveMcKenzie 9/8/2016 11:52",
+		"validateArguments" : "DaveMcKenzie 9/8/2016 13:05",
+		"validateFirstName" : "DaveMcKenzie 9/8/2016 12:32",
+		"validateLastName" : "DaveMcKenzie 9/8/2016 12:33" } }

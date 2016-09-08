@@ -3,7 +3,9 @@ executeCmd
 	"execute the command"
 
 	| cust |
-	((Customer firstIsValidForIdentity: first) and: (Customer lastIsValidForIdentity: last))
+	"((Customer firstIsValidForIdentity: first) and: (Customer lastIsValidForIdentity: last))"
+	self validateArguments.
+	argumentsAreValid
 		ifTrue: [ cust := Customer newWithFirst: first Last: last.
 			app customers addCust: cust.
 			Transcript

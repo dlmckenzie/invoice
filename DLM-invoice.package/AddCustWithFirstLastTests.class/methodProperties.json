@@ -8,5 +8,14 @@
 		"testInitializeWithFirstLastAppSetsInstanceVariables" : "DaveMcKenzie 9/7/2016 07:31",
 		"testInitializeWithFirstLastInterface" : "DaveMcKenzie 9/7/2016 07:27",
 		"testNewWithFirstLastAcceptsEmtpyAgs" : "DaveMcKenzie 9/7/2016 07:33",
-		"testNewWithFirstLastAppInterface" : "DaveMcKenzie 9/7/2016 07:32",
-		"testNewWithFirstLastSetsInstanceVariables" : "DaveMcKenzie 9/7/2016 07:32" } }
+		"testNewWithFirstLastAppInterface" : "DaveMcKenzie 9/7/2016 10:09",
+		"testNewWithFirstLastSetsInstanceVariables" : "DaveMcKenzie 9/7/2016 07:32",
+		"testValidateArgumentsInterface" : "DaveMcKenzie 9/8/2016 12:51",
+		"testValidateArgumentsSetsArgumentsAreValidToFalseWhenAnyArent" : "DaveMcKenzie 9/8/2016 11:24",
+		"testValidateArgumentsSetsArgumentsAreValidToTrueForValidArgs" : "DaveMcKenzie 9/8/2016 11:23",
+		"testValidateFirstNameAnswersFalseForInvalidFirstName" : "DaveMcKenzie 9/8/2016 12:21",
+		"testValidateFirstNameAnswersTrueForValidFirstName" : "DaveMcKenzie 9/8/2016 12:24",
+		"testValidateFirstNameInterface" : "DaveMcKenzie 9/8/2016 11:44",
+		"testValidateLastNameAnswersFalseForInvalidLastName" : "DaveMcKenzie 9/8/2016 12:29",
+		"testValidateLastNameAnswersTrueForValidLastName" : "DaveMcKenzie 9/8/2016 12:28",
+		"testValidateLastNameInterface" : "DaveMcKenzie 9/8/2016 11:47" } }
