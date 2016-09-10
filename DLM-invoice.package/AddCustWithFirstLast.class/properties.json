@@ -11,7 +11,8 @@
 		"app",
 		"argumentsAreValid",
 		"validFirstName",
-		"validLastName" ],
+		"validLastName",
+		"cust" ],
 	"name" : "AddCustWithFirstLast",
 	"pools" : [
 		 ],

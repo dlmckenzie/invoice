@@ -1,4 +1,3 @@
 validation
 validateLastName
-
-	validLastName  := (Customer lastIsValidForIdentity: last)	
+	validLastName := Customer lastIsValidForIdentity: last.

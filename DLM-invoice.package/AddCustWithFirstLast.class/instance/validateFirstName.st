@@ -1,4 +1,3 @@
 validation
 validateFirstName
-
-validFirstName  := (Customer firstIsValidForIdentity: first)	
+	validFirstName := Customer firstIsValidForIdentity: first.
