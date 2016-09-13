@@ -2,9 +2,8 @@ action
 executeCmd
 	"execute the command"
 
-	self validateArguments.
-	argumentsAreValid
+	self validArguments
 		ifTrue: [ cust := Customer newWithFirst: first Last: last.
-			app customers addCust: cust.
+			Application customers addCust: cust.
 			self printSuccessMsg ]
-		ifFalse: [ self printFailureMsg ].
+		ifFalse: [ self printFailureMsg ]

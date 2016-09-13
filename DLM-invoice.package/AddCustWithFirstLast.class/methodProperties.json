@@ -2,16 +2,13 @@
 	"class" : {
 		"newWithFirst:Last:" : "DaveMcKenzie 9/7/2016 10:07" },
 	"instance" : {
-		"argumentsAreValid" : "DaveMcKenzie 9/8/2016 11:23",
 		"displayResult" : "DaveMcKenzie 9/6/2016 11:32",
-		"executeCmd" : "DaveMcKenzie 9/10/2016 14:03",
+		"executeCmd" : "DaveMcKenzie 9/13/2016 13:25",
 		"first" : "DaveMcKenzie 9/6/2016 12:22",
-		"initializeWithFirst:Last:" : "DaveMcKenzie 9/7/2016 07:24",
+		"initializeWithFirst:Last:" : "DaveMcKenzie 9/13/2016 11:31",
 		"last" : "DaveMcKenzie 9/6/2016 12:22",
 		"printFailureMsg" : "DaveMcKenzie 9/10/2016 13:59",
 		"printSuccessMsg" : "DaveMcKenzie 9/10/2016 13:53",
-		"validFirstName" : "DaveMcKenzie 9/8/2016 11:51",
-		"validLastName" : "DaveMcKenzie 9/8/2016 11:52",
-		"validateArguments" : "DaveMcKenzie 9/10/2016 13:59",
-		"validateFirstName" : "DaveMcKenzie 9/10/2016 11:08",
-		"validateLastName" : "DaveMcKenzie 9/10/2016 11:08" } }
+		"validArguments" : "DaveMcKenzie 9/13/2016 13:25",
+		"validFirstName" : "DaveMcKenzie 9/13/2016 12:53",
+		"validLastName" : "DaveMcKenzie 9/13/2016 12:53" } }

@@ -1,4 +1,4 @@
-acccessing
+validation
 validLastName
-
-	^ validLastName 
+	"^ validLastName"
+	^ Customer lastIsValidForIdentity: last
