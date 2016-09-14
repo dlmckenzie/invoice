@@ -8,8 +8,7 @@
 	"instvars" : [
 		"customers",
 		"products",
-		"invoices",
-		"cli" ],
+		"invoices" ],
 	"name" : "App",
 	"pools" : [
 		 ],

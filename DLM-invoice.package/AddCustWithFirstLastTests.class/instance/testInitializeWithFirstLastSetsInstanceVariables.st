@@ -1,5 +1,5 @@
 testing
-testInitializeWithFirstLastAppSetsInstanceVariables
+testInitializeWithFirstLastSetsInstanceVariables
 	"happy path - test that instance variables are being set"
 
 	| cmd first last |

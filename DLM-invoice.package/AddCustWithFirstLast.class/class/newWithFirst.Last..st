@@ -1,5 +1,5 @@
 instance creation
 newWithFirst: aFirstNameString Last: aLastNameString
-	"creates new addCustWithFirstLast command with provided info"
+	"Answers a new addCustWithFirstLast command instance with provided info"
 
 	^ self new initializeWithFirst: aFirstNameString Last: aLastNameString

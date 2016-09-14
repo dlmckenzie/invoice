@@ -1,5 +1,5 @@
 testing
-testNewWithFirstLastAppInterface
+testNewWithFirstLastInterface
 	"test method interface"
 
 	self

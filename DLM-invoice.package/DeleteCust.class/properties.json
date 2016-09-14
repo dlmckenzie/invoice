@@ -4,12 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "DaveMcKenzie 9/14/2016 09:09",
+	"commentStamp" : "DaveMcKenzie 9/14/2016 09:10",
 	"instvars" : [
-		"first",
-		"last",
-		"cust" ],
-	"name" : "AddCustWithFirstLast",
+		"id" ],
+	"name" : "DeleteCust",
 	"pools" : [
 		 ],
 	"super" : "Command",
