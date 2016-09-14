@@ -5,5 +5,5 @@ executeCmd
 	self validArguments
 		ifTrue: [ cust := Customer newWithFirst: first Last: last.
 			Application customers addCust: cust.
-			self printSuccessMsg ]
-		ifFalse: [ self printFailureMsg ]
+			self buildSuccessMsg ]
+		ifFalse: [ self buildFailureMsg ]
