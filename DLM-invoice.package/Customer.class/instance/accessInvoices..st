@@ -1,3 +1,4 @@
 accessing
 accessInvoices: anInvoices
-	invoices := anInvoices 
+	"provides access to invoices"
+	invoices := anInvoices

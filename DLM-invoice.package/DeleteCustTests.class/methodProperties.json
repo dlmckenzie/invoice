@@ -6,4 +6,10 @@
 		"testInitializeWithIDSetsInstanceVariables" : "DaveMcKenzie 9/14/2016 10:09",
 		"testNewWithIDInterface" : "DaveMcKenzie 9/14/2016 09:39",
 		"testNewWithIDSetsInstanceVariables" : "DaveMcKenzie 9/14/2016 10:08",
-		"testValidIDInterface" : "DaveMcKenzie 9/14/2016 10:18" } }
+		"testValidCustAnswersFalseForInvalidID" : "DaveMcKenzie 9/14/2016 23:52",
+		"testValidCustAnswersFalseForNilID" : "DaveMcKenzie 9/15/2016 00:06",
+		"testValidCustAnswersTrueForValidID" : "DaveMcKenzie 9/14/2016 23:52",
+		"testValidCustInterface" : "DaveMcKenzie 9/15/2016 11:31",
+		"testValidateInterface" : "DaveMcKenzie 9/15/2016 11:59",
+		"testValidateKeepsValidationFailureReasonNilWhenAllValidationsPass" : "DaveMcKenzie 9/15/2016 12:29",
+		"testValidateUpdatesValidationFailureReasonWhenAnyValidationFails" : "DaveMcKenzie 9/15/2016 12:54" } }

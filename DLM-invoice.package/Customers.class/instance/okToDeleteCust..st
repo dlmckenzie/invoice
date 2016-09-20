@@ -1,4 +1,5 @@
-experimental
+validation
 okToDeleteCust: aCustomer
-
-	^ aCustomer okToDeleteMe
+	aCustomer associatedWithInvoices
+	ifTrue: [ ^ false ] ifFalse: [ ^ true ] 
+	
