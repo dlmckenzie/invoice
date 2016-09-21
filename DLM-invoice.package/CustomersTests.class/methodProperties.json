@@ -6,7 +6,7 @@
 		"testAddExists" : "DaveMcKenzie 7/26/2016 11:05",
 		"testDeleteCustRaisesErrorIfAttachedToInvoice" : "DaveMcKenzie 8/11/2016 02:17",
 		"testDeleteDecreasesCustomersSizeBy1" : "DaveMcKenzie 8/11/2016 02:14",
-		"testDeleteRemovesCust" : "DaveMcKenzie 8/11/2016 02:14",
+		"testDeleteRemovesCust" : "DaveMcKenzie 9/21/2016 13:19",
 		"testRetrieveAllWhenNoCustsAnswersEmptyDict" : "DaveMcKenzie 2/16/2016 23:27",
 		"testRetrieveAllWhenSomeCustsAnswersDictWithAll" : "DaveMcKenzie 2/14/2016 09:41",
 		"testRetrieveByIDAnswersCustOnMatch" : "DaveMcKenzie 4/17/2016 12:43",
