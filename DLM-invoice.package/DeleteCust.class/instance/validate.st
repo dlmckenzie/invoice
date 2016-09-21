@@ -3,10 +3,11 @@ validate
 	"validate that arguments are valid for command execution,
 	If not valid, update validationFailureReason"
 
-	| vr |
-	vr := ValidationResponse new.
+	validArguments := true.
+	validationFailureReason := nil.
 	self validCust
-		ifFalse: [ vr addFailureReason: 'Bad cust ID' ]
+		ifFalse: [ validationFailureReason := 'Cust ID is invalid or does not exist'.
+			validArguments := false ]
 		ifTrue: [ self noAssociatedInvoices
-				ifFalse: [ vr addFailureReason: 'Cust has associated invoices' ] ].
-	
+				ifFalse: [ validationFailureReason := 'Cust has associated invoices'.
+					validArguments := false ] ]

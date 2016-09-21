@@ -4,10 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "DaveMcKenzie 9/14/2016 09:10",
+	"commentStamp" : "DaveMcKenzie 9/21/2016 10:11",
 	"instvars" : [
 		"id",
-		"validationFailureReason" ],
+		"validationFailureReason",
+		"validArguments" ],
 	"name" : "DeleteCust",
 	"pools" : [
 		 ],
