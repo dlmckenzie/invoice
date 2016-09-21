@@ -4,7 +4,7 @@ buildFailureMsg
 
 	stream := String new writeStream.
 	stream
-		nextPutAll: 'Delete command for cust ID ''';
+		nextPutAll: 'Delete for cust ID ''';
 		nextPutAll: id asString;
 		nextPutAll: ''' failed - ';
 		nextPutAll: validationFailureReason;

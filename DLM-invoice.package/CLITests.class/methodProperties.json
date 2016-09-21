@@ -6,4 +6,7 @@
 		"testAddCustWithFirstLastAddsCustWithEmptyFirstName" : "DaveMcKenzie 8/22/2016 10:36",
 		"testAddCustWithFirstLastInterface" : "DaveMcKenzie 9/7/2016 07:09",
 		"testAddCustWithFirstLastPreventsAddingCustWithEmptyLastName" : "DaveMcKenzie 9/7/2016 07:49",
+		"testDeleteCustDeletesCustThatPassesValidation" : "DaveMcKenzie 9/21/2016 12:39",
+		"testDeleteCustDoesNotDeleteCustThatFailsValidation" : "DaveMcKenzie 9/21/2016 12:42",
+		"testDeleteCustInterface" : "DaveMcKenzie 9/21/2016 12:32",
 		"testStartInterface" : "DaveMcKenzie 8/10/2016 23:10" } }
