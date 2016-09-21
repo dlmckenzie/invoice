@@ -6,10 +6,13 @@
 		"testInitializeWithIDSetsInstanceVariables" : "DaveMcKenzie 9/14/2016 10:09",
 		"testNewWithIDInterface" : "DaveMcKenzie 9/14/2016 09:39",
 		"testNewWithIDSetsInstanceVariables" : "DaveMcKenzie 9/14/2016 10:08",
+		"testNoAssociatedInvoicesAnswersFalseWhenCustHasInvoices" : "DaveMcKenzie 9/20/2016 15:05",
+		"testNoAssociatedInvoicesAnswersTrueWhenCustHasNoInvoices" : "DaveMcKenzie 9/20/2016 14:12",
+		"testNoAssociatedInvoicesInterface" : "DaveMcKenzie 9/20/2016 14:10",
 		"testValidCustAnswersFalseForInvalidID" : "DaveMcKenzie 9/14/2016 23:52",
 		"testValidCustAnswersFalseForNilID" : "DaveMcKenzie 9/15/2016 00:06",
 		"testValidCustAnswersTrueForValidID" : "DaveMcKenzie 9/14/2016 23:52",
 		"testValidCustInterface" : "DaveMcKenzie 9/15/2016 11:31",
-		"testValidateInterface" : "DaveMcKenzie 9/15/2016 11:59",
+		"testValidateInterface" : "DaveMcKenzie 9/20/2016 13:18",
 		"testValidateKeepsValidationFailureReasonNilWhenAllValidationsPass" : "DaveMcKenzie 9/15/2016 12:29",
-		"testValidateUpdatesValidationFailureReasonWhenAnyValidationFails" : "DaveMcKenzie 9/15/2016 12:54" } }
+		"testValidateUpdatesValidationFailureReasonWhenAnyValidationFails" : "DaveMcKenzie 9/20/2016 15:16" } }

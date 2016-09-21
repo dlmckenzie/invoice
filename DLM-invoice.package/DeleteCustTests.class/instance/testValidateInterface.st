@@ -7,4 +7,4 @@ testValidateInterface
 		description: 'DeleteCust validate method does not exist'.
 	self
 		assert: [ (DeleteCust newWithID: 1) validate isMemberOf: DeleteCust ]
-		description: 'method must answer a boolean'
+		description: 'method must answer self'
