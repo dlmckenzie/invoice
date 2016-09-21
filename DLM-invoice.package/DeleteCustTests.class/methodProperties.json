@@ -2,6 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testBuildFailureMsgInterface" : "DaveMcKenzie 9/21/2016 12:14",
+		"testBuildSuccessMsgInterface" : "DaveMcKenzie 9/21/2016 11:49",
+		"testExecuteCmdDeletesCustWhenValidationPasses" : "DaveMcKenzie 9/21/2016 11:30",
+		"testExecuteCmdDoesntDeleteCustWhenValidationFails" : "DaveMcKenzie 9/21/2016 11:59",
+		"testExecuteCmdInterface" : "DaveMcKenzie 9/21/2016 11:17",
 		"testInitializeWithIDInterface" : "DaveMcKenzie 9/14/2016 09:51",
 		"testInitializeWithIDSetsInstanceVariables" : "DaveMcKenzie 9/14/2016 10:09",
 		"testNewWithIDInterface" : "DaveMcKenzie 9/14/2016 09:39",
@@ -9,6 +14,7 @@
 		"testNoAssociatedInvoicesAnswersFalseWhenCustHasInvoices" : "DaveMcKenzie 9/21/2016 10:49",
 		"testNoAssociatedInvoicesAnswersTrueWhenCustHasNoInvoices" : "DaveMcKenzie 9/20/2016 14:12",
 		"testNoAssociatedInvoicesInterface" : "DaveMcKenzie 9/20/2016 14:10",
+		"testNoAssociatedInvoicesRaisesErrorForInvalidCust" : "DaveMcKenzie 9/21/2016 11:09",
 		"testValidCustAnswersFalseForInvalidID" : "DaveMcKenzie 9/14/2016 23:52",
 		"testValidCustAnswersFalseForNilID" : "DaveMcKenzie 9/15/2016 00:06",
 		"testValidCustAnswersTrueForValidID" : "DaveMcKenzie 9/14/2016 23:52",

@@ -2,9 +2,12 @@
 	"class" : {
 		"newWithID:" : "DaveMcKenzie 9/14/2016 10:10" },
 	"instance" : {
+		"buildFailureMsg" : "DaveMcKenzie 9/21/2016 12:12",
+		"buildSuccessMsg" : "DaveMcKenzie 9/21/2016 11:54",
+		"executeCmd" : "DaveMcKenzie 9/21/2016 12:06",
 		"id" : "DaveMcKenzie 9/14/2016 09:42",
 		"initializeWithID:" : "DaveMcKenzie 9/14/2016 09:53",
 		"noAssociatedInvoices" : "DaveMcKenzie 9/21/2016 10:13",
 		"validCust" : "DaveMcKenzie 9/14/2016 23:49",
-		"validate" : "DaveMcKenzie 9/21/2016 10:46",
+		"validate" : "DaveMcKenzie 9/21/2016 12:10",
 		"validationFailureReason" : "DaveMcKenzie 9/21/2016 10:08" } }
