@@ -1,19 +1,23 @@
 {
 	"class" : {
+		"app" : "DaveMcKenzie 9/21/2016 14:38",
+		"app:" : "DaveMcKenzie 9/21/2016 14:31",
 		"firstIsValidForIdentity:" : "DaveMcKenzie 4/21/2016 11:00",
 		"generateNextID" : "DaveMcKenzie 5/17/2016 10:14",
 		"initialize" : "DaveMcKenzie 5/17/2016 10:48",
+		"invoices" : "DaveMcKenzie 9/22/2016 14:05",
+		"knowsAbout:" : "DaveMcKenzie 9/22/2016 14:05",
 		"lastIsValidForIdentity:" : "DaveMcKenzie 4/20/2016 10:45",
 		"newWithFirst:Last:" : "DaveMcKenzie 5/17/2016 13:01",
 		"nextID" : "DaveMcKenzie 5/17/2016 11:24" },
 	"instance" : {
-		"accessInvoices:" : "DaveMcKenzie 9/15/2016 12:10",
+		"accessInvoices:" : "DaveMcKenzie 9/22/2016 14:02",
 		"associatedWithInvoices" : "DaveMcKenzie 9/20/2016 12:15",
 		"first" : "DaveMcKenzie 2/23/2016 15:00",
 		"first:" : "DaveMcKenzie 5/18/2016 09:31",
 		"firstIsValidForUpdate:" : "DaveMcKenzie 5/18/2016 09:32",
 		"id" : "DaveMcKenzie 5/17/2016 12:02",
 		"identifier" : "DaveMcKenzie 8/14/2016 21:13",
-		"initializeWithID:First:Last:" : "DaveMcKenzie 8/11/2016 02:11",
+		"initializeWithID:First:Last:" : "DaveMcKenzie 9/22/2016 14:11",
 		"last" : "DaveMcKenzie 2/23/2016 14:59",
 		"last:" : "DaveMcKenzie 5/18/2016 09:32" } }

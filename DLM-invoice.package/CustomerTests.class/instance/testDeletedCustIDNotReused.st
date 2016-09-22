@@ -6,7 +6,6 @@ testDeletedCustIDNotReused
 	invoices := Invoices new.
 	customers := Customers new.
 	cust := Customer newWithFirst: 'Tom' Last: 'Reynolds'.
-	cust accessInvoices: invoices.
 	customers addCust: cust.
 	id := cust id.
 	customers delete: cust.

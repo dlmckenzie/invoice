@@ -5,7 +5,6 @@ testDeleteRemovesCust
 	| customers cust |
 	customers := Customers new.
 	cust := Customer newWithFirst: 'Julie' Last: 'Andrews'.
-	cust accessInvoices: Invoices new.
 	customers addCust: cust.
 	customers delete: cust.
 	self

@@ -4,4 +4,5 @@ start
 
 	customers := Customers new.
 	products := Products new.
-	invoices := Invoices new
+	invoices := Invoices new.
+	Customer knowsAbout: invoices

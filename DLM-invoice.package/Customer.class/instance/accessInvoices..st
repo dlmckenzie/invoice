@@ -1,4 +1,5 @@
 accessing
 accessInvoices: anInvoices
 	"provides access to invoices"
-	invoices := anInvoices
+
+	invoices := self class invoices

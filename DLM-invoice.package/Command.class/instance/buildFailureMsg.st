@@ -1,0 +1,3 @@
+accessing
+buildFailureMsg
+	^ self subclassResponsibility

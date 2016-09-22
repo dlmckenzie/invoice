@@ -7,7 +7,7 @@ testDeleteDecreasesCustomersSizeBy1
 	customers addCust: (Customer newWithFirst: 'John' Last: 'Smith').
 	cust := Customer newWithFirst: 'Amy' Last: 'Sanders'.
 	customers addCust: cust.
-	cust accessInvoices: Invoices new.
+	
 	before := customers size.
 	customers delete: cust.
 	after := customers size.
