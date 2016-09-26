@@ -1,3 +1,3 @@
-printing
-buildSuccessMsg
+validation
+validate
 	^ self subclassResponsibility

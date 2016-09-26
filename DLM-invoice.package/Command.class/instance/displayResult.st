@@ -1,4 +1,4 @@
-action
+printing
 displayResult
 	"display result to user"
 

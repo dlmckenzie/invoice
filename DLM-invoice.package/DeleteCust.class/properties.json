@@ -6,9 +6,7 @@
 		 ],
 	"commentStamp" : "DaveMcKenzie 9/21/2016 10:11",
 	"instvars" : [
-		"id",
-		"validationFailureReason",
-		"validArguments" ],
+		"id" ],
 	"name" : "DeleteCust",
 	"pools" : [
 		 ],

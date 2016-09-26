@@ -15,4 +15,4 @@ buildSuccessMsg
 		nextPutAll: '	Cust ID: ';
 		nextPutAll: cust id asString;
 		cr.
-	self displayResult
+	

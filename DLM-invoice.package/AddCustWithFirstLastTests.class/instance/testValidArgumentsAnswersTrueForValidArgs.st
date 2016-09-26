@@ -5,5 +5,5 @@ testValidArgumentsAnswersTrueForValidArgs
 
 	| cmd |
 	cmd := AddCustWithFirstLast newWithFirst: 'Joe' Last: 'Smith'.
-	"cmd validateArguments."
-	self assert: [ cmd validArguments] description: 'argumentsAreValid should be true'
+	cmd validate.
+	self assert: [ cmd validArguments ] description: 'argumentsAreValid should be true'

@@ -1,3 +1,3 @@
-printing
-buildSuccessMsg
+accessing
+validArguments
 	^ self subclassResponsibility

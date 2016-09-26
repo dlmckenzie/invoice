@@ -4,6 +4,5 @@ buildFailureMsg
 
 	stream := String new writeStream.
 	stream
-		nextPutAll: 'First and/or last name not valid - customer not added.';
-		cr.
-	self displayResult 
+		nextPutAll: validationFailureReason ;
+		cr

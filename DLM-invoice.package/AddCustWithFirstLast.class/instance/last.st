@@ -1,3 +1,3 @@
-acccessing
+accessing
 last
 	^ last
