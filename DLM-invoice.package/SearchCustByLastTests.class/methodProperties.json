@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testInitializeWithLastInterface" : "DaveMcKenzie 9/27/2016 09:19",
+		"testInitializeWithLastSetsInstanceVariables" : "DaveMcKenzie 9/27/2016 10:10",
+		"testNewWithLastInterface" : "DaveMcKenzie 9/27/2016 09:12",
+		"testNewWithLastSetsInstanceVariables" : "DaveMcKenzie 9/27/2016 09:50" } }

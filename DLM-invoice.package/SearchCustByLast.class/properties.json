@@ -1,0 +1,14 @@
+{
+	"category" : "DLM-Invoice",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DaveMcKenzie 9/26/2016 13:27",
+	"instvars" : [
+		"searchString" ],
+	"name" : "SearchCustByLast",
+	"pools" : [
+		 ],
+	"super" : "Command",
+	"type" : "normal" }
