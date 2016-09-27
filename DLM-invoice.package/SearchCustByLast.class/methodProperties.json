@@ -2,5 +2,12 @@
 	"class" : {
 		"newWithLast:" : "DaveMcKenzie 9/27/2016 09:13" },
 	"instance" : {
+		"buildFailureMsg" : "DaveMcKenzie 9/27/2016 13:14",
+		"buildSuccessMsg" : "DaveMcKenzie 9/27/2016 13:46",
+		"executeCmd" : "DaveMcKenzie 9/27/2016 13:21",
 		"initializeWithLast:" : "DaveMcKenzie 9/27/2016 09:21",
-		"searchString" : "DaveMcKenzie 9/27/2016 09:50" } }
+		"searchString" : "DaveMcKenzie 9/27/2016 09:50",
+		"validArguments" : "DaveMcKenzie 9/27/2016 10:57",
+		"validSearchString" : "DaveMcKenzie 9/27/2016 12:09",
+		"validate" : "DaveMcKenzie 9/27/2016 12:14",
+		"validationFailureReason" : "DaveMcKenzie 9/27/2016 12:34" } }

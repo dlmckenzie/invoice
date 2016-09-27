@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "DaveMcKenzie 9/26/2016 13:27",
 	"instvars" : [
-		"searchString" ],
+		"searchString",
+		"queryResult" ],
 	"name" : "SearchCustByLast",
 	"pools" : [
 		 ],

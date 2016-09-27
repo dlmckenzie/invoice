@@ -2,7 +2,24 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testBuildFailureMsgInterface" : "DaveMcKenzie 9/27/2016 12:49",
+		"testBuildSuccessMsgInterface" : "DaveMcKenzie 9/27/2016 13:57",
+		"testExecuteCmdInterface" : "DaveMcKenzie 9/27/2016 10:24",
 		"testInitializeWithLastInterface" : "DaveMcKenzie 9/27/2016 09:19",
 		"testInitializeWithLastSetsInstanceVariables" : "DaveMcKenzie 9/27/2016 10:10",
 		"testNewWithLastInterface" : "DaveMcKenzie 9/27/2016 09:12",
-		"testNewWithLastSetsInstanceVariables" : "DaveMcKenzie 9/27/2016 09:50" } }
+		"testNewWithLastSetsInstanceVariables" : "DaveMcKenzie 9/27/2016 09:50",
+		"testValidArgumentsAnswersFalseIfValidateHasNotYetBeenExcecuted" : "DaveMcKenzie 9/27/2016 11:59",
+		"testValidArgumentsInterface" : "DaveMcKenzie 9/27/2016 11:42",
+		"testValidSearchStringAnswersFalseForEmptySearchString" : "DaveMcKenzie 9/27/2016 12:00",
+		"testValidSearchStringAnswersFalseForNilSearchString" : "DaveMcKenzie 9/27/2016 12:05",
+		"testValidSearchStringAnswersTrueForValidString" : "DaveMcKenzie 9/27/2016 11:57",
+		"testValidSearchStringInterface" : "DaveMcKenzie 9/27/2016 11:50",
+		"testValidateFailureReasonRaisesErrorWhenValidateNotPreviouslyRun" : "DaveMcKenzie 9/27/2016 12:33",
+		"testValidateInterface" : "DaveMcKenzie 9/27/2016 10:43",
+		"testValidateSetsValidArgumentsToFalseWhenAnyValidationFails" : "DaveMcKenzie 9/27/2016 11:13",
+		"testValidateSetsValidArgumentsToTrueWhenAllValidationsPass" : "DaveMcKenzie 9/27/2016 10:54",
+		"testValidateSetsValidationFailureReasonToNilWhenAllValidationsPass" : "DaveMcKenzie 9/27/2016 11:07",
+		"testValidationFailureReasonAnswersNilWhenValidationPasses" : "DaveMcKenzie 9/27/2016 12:28",
+		"testValidationFailureReasonAnswersStringWhenValidationFails" : "DaveMcKenzie 9/27/2016 12:29",
+		"testValidationFailureReasonInterface" : "DaveMcKenzie 9/27/2016 12:25" } }

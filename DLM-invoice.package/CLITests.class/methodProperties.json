@@ -9,4 +9,5 @@
 		"testDeleteCustDeletesCustThatPassesValidation" : "DaveMcKenzie 9/21/2016 12:39",
 		"testDeleteCustDoesNotDeleteCustThatFailsValidation" : "DaveMcKenzie 9/21/2016 12:42",
 		"testDeleteCustInterface" : "DaveMcKenzie 9/21/2016 12:32",
+		"testSearchCustByLastInterface" : "DaveMcKenzie 9/27/2016 12:59",
 		"testStartInterface" : "DaveMcKenzie 8/10/2016 23:10" } }
