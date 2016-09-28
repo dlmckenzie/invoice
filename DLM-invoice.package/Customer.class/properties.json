@@ -1,5 +1,5 @@
 {
-	"category" : "DLM-invoice",
+	"category" : "DLM-Invoice",
 	"classinstvars" : [
 		"nextID",
 		"invoices" ],

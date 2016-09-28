@@ -1,0 +1,3 @@
+accessing
+validArguments
+	^ self shouldBeImplemented

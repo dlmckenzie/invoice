@@ -1,0 +1,1 @@
+Abstract class representing commands that take a parameter(s), used by the Command Level Interface.

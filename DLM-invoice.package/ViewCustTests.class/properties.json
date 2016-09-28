@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "DaveMcKenzie 7/25/2016 09:51",
+	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "InvoicesTests",
+	"name" : "ViewCustTests",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "CommandTests",
 	"type" : "normal" }

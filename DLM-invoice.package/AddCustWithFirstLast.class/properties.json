@@ -12,5 +12,5 @@
 	"name" : "AddCustWithFirstLast",
 	"pools" : [
 		 ],
-	"super" : "Command",
+	"super" : "CommandWithParam",
 	"type" : "normal" }

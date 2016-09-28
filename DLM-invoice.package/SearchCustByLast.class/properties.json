@@ -11,5 +11,5 @@
 	"name" : "SearchCustByLast",
 	"pools" : [
 		 ],
-	"super" : "Command",
+	"super" : "CommandWithParam",
 	"type" : "normal" }
