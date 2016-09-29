@@ -1,0 +1,3 @@
+validation
+validationFailureReason
+		^ self subclassResponsibility

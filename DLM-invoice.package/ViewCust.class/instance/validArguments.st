@@ -1,3 +1,3 @@
 accessing
 validArguments
-	^ self shouldBeImplemented
+	^ validArguments 

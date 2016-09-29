@@ -2,9 +2,12 @@
 	"class" : {
 		"newWithID:" : "DaveMcKenzie 9/28/2016 14:38" },
 	"instance" : {
-		"buildFailureMsg" : "DaveMcKenzie 9/28/2016 14:23",
+		"buildFailureMsg" : "DaveMcKenzie 9/29/2016 10:40",
+		"buildSuccessMsg" : "DaveMcKenzie 9/29/2016 10:45",
+		"executeCmd" : "DaveMcKenzie 9/29/2016 10:28",
 		"id" : "DaveMcKenzie 9/28/2016 15:04",
 		"initializeWithID:" : "DaveMcKenzie 9/28/2016 15:04",
-		"validArguments" : "DaveMcKenzie 9/28/2016 14:24",
+		"validArguments" : "DaveMcKenzie 9/29/2016 10:19",
 		"validCust" : "DaveMcKenzie 9/28/2016 15:30",
-		"validate" : "DaveMcKenzie 9/28/2016 15:23" } }
+		"validate" : "DaveMcKenzie 9/29/2016 10:21",
+		"validationFailureReason" : "DaveMcKenzie 9/29/2016 10:52" } }

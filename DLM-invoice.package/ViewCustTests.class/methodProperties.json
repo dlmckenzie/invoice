@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testExecuteCmdInterface" : "DaveMcKenzie 9/29/2016 09:38",
 		"testInitializeWithIDInterface" : "DaveMcKenzie 9/28/2016 14:59",
 		"testInitializeWithIDSetsInstanceVar" : "DaveMcKenzie 9/28/2016 15:03",
 		"testNewWithIDInterface" : "DaveMcKenzie 9/28/2016 14:50",
@@ -12,4 +13,8 @@
 		"testValidCust_AnswersFalseForNilArgument" : "DaveMcKenzie 9/29/2016 00:15",
 		"testValidCust_AnswersFalseForNonIntegerArgument" : "DaveMcKenzie 9/29/2016 00:15",
 		"testValidCust_AnswersFalseWhenCustNotFound" : "DaveMcKenzie 9/29/2016 00:11",
-		"testValidateInterface" : "DaveMcKenzie 9/28/2016 15:22" } }
+		"testValidateInterface" : "DaveMcKenzie 9/28/2016 15:22",
+		"testValidateSetsValidArgumentsFalseWhenAnyValidationFails" : "DaveMcKenzie 9/29/2016 10:20",
+		"testValidateSetsValidArgumentsTrueWhenAllValidationsPass" : "DaveMcKenzie 9/29/2016 10:19",
+		"testValidateSetsValidationFailureReasonNilWhenAllValidationsPass" : "DaveMcKenzie 9/29/2016 09:53",
+		"testValidateSetsValidationFailureReasonWhenAnyValidationFails" : "DaveMcKenzie 9/29/2016 10:03" } }
