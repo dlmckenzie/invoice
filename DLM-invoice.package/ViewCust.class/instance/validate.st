@@ -6,4 +6,6 @@ validate
 	validArguments := true.
 	validationFailureReason := nil.
 	self validCust
-		ifFalse: [ validArguments := false.  validationFailureReason := 'Cust ID is invalid or does not exist' ]
+		ifTrue: [ ^ self ].
+	validArguments := false.
+	validationFailureReason := 'Cust ID is invalid or does not exist'
