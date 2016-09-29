@@ -1,3 +1,2 @@
-accessing
+validation
 validate
-	^ self shouldBeImplemented

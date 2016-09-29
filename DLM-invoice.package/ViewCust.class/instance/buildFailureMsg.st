@@ -1,3 +1,3 @@
-accessing
+printing
 buildFailureMsg
 	^ self shouldBeImplemented

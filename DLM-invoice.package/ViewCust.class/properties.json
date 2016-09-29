@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "DaveMcKenzie 9/28/2016 08:38",
 	"instvars" : [
-		 ],
+		"id" ],
 	"name" : "ViewCust",
 	"pools" : [
 		 ],
