@@ -1,6 +1,6 @@
 validation
 validateCust
 	"comment"
-	
-	self validCust ifTrue: [ validationFailureReason := 'Invalid cust id' ]
-	
+
+	self validCust
+		ifTrue: [ validationFailureReason := 'Invalid cust id' ]

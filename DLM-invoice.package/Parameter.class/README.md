@@ -1,0 +1,1 @@
+Piece of inputed data used by Command used to help determine what data the command should act on or be using when acting on data.
