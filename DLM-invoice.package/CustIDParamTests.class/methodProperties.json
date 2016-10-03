@@ -2,4 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		 } }
+		"testInitializeWithCustID_initializesInstanceWithCustID" : "DaveMcKenzie 10/3/2016 14:40",
+		"testInitializeWithCustID_interface" : "DaveMcKenzie 10/3/2016 14:28",
+		"testNewWithCustID_initializesInstanceWithCustID" : "DaveMcKenzie 10/3/2016 14:20",
+		"testNewWithCustID_interface" : "DaveMcKenzie 10/3/2016 14:10" } }
