@@ -1,0 +1,15 @@
+{
+	"category" : "DLM-Invoice",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DaveMcKenzie 9/29/2016 12:16",
+	"instvars" : [
+		"cust",
+		"first" ],
+	"name" : "UpdateCustWithFirst",
+	"pools" : [
+		 ],
+	"super" : "CommandWithParam",
+	"type" : "normal" }
