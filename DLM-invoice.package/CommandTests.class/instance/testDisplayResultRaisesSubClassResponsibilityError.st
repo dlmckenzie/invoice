@@ -1,4 +1,4 @@
-testing
+testing - exceptions
 testDisplayResultRaisesSubClassResponsibilityError
 	"test method raises error, as this is an abstract class method"
 

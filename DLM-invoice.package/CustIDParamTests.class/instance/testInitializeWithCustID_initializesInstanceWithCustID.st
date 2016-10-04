@@ -1,6 +1,6 @@
-testing
+testing - happy path
 testInitializeWithCustID_initializesInstanceWithCustID
-	"test interface"
+	"test happy path"
 
 	| id param |
 	id := 2.

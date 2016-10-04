@@ -3,10 +3,11 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"Application2" ],
 	"commentStamp" : "DaveMcKenzie 10/3/2016 11:42",
 	"instvars" : [
-		 ],
+		"isValid",
+		"validationError" ],
 	"name" : "Parameter",
 	"pools" : [
 		 ],

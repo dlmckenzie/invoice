@@ -1,4 +1,4 @@
-testing
+testing - interface
 testInitializeWithCustID_interface
 	"test method's interface"
 

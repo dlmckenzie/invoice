@@ -1,5 +1,6 @@
 {
 	"class" : {
-		 },
+		"initializeWithApp:" : "DaveMcKenzie 10/4/2016 13:12" },
 	"instance" : {
-		 } }
+		"isValid" : "DaveMcKenzie 10/4/2016 11:09",
+		"validate" : "DaveMcKenzie 10/3/2016 22:47" } }

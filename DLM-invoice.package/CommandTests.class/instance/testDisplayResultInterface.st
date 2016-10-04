@@ -1,4 +1,4 @@
-testing
+testing - interface
 testDisplayResultInterface
 	"test method interface"
 

@@ -1,4 +1,4 @@
-testing
+testing - interface
 testNewWithCustID_interface
 	"test interface"
 	

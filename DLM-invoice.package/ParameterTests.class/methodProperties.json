@@ -2,4 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		 } }
+		"testInitializeWithApp_interface" : "DaveMcKenzie 10/4/2016 11:53",
+		"testIsValid_interface" : "DaveMcKenzie 10/4/2016 11:53",
+		"testValidate_interface" : "DaveMcKenzie 10/4/2016 11:41",
+		"testValidate_raisesError" : "DaveMcKenzie 10/3/2016 23:11",
+		"testisValid_raisesError" : "DaveMcKenzie 10/4/2016 11:42" } }
