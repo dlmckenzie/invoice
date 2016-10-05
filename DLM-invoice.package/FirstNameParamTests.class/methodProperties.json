@@ -2,4 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		 } }
+		"testInitializeWithFirst_initializesInstanceWithFirstName" : "DaveMcKenzie 10/5/2016 14:41",
+		"testInitializeWithFirst_interface" : "DaveMcKenzie 10/5/2016 14:11",
+		"testNewWithFirst_initializesInstanceWithFirstName" : "DaveMcKenzie 10/5/2016 14:40",
+		"testNewWithFirst_interface" : "DaveMcKenzie 10/5/2016 14:06",
+		"testValidate_interface" : "DaveMcKenzie 10/5/2016 14:24",
+		"testValidate_setsIsValidToFalseForInvalidFirstName" : "DaveMcKenzie 10/5/2016 14:55",
+		"testValidate_setsIsValidToTrueForValidFirstName" : "DaveMcKenzie 10/5/2016 14:44",
+		"testValidate_setsValidationErrorForInvalidFirstName" : "DaveMcKenzie 10/5/2016 14:52",
+		"testValidate_setsValidationErrorForValidFirstName" : "DaveMcKenzie 10/5/2016 14:45",
+		"testValidationError_answersNotYetValidatedPriorToValidation" : "DaveMcKenzie 10/5/2016 14:47" } }
