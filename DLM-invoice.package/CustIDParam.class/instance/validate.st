@@ -2,4 +2,8 @@ validation
 validate
 	"validates the parameter"
 
-	(Application2 customers retrieveByID: id) ifNotNil: [ isValid := true ] ifNil: [ isValid := false ]
+	(Application2 customers retrieveByID: id)
+		ifNotNil: [ isValid := true.
+			validationError := 'Validation Passed' ]
+		ifNil: [ isValid := false.
+			validationError := 'Invalid customer id' ]
