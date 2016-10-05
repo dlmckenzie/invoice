@@ -4,9 +4,6 @@
 	"instance" : {
 		"testInitializeWithCustID_initializesInstanceWithCustID" : "DaveMcKenzie 10/4/2016 11:16",
 		"testInitializeWithCustID_interface" : "DaveMcKenzie 10/3/2016 14:28",
-		"testIsValid_answersFalseWhenIsValidIsFalse" : "DaveMcKenzie 10/4/2016 13:28",
-		"testIsValid_answersTrueWhenIsValidIsTrue" : "DaveMcKenzie 10/4/2016 13:24",
-		"testIsValid_raisesErrorWhenIsValidIsNil" : "DaveMcKenzie 10/4/2016 13:35",
 		"testNewWithCustID_initializesInstanceWithCustID" : "DaveMcKenzie 10/4/2016 11:16",
 		"testNewWithCustID_interface" : "DaveMcKenzie 10/3/2016 14:10",
 		"testValidate_interface" : "DaveMcKenzie 10/4/2016 09:58",

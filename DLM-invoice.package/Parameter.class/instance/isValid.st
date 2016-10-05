@@ -1,3 +1,5 @@
 validation
 isValid
-	self subclassResponsibility 
+	isValid isNil
+		ifTrue: [ Error signal: 'Validate method not called' ].
+	^ isValid

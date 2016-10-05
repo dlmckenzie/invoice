@@ -1,4 +1,4 @@
-testing - edge case
+testing - edge cases
 testValidate_setsIsValidToFalseForInvalidCustID
 	"tests that for a cust id that equates to a customer,
 	the isValid instance variable gets set to true"
