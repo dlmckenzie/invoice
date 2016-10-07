@@ -1,5 +1,5 @@
 testing - customer
-testDeleteCustDoesNotDeleteCustThatFailsValidation
+testDeleteCust_doesNotDeleteCustThatFailsValidation
 	| app cli |
 	app := App new.
 	app start.

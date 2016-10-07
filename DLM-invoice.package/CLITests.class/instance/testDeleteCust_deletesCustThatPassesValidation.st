@@ -1,5 +1,5 @@
 testing - customer
-testDeleteCustDeletesCustThatPassesValidation
+testDeleteCust_deletesCustThatPassesValidation
 	"test happy path - method deletes cust"
 
 	| app cli cust |

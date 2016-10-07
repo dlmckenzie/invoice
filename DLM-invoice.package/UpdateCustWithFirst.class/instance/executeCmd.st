@@ -6,5 +6,5 @@ executeCmd
 	validArguments
 		ifTrue: [ cust first: first.
 			self buildSuccessMsg ]
-		ifFalse: [ self buildFailureMsg ].
-	self displayResult. 
+		ifFalse: [ self buildFailureMsg].
+	self displayResult

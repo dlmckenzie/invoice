@@ -11,6 +11,4 @@ testValidateUpdatesValidationFailureReasonWhenAnyValidationFails
 	app customers addCust: cust.
 	cmd := DeleteCust newWithID: -1.
 	cmd validate.
-	self
-		deny: [ cmd validationFailureReason isNil ]
-		description: 'validationFailureReason should contain failure reason' 
+	self deny: [ cmd validationFailureReason isNil ] description: 'validationFailureReason should contain failure reason'

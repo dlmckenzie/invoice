@@ -22,8 +22,8 @@
 		"testValidateFailureReasonRaisesErrorWhenValidateNotPreviouslyRun" : "DaveMcKenzie 9/21/2016 10:55",
 		"testValidateInterface" : "DaveMcKenzie 9/20/2016 13:18",
 		"testValidateKeepsValidationFailureReasonNilWhenAllValidationsPass" : "DaveMcKenzie 9/15/2016 12:29",
-		"testValidateUpdatesValidationFailureReasonWhenAnyValidationFails" : "DaveMcKenzie 9/20/2016 15:16",
-		"testValidationFailureReasonAnswersCorrectlyForCustWithInvoices" : "DaveMcKenzie 9/22/2016 14:23",
-		"testValidationFailureReasonAnswersCorrectlyForInvalidCust" : "DaveMcKenzie 9/21/2016 10:46",
+		"testValidateUpdatesValidationFailureReasonWhenAnyValidationFails" : "DaveMcKenzie 10/7/2016 12:55",
+		"testValidationFailureReasonAnswersCorrectlyForCustWithInvoices" : "DaveMcKenzie 10/7/2016 12:58",
+		"testValidationFailureReasonAnswersCorrectlyForInvalidCust" : "DaveMcKenzie 10/7/2016 12:50",
 		"testValidationFailureReasonAnwersNilForValidCmd" : "DaveMcKenzie 9/21/2016 10:42",
 		"testValidationFailureReasonInterface" : "DaveMcKenzie 9/21/2016 10:34" } }

@@ -12,5 +12,5 @@ testValidationFailureReasonAnswersCorrectlyForCustWithInvoices
 	cmd := DeleteCust newWithID: custID.
 	cmd validate.
 	self
-		assert: [ cmd validationFailureReason = 'Cust has associated invoices' ]
+		assert: [ cmd validationFailureReason = 'Cust has associated invoices.' ]
 		description: 'incorrect error message'

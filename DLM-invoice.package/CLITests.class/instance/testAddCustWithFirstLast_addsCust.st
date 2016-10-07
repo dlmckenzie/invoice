@@ -1,5 +1,5 @@
 testing - customer
-testAddCustWithFirstLastAddsCust
+testAddCustWithFirstLast_addsCust
 	"test happy path - method adds customer to customers"
 
 	| app cli |

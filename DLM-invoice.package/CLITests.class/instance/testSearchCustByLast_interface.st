@@ -1,5 +1,5 @@
 testing - customer
-testSearchCustByLastInterface
+testSearchCustByLast_interface
 
 	| app cli |
 	app := App new.

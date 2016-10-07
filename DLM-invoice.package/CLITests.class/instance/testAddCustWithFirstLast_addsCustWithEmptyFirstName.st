@@ -1,5 +1,5 @@
 testing - customer
-testAddCustWithFirstLastAddsCustWithEmptyFirstName
+testAddCustWithFirstLast_addsCustWithEmptyFirstName
 	"test edge case - customer gets added even with missing first name"
 
 	| app cli |

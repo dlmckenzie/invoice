@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAddCustWithFirstLastAddsCust" : "DaveMcKenzie 8/22/2016 10:36",
-		"testAddCustWithFirstLastAddsCustWithEmptyFirstName" : "DaveMcKenzie 8/22/2016 10:36",
-		"testAddCustWithFirstLastInterface" : "DaveMcKenzie 9/7/2016 07:09",
-		"testAddCustWithFirstLastPreventsAddingCustWithEmptyLastName" : "DaveMcKenzie 9/7/2016 07:49",
-		"testDeleteCustDeletesCustThatPassesValidation" : "DaveMcKenzie 9/21/2016 12:39",
-		"testDeleteCustDoesNotDeleteCustThatFailsValidation" : "DaveMcKenzie 9/21/2016 12:42",
-		"testDeleteCustInterface" : "DaveMcKenzie 9/21/2016 12:32",
-		"testSearchCustByLastInterface" : "DaveMcKenzie 9/27/2016 12:59",
-		"testStartInterface" : "DaveMcKenzie 8/10/2016 23:10" } }
+		"testAddCustWithFirstLast_addsCust" : "DaveMcKenzie 10/7/2016 12:00",
+		"testAddCustWithFirstLast_addsCustWithEmptyFirstName" : "DaveMcKenzie 10/7/2016 12:00",
+		"testAddCustWithFirstLast_interface" : "DaveMcKenzie 10/7/2016 12:00",
+		"testAddCustWithFirstLast_preventsAddingCustWithEmptyLastName" : "DaveMcKenzie 10/7/2016 12:01",
+		"testDeleteCust_deletesCustThatPassesValidation" : "DaveMcKenzie 10/7/2016 12:01",
+		"testDeleteCust_doesNotDeleteCustThatFailsValidation" : "DaveMcKenzie 10/7/2016 12:01",
+		"testDeleteCust_interface" : "DaveMcKenzie 10/7/2016 12:01",
+		"testSearchCustByLast_interface" : "DaveMcKenzie 10/7/2016 12:02",
+		"testStart_interface" : "DaveMcKenzie 10/7/2016 12:02" } }

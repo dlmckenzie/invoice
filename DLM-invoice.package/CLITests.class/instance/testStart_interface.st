@@ -1,5 +1,5 @@
 testing
-testStartInterface
+testStart_interface
 	"test method accepts 1 argument"
 
 	self

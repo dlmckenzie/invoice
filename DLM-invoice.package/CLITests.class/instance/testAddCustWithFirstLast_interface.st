@@ -1,5 +1,5 @@
 testing - customer
-testAddCustWithFirstLastInterface
+testAddCustWithFirstLast_interface
 	"test method interface"
 
 	| app cli |

@@ -2,13 +2,14 @@
 	"class" : {
 		"newWithCust:First:" : "DaveMcKenzie 10/7/2016 09:51" },
 	"instance" : {
+		"buildFailureMsg" : "DaveMcKenzie 10/7/2016 12:20",
 		"buildSuccessMsg" : "DaveMcKenzie 10/7/2016 11:52",
 		"cust" : "DaveMcKenzie 9/29/2016 14:18",
-		"executeCmd" : "DaveMcKenzie 10/7/2016 11:45",
+		"executeCmd" : "DaveMcKenzie 10/7/2016 12:25",
 		"first" : "DaveMcKenzie 9/29/2016 14:18",
 		"id" : "DaveMcKenzie 10/7/2016 09:53",
 		"initializeWithCust:First:" : "DaveMcKenzie 10/7/2016 09:54",
 		"validArguments" : "DaveMcKenzie 9/29/2016 17:30",
 		"validate" : "DaveMcKenzie 10/7/2016 11:31",
 		"validateCust" : "DaveMcKenzie 10/7/2016 11:48",
-		"validateFirst" : "DaveMcKenzie 10/7/2016 10:09" } }
+		"validateFirst" : "DaveMcKenzie 10/7/2016 12:36" } }

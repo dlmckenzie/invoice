@@ -1,5 +1,5 @@
 testing - customer
-testDeleteCustInterface
+testDeleteCust_interface
 	"test method interface"
 
 	| app cli |
