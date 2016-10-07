@@ -1,3 +1,3 @@
 class initialization
 initializeWithApp: anApp
-	Application := anApp
+	Application := anApp.

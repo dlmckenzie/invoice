@@ -1,3 +1,3 @@
 instance creation
-newWithCust: aCust First: aFirstNameString
-	^ self new initializeWithCust: aCust First: aFirstNameString
+newWithCust: aCustID First: aFirstNameString
+	^ self new initializeWithCust: aCustID First: aFirstNameString

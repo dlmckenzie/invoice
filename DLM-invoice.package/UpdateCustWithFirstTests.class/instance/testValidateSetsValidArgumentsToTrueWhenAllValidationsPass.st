@@ -7,7 +7,8 @@ testValidateSetsValidArgumentsToTrueWhenAllValidationsPass
 	app start.
 	cust := Customer newWithFirst: 'Joey' Last: 'Smith'.
 	app customers addCust: cust.
-	cmd := UpdateCustWithFirst newWithCust: cust First: 'Joe'.
+	cmd := UpdateCustWithFirst newWithCust: cust id First: 'Joe'.
+	Command initializeWithApp: app.
 	cmd validate.
 	self
 		assert: [ cmd validArguments ]

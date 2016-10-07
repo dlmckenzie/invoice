@@ -3,13 +3,12 @@
 		 },
 	"instance" : {
 		"testExecuteCmdInterface" : "DaveMcKenzie 9/29/2016 14:52",
-		"testExecuteCmdModifesFirstName" : "DaveMcKenzie 9/29/2016 15:00",
+		"testExecuteCmdModifesFirstName" : "DaveMcKenzie 10/7/2016 11:37",
 		"testInitializeWithCustFirstInterface" : "DaveMcKenzie 9/29/2016 14:41",
-		"testInitializeWithCustFirstSetsInstanceVariables" : "DaveMcKenzie 9/29/2016 14:46",
-		"testNewWithCustFirstInterface" : "DaveMcKenzie 9/29/2016 14:01",
-		"testNewWithCustFirstSetsInstanceVariables" : "DaveMcKenzie 9/29/2016 14:31",
+		"testInitializeWithCustFirstSetsInstanceVariables" : "DaveMcKenzie 10/7/2016 10:24",
+		"testNewWithCustFirst_interface" : "DaveMcKenzie 10/7/2016 09:43",
+		"testNewWithCustFirst_setsInstanceVariables" : "DaveMcKenzie 10/7/2016 09:46",
 		"testValidArgumentsInterface" : "DaveMcKenzie 9/29/2016 15:28",
-		"testValidCustInterface" : "DaveMcKenzie 9/29/2016 17:32",
 		"testValidateCustInterface" : "DaveMcKenzie 9/30/2016 00:53",
-		"testValidateInterface" : "DaveMcKenzie 9/29/2016 19:02",
-		"testValidateSetsValidArgumentsToTrueWhenAllValidationsPass" : "DaveMcKenzie 9/29/2016 20:36" } }
+		"testValidateInterface" : "DaveMcKenzie 10/7/2016 07:58",
+		"testValidateSetsValidArgumentsToTrueWhenAllValidationsPass" : "DaveMcKenzie 10/7/2016 10:26" } }

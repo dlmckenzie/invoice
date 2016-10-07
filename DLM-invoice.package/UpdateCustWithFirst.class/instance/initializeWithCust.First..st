@@ -1,5 +1,6 @@
 initialization
-initializeWithCust: aCust First: aFirstNameString
+initializeWithCust: aCustID First: aFirstNameString
 	"set instance variables"
-	cust := aCust.
+
+	id := aCustID.
 	first := aFirstNameString

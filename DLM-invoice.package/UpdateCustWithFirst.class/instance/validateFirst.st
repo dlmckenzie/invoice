@@ -2,5 +2,6 @@ validation
 validateFirst
 	"comment"
 
-	self validFirstName 
-		ifTrue: [ validationFailureReason := 'Invalid first name' ]
+	(Customer firstIsValidForIdentity: first ) ifTrue: [ ^ self ].
+	validationFailureReason := 'Invalid first name'.
+	validArguments := false

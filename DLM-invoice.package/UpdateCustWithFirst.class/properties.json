@@ -6,8 +6,10 @@
 		 ],
 	"commentStamp" : "DaveMcKenzie 9/29/2016 12:16",
 	"instvars" : [
+		"id",
+		"first",
 		"cust",
-		"first" ],
+		"origFirst" ],
 	"name" : "UpdateCustWithFirst",
 	"pools" : [
 		 ],

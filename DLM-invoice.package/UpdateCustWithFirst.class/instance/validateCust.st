@@ -2,5 +2,8 @@ validation
 validateCust
 	"comment"
 
-	self validCust
-		ifTrue: [ validationFailureReason := 'Invalid cust id' ]
+	cust := Application customers retrieveByID: id.
+	cust
+		ifNil: [ validationFailureReason := 'Invalid cust id'.
+			validArguments := false ]
+		ifNotNil: [ origFirst := cust first ]

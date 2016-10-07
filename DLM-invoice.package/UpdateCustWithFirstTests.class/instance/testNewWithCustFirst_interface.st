@@ -1,5 +1,5 @@
 testing
-testNewWithCustFirstInterface
+testNewWithCustFirst_interface
 	self
 		assert: [ UpdateCustWithFirst respondsTo: #newWithCust:First: ]
 		description: 'UpdateCustWithFirest newWithCust:First:  method does not exist'. self
