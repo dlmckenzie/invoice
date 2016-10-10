@@ -1,0 +1,22 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testFirstIsValid_answersFalseForInvalidFirstName" : "DaveMcKenzie 10/10/2016 10:37",
+		"testFirstIsValid_answersFalseIfValidateFirstNotYetCalled" : "DaveMcKenzie 10/10/2016 10:33",
+		"testFirstIsValid_answersTrueForEmptyFirstName" : "DaveMcKenzie 10/10/2016 10:37",
+		"testFirstIsValid_answersTrueForValidFirstName" : "DaveMcKenzie 10/7/2016 17:08",
+		"testInitializeWithFirstLast_interface" : "DaveMcKenzie 10/7/2016 14:47",
+		"testInitializeWithFirstLast_savesArguments" : "DaveMcKenzie 10/7/2016 16:02",
+		"testIsValid_answersFalseForInvalidLastName" : "DaveMcKenzie 10/8/2016 22:34",
+		"testIsValid_answersTrueForValidName" : "DaveMcKenzie 10/7/2016 17:05",
+		"testLastIsValid_answersFalseForInValidLastName" : "DaveMcKenzie 10/10/2016 10:06",
+		"testLastIsValid_answersFalseIfValidateLastNotYetCalled" : "DaveMcKenzie 10/10/2016 10:30",
+		"testLastIsValid_answersTrueForValidLastName" : "DaveMcKenzie 10/7/2016 17:08",
+		"testNewWithFirstLast_interface" : "DaveMcKenzie 10/7/2016 14:44",
+		"testValidateFirst_interface" : "DaveMcKenzie 10/7/2016 16:10",
+		"testValidateFirst_setsIsValidToFalseForInvalidFirstName" : "DaveMcKenzie 10/8/2016 22:46",
+		"testValidateFirst_setsIsValidToTrueForValidFirstName" : "DaveMcKenzie 10/8/2016 00:41",
+		"testValidateLast_interface" : "DaveMcKenzie 10/7/2016 16:10",
+		"testValidate_interface" : "DaveMcKenzie 10/7/2016 16:07",
+		"testisValid_interface" : "DaveMcKenzie 10/10/2016 10:10" } }
