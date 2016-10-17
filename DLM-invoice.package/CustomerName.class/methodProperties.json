@@ -4,10 +4,10 @@
 	"instance" : {
 		"first" : "DaveMcKenzie 10/7/2016 16:01",
 		"firstIsValid" : "DaveMcKenzie 10/10/2016 10:33",
-		"initializeWithFirst:Last:" : "DaveMcKenzie 10/7/2016 16:00",
-		"isValid" : "DaveMcKenzie 10/10/2016 10:12",
+		"identityIsValid" : "DaveMcKenzie 10/17/2016 10:22",
+		"initializeWithFirst:Last:" : "DaveMcKenzie 10/17/2016 11:37",
 		"last" : "DaveMcKenzie 10/7/2016 16:01",
-		"lastIsValid" : "DaveMcKenzie 10/10/2016 10:32",
-		"validate" : "DaveMcKenzie 10/10/2016 10:09",
-		"validateFirst" : "DaveMcKenzie 10/9/2016 21:20",
-		"validateLast" : "DaveMcKenzie 10/10/2016 10:04" } }
+		"lastIsValid" : "DaveMcKenzie 10/17/2016 10:56",
+		"validateFirst" : "DaveMcKenzie 10/17/2016 11:09",
+		"validateForIdentity" : "DaveMcKenzie 10/17/2016 11:30",
+		"validateLast" : "DaveMcKenzie 10/17/2016 11:35" } }

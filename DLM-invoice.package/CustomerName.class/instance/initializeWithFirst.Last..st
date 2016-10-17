@@ -3,4 +3,5 @@ initializeWithFirst: aFirstNameString Last: aLastNameString
 	"initialize"
 
 	first := aFirstNameString.
-	last := aLastNameString
+	last := aLastNameString.
+	self validateForIdentity.

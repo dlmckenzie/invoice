@@ -2,10 +2,10 @@ validation
 validateLast
 	"validate last name"
 
-	last isString
-		ifFalse: [ lastIsValid := false ]
+	lastIsValid := last isString
+		ifFalse: [ false ]
 		ifTrue: [ last isEmptyOrNil
-				ifTrue: [ lastIsValid := false ]
+				ifTrue: [ false ]
 				ifFalse: [ (last includesSubstring: ',')
-						ifTrue: [ lastIsValid := false ]
-						ifFalse: [ lastIsValid := true ] ] ]
+						ifTrue: [ false ]
+						ifFalse: [ true ] ] ]

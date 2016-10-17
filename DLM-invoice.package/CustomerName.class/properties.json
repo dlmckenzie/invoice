@@ -8,9 +8,9 @@
 	"instvars" : [
 		"first",
 		"last",
-		"isValid",
 		"firstIsValid",
-		"lastIsValid" ],
+		"lastIsValid",
+		"identityIsValid" ],
 	"name" : "CustomerName",
 	"pools" : [
 		 ],

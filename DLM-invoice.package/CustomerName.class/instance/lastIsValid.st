@@ -1,4 +1,3 @@
-validation
+accessors
 lastIsValid
-	lastIsValid ifNil: [ ^ false ]
-	ifNotNil: [ ^ lastIsValid  ]
+	lastIsValid ifNil: [ ^ false ] ifNotNil: [ ^ lastIsValid  ]

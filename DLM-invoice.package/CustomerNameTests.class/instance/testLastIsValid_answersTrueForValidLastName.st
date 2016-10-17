@@ -5,4 +5,4 @@ testLastIsValid_answersTrueForValidLastName
 	| name |
 	name := CustomerName newWithFirst: 'Joe' Last: 'Smith'.
 	name validateLast .
-	self assert: [ name lastIsValid ] description: 'First name incorrectly marked as invalid'
+	self assert: [ name lastIsValid ] description: 'Last name incorrectly marked as invalid'
