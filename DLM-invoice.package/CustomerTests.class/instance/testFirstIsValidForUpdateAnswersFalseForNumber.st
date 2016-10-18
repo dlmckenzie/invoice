@@ -1,4 +1,4 @@
-testing
+testing - edge cases
 testFirstIsValidForUpdateAnswersFalseForNumber
 	"method should answer false for number"
 

@@ -1,4 +1,4 @@
-testing
+testing - edge cases
 testFirstIsValidForIdentityAnswersFalseForNumber
 	"answers false if first is number"
 	

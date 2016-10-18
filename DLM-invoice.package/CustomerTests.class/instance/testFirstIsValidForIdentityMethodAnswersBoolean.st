@@ -1,4 +1,4 @@
-testing
+testing - interface
 testFirstIsValidForIdentityMethodAnswersBoolean
 	"test that method answers boolean"
 	

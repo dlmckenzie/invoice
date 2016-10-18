@@ -1,4 +1,4 @@
-testing
+testing - interface
 testFirstIsValidForUpdateAccepts1Arg
 	"method should accept one argument (new first name)"
 

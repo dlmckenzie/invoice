@@ -7,10 +7,10 @@ buildSuccessMsg
 		nextPutAll: 'Customer added:';
 		cr;
 		nextPutAll: '	First name: ';
-		nextPutAll: cust first;
+		nextPutAll: cust name first;
 		cr;
 		nextPutAll: '	Last name: ';
-		nextPutAll: cust last;
+		nextPutAll: cust name last;
 		cr;
 		nextPutAll: '	Cust ID: ';
 		nextPutAll: cust id asString;

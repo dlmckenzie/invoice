@@ -1,5 +1,5 @@
-testing
-testGenerateNewIDSetsNextIdTo1OnIntialRun
+testing - edge cases
+testGenerateNextID_setsNextIdTo1OnIntialRun
 	"On first execution, this should set nextID to 1"
 
 	self

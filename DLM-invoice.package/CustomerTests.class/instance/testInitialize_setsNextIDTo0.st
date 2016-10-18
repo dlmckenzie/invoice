@@ -1,5 +1,5 @@
 testing
-testInitializeSetsNextIDTo0
+testInitialize_setsNextIDTo0
 	"test that initialize sets nextID to 0"
 
 	Customer  initialize. 

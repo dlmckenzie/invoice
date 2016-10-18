@@ -1,4 +1,4 @@
-testing
+testing - happy path
 testFirstIsValidForUpdateAnswersTrueForNewName
 	"answers true if first is valid for update"
 	

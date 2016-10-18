@@ -1,4 +1,4 @@
-testing
+testing - interface
 testFirstInterface
 	"test method accepts 1 argument"
 	

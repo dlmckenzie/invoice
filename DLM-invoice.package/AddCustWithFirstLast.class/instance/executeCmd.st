@@ -2,10 +2,12 @@ action
 executeCmd
 	"execute the command"
 
-	self validate.
-	validArguments
-		ifTrue: [ cust := Customer newWithFirst: first Last: last.
+	name := CustomerName newWithFirst: first Last: last.
+	name validateForIdentity.
+	name identityIsValid
+		ifTrue: [ cust := Customer newWithName: name.
 			Application customers addCust: cust.
 			self buildSuccessMsg ]
-		ifFalse: [ self buildFailureMsg ].
-	self displayResult 
+		ifFalse: [ validationFailureReason := 'First and/or last name not valid - customer not added.'.
+			 self buildFailureMsg ].
+	self displayResult

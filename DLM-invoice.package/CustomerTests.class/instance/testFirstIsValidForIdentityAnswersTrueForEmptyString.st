@@ -1,4 +1,4 @@
-testing
+testing - edge cases
 testFirstIsValidForIdentityAnswersTrueForEmptyString
 	"answers true if first is non-zero length string"
 	

@@ -4,5 +4,5 @@ testIdentityIsValid_interface
 		assert: [ CustomerName new respondsTo: #identityIsValid ]
 		description: 'CustomerName identityIsValid method does not exist'.
 	self
-		assert: [ CustomerName new identityIsValid isKindOf: Boolean ]
+		assert: [ (CustomerName newWithFirst: 'Joe' Last: 'Smith')  identityIsValid isKindOf: Boolean ]
 		description: 'method did not answer with a Boolean'

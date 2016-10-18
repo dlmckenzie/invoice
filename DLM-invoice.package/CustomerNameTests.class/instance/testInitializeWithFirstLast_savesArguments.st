@@ -2,7 +2,7 @@ testing - happy path
 testInitializeWithFirstLast_savesArguments
 	"test that arguments get saved"
 
-	| name first |
+	| name first last|
 	first := 'Joe'.
 	last := 'Smith'.
 	name := CustomerName new.

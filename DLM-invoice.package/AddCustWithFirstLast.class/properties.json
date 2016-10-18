@@ -8,7 +8,8 @@
 	"instvars" : [
 		"first",
 		"last",
-		"cust" ],
+		"cust",
+		"name" ],
 	"name" : "AddCustWithFirstLast",
 	"pools" : [
 		 ],

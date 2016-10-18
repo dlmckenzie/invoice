@@ -1,4 +1,4 @@
-testing
+testing - edge cases
 testFirstIsValidForIdentityAnswersFalseForNil
 	"answers false if first is nil"
 	

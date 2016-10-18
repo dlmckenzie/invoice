@@ -1,4 +1,4 @@
-testing
+testing - interface
 testClassLastIsValidForIdentityExists
 	"confirm class method exists"
 	

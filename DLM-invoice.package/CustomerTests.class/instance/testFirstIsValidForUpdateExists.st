@@ -1,4 +1,4 @@
-testing
+testing - interface
 testFirstIsValidForUpdateExists
 	"test existance of method"
 	

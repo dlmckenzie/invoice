@@ -1,4 +1,4 @@
-testing
+testing - interface
 testFirstIsValidForIdentityMethodExists
 	"test existance of method"
 	

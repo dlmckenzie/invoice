@@ -1,4 +1,4 @@
-testing
+testing - interface
 testFirstIsValidForIdentityAccepts1arg
 	"test that method firstIsValidForIdentity accepts 1 arguments"
 	

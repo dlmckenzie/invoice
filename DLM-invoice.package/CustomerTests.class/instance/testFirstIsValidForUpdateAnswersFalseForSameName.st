@@ -1,4 +1,4 @@
-testing
+testing - edge cases
 testFirstIsValidForUpdateAnswersFalseForSameName
 	"answers true if first is valid for update"
 	

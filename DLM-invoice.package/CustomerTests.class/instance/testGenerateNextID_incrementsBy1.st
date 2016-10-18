@@ -1,5 +1,5 @@
-testing
-testGenerateNextIDIncrementsBy1
+testing - happy path
+testGenerateNextID_incrementsBy1
 	"Each execute should answer ID incremented by 1"
 
 	self

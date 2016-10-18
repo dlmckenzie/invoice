@@ -8,9 +8,9 @@
 	"commentStamp" : "DaveMcKenzie 2/14/2016 09:42",
 	"instvars" : [
 		"id",
+		"name",
 		"first",
 		"last",
-		"allInvoices",
 		"invoices" ],
 	"name" : "Customer",
 	"pools" : [

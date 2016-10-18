@@ -3,11 +3,11 @@
 		"newWithFirst:Last:" : "DaveMcKenzie 10/7/2016 14:41" },
 	"instance" : {
 		"first" : "DaveMcKenzie 10/7/2016 16:01",
-		"firstIsValid" : "DaveMcKenzie 10/10/2016 10:33",
-		"identityIsValid" : "DaveMcKenzie 10/17/2016 10:22",
+		"firstIsValid" : "DaveMcKenzie 10/18/2016 08:37",
+		"identityIsValid" : "DaveMcKenzie 10/18/2016 08:37",
 		"initializeWithFirst:Last:" : "DaveMcKenzie 10/17/2016 11:37",
 		"last" : "DaveMcKenzie 10/7/2016 16:01",
-		"lastIsValid" : "DaveMcKenzie 10/17/2016 10:56",
+		"lastIsValid" : "DaveMcKenzie 10/18/2016 08:37",
 		"validateFirst" : "DaveMcKenzie 10/17/2016 11:09",
 		"validateForIdentity" : "DaveMcKenzie 10/17/2016 11:30",
 		"validateLast" : "DaveMcKenzie 10/17/2016 11:35" } }

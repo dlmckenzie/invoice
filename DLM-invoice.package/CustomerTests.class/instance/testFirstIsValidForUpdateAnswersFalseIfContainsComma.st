@@ -1,4 +1,4 @@
-testing
+testing - edge cases
 testFirstIsValidForUpdateAnswersFalseIfContainsComma
 	"method should answer false for name that contains comma"
 
