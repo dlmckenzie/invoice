@@ -3,4 +3,5 @@ initializeWithID: anID Name: aName
 	"answers an initialized customer"
 
 	id := anID.
-	name := aName
+	name := aName.
+	invoices := self class invoices

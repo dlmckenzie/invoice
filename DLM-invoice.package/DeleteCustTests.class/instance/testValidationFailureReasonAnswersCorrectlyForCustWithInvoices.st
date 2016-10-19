@@ -5,7 +5,7 @@ testValidationFailureReasonAnswersCorrectlyForCustWithInvoices
 	app start.
 	cli := CLI new.
 	cli start: app.
-	cust := app customers addCust: (Customer newWithFirst: 'Joe' Last: 'Smith').
+	cust := app customers addCust: (Customer newWithName: (CustomerName newWithFirst: 'Joe' Last: 'Smith')).
 	custID := cust id.
 	invoice := Invoice newWithCust: cust.
 	app invoices addInvoice: invoice.

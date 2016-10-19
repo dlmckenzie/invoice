@@ -7,7 +7,7 @@ testValidateKeepsValidationFailureReasonNilWhenAllValidationsPass
 	app start.
 	cli := CLI new.
 	cli start: app.
-	cust := Customer newWithFirst: 'Sam' Last: 'Barry'.
+	cust := Customer newWithName: (CustomerName newWithFirst: 'Sam' Last: 'Barry').
 	app customers addCust: cust.
 	cmd := DeleteCust newWithID: cust id.
 	cmd validate.

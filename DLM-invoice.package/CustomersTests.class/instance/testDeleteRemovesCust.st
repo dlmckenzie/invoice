@@ -4,9 +4,7 @@ testDeleteRemovesCust
 
 	| customers cust |
 	customers := Customers new.
-	cust := Customer newWithFirst: 'Julie' Last: 'Andrews'.
+	cust := (Customer newWithName: (CustomerName newWithFirst: 'Lisa' Last: 'Smith')).
 	customers addCust: cust.
 	customers delete: cust.
-	self
-		deny: [ customers includesKey: cust id ]
-		description: 'cust not removed from customers'
+	self deny: [ customers includesKey: cust id ] description: 'cust not removed from customers'

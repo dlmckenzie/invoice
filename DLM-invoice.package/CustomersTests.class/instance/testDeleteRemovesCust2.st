@@ -5,7 +5,7 @@ testDeleteRemovesCust2
 	| app cust |
 	app := App new.
 	app start.
-	cust := Customer newWithFirst: 'Julie' Last: 'Andrews'.
+	cust := (Customer newWithName: (CustomerName newWithFirst: 'Lisa' Last: 'Smith')).
 	app customers addCust: cust.
 	app customers delete: cust.
 	self deny: [ app customers includesKey: cust id ] description: 'cust not removed from customers'

@@ -7,11 +7,10 @@ testNoAssociatedInvoicesAnswersFalseWhenCustHasInvoices
 	app start.
 	cli := CLI new.
 	cli start: app.
-	c := app customers addCust: (Customer newWithFirst: 'Joe' Last: 'Smith').
+	c := app customers addCust: (Customer newWithName: (CustomerName newWithFirst: 'Joe' Last: 'Smith')).
 	invoice := Invoice newWithCust: c.
 	app invoices addInvoice: invoice.
 	custID := c id.
-
 	self
 		deny: [ (DeleteCust newWithID: custID) noAssociatedInvoices ]
 		description: 'method should answer false'

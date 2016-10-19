@@ -7,7 +7,7 @@ testNoAssociatedInvoicesAnswersTrueWhenCustHasNoInvoices
 	app start.
 	cli := CLI new.
 	cli start: app.
-	id := (app customers addCust: (Customer newWithFirst: 'Joe' Last: 'Smith')) id.
+	id := (app customers addCust: (Customer newWithName: (CustomerName newWithFirst: 'Joe' Last: 'Smith'))) id.
 	self
-		assert: [ (DeleteCust newWithID: id) noAssociatedInvoices  ]
+		assert: [ (DeleteCust newWithID: id) noAssociatedInvoices ]
 		description: 'method must answer boolean'

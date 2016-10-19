@@ -7,7 +7,7 @@ testExecuteCmdDoesntDeleteCustWhenValidationFails
 	app start.
 	cli := CLI new.
 	cli start: app.
-	app customers addCust: (Customer newWithFirst: 'Sara' Last: 'Smith').
+	app customers addCust: (Customer newWithName: (CustomerName newWithFirst: 'Sara' Last: 'Smith')).
 	self assert: [ app customers size = 1 ] description: 'customer not added'.
 	cmd := DeleteCust newWithID: 0.
 	cmd executeCmd.

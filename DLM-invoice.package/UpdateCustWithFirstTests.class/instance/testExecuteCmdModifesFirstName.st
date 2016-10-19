@@ -8,7 +8,7 @@ testExecuteCmdModifesFirstName
 	cli := CLI new.
 	cli start: app.
 	newFirst := 'Joe'.
-	cust := Customer newWithFirst: 'Joey' Last: 'Smith'.
+	cust := Customer newWithName: (CustomerName newWithFirst: 'Joey' Last: 'Smith').
 	app customers addCust: cust.
 	cmd := UpdateCustWithFirst newWithCust: cust id First: newFirst.
 	cmd executeCmd.

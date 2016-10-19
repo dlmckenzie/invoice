@@ -2,9 +2,12 @@ action
 executeCmd
 	"execute the command"
 
-	self validate.
+	"self validate.
 	validArguments
 		ifTrue: [ cust first: first.
 			self buildSuccessMsg ]
-		ifFalse: [ self buildFailureMsg].
-	self displayResult
+		ifFalse: [ self buildFailureMsg ].
+	self displayResult"
+
+	name := CustomerName newWithFirst: first Last: nil. 
+	

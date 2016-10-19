@@ -6,8 +6,8 @@
 		"testAddCustWithFirstLast_addsCustWithEmptyFirstName" : "DaveMcKenzie 10/7/2016 12:00",
 		"testAddCustWithFirstLast_interface" : "DaveMcKenzie 10/7/2016 12:00",
 		"testAddCustWithFirstLast_preventsAddingCustWithEmptyLastName" : "DaveMcKenzie 10/7/2016 12:01",
-		"testDeleteCust_deletesCustThatPassesValidation" : "DaveMcKenzie 10/7/2016 12:01",
-		"testDeleteCust_doesNotDeleteCustThatFailsValidation" : "DaveMcKenzie 10/7/2016 12:01",
+		"testDeleteCust_deletesCustThatPassesValidation" : "DaveMcKenzie 10/18/2016 15:53",
+		"testDeleteCust_doesNotDeleteCustThatFailsValidation" : "DaveMcKenzie 10/19/2016 00:52",
 		"testDeleteCust_interface" : "DaveMcKenzie 10/7/2016 12:01",
 		"testSearchCustByLast_interface" : "DaveMcKenzie 10/7/2016 12:02",
 		"testStart_interface" : "DaveMcKenzie 10/7/2016 12:02" } }

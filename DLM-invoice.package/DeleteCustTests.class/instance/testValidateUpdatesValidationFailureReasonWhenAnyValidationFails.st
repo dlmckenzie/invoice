@@ -7,8 +7,10 @@ testValidateUpdatesValidationFailureReasonWhenAnyValidationFails
 	app start.
 	cli := CLI new.
 	cli start: app.
-	cust := Customer newWithFirst: 'Sam' Last: 'Barry'.
+	cust := Customer newWithName: (CustomerName newWithFirst: 'Sam' Last: 'Barry').
 	app customers addCust: cust.
 	cmd := DeleteCust newWithID: -1.
 	cmd validate.
-	self deny: [ cmd validationFailureReason isNil ] description: 'validationFailureReason should contain failure reason'
+	self
+		deny: [ cmd validationFailureReason isNil ]
+		description: 'validationFailureReason should contain failure reason'

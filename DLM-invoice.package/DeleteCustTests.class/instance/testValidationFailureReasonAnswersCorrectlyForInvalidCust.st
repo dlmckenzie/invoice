@@ -1,12 +1,13 @@
 testing
 testValidationFailureReasonAnswersCorrectlyForInvalidCust
-	| app cli cust custID cmd |
+	| app cli cmd |
 	app := App new.
 	app start.
 	cli := CLI new.
 	cli start: app.
-	cust := app customers addCust: (Customer newWithFirst: 'Joe' Last: 'Smith').
-	custID := cust id.
+	"cust :="
+	app customers addCust: (Customer newWithName: (CustomerName newWithFirst: 'Joe' Last: 'Smith')).
+	"custID := cust id."
 	cmd := DeleteCust newWithID: 999.
 	cmd validate.
 	self

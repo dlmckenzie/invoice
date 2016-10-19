@@ -4,7 +4,7 @@ testRetrieveByLastNameWorksOnFullStringMatch
 
 	| customers id last cust |
 	last := 'Richardson'.
-	cust := Customer newWithFirst: 'Joe' Last: last. 
+	cust := (Customer newWithName: (CustomerName newWithFirst: 'Lisa' Last: last)).
 	customers := Customers new.
 	customers addCust: cust.
 	id := cust id.
