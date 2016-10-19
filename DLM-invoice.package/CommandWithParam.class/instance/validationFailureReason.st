@@ -1,4 +1,4 @@
-validation
+private-validation
 validationFailureReason
 
 	validArguments isNil

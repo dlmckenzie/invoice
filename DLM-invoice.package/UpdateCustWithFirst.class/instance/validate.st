@@ -1,4 +1,4 @@
-validation
+private-validation
 validate
 	validArguments := true.
 		self validateCust.

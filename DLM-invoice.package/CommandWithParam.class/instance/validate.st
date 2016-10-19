@@ -1,3 +1,3 @@
-validation
+private-validation
 validate
 	^ self subclassResponsibility

@@ -4,3 +4,5 @@ initializeWithFirst: aFirstNameString Last: aLastNameString
 
 	first := aFirstNameString.
 	last := aLastNameString.
+	name := CustomerName newWithFirst: first Last: last.
+	self validate.

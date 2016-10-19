@@ -1,11 +1,11 @@
-validation
+private-validation
 validateFirst
 	"comment"
 
-	(Customer firstIsValidForIdentity: first)
+	(cust name firstIsValid )
 		ifTrue: [ first = origFirst
 				ifTrue: [ validationFailureReason := 'New first name matches current name'.
 					validArguments := false ]
 				ifFalse: [ ^ self ] ]
-		ifFalse: [ 	validationFailureReason := 'Invalid first name'.
-	validArguments := false ]
+		ifFalse: [ validationFailureReason := 'Invalid first name'.
+			validArguments := false ]

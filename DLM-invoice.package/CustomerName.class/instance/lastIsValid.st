@@ -1,3 +1,3 @@
-accessors
+private-validation
 lastIsValid
 	^ lastIsValid

@@ -9,8 +9,7 @@
 		"id",
 		"first",
 		"cust",
-		"origFirst",
-		"name" ],
+		"origFirst" ],
 	"name" : "UpdateCustWithFirst",
 	"pools" : [
 		 ],

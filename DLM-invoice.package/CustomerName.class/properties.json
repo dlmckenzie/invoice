@@ -10,7 +10,8 @@
 		"last",
 		"firstIsValid",
 		"lastIsValid",
-		"identityIsValid" ],
+		"identityIsValid",
+		"identityValidationFailureReason" ],
 	"name" : "CustomerName",
 	"pools" : [
 		 ],
