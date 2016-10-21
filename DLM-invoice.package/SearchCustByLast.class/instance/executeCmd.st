@@ -2,8 +2,6 @@ action
 executeCmd
 	"execute the command"
 
-	
-	self validate.
 	validArguments
 		ifTrue: [ queryResult := Application customers retrieveByLastName: searchString.
 			self buildSuccessMsg ]

@@ -1,5 +1,6 @@
 initialization
 initializeWithLast: aString
 	"initialize myself"
-	
-	searchString := aString
+
+	searchString := aString.
+	self validate.

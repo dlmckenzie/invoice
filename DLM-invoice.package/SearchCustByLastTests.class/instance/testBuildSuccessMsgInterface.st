@@ -2,7 +2,11 @@ testing
 testBuildSuccessMsgInterface
 	"test method interface"
 
-	| cmd |
+	| cmd app cli|
+	app := App new.
+	app start.
+	cli := CLI new.
+	cli start: app.
 	self
 		assert: [ SearchCustByLast new respondsTo: #buildSuccessMsg ]
 		description: 'SearchCustByLast buildSuccessMsg method does not exist'.
