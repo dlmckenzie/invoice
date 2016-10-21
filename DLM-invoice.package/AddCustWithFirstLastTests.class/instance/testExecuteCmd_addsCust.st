@@ -1,5 +1,5 @@
 testing
-testExecuteCmdAddsCust
+testExecuteCmd_addsCust
 	"test happy path - method adds customer to customers"
 
 	| app cmd cli |

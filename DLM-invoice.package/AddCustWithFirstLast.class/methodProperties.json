@@ -2,10 +2,10 @@
 	"class" : {
 		"newWithFirst:Last:" : "DaveMcKenzie 9/14/2016 09:13" },
 	"instance" : {
-		"buildFailureMsg" : "DaveMcKenzie 10/19/2016 11:09",
+		"buildFailureMsg" : "DaveMcKenzie 10/19/2016 19:55",
 		"buildSuccessMsg" : "DaveMcKenzie 10/18/2016 11:57",
-		"executeCmd" : "DaveMcKenzie 10/19/2016 10:32",
+		"executeCmd" : "DaveMcKenzie 10/19/2016 14:29",
 		"first" : "DaveMcKenzie 9/6/2016 12:22",
 		"initializeWithFirst:Last:" : "DaveMcKenzie 10/19/2016 10:27",
 		"last" : "DaveMcKenzie 9/6/2016 12:22",
-		"validate" : "DaveMcKenzie 10/19/2016 10:59" } }
+		"validate" : "DaveMcKenzie 10/21/2016 00:23" } }

@@ -1,3 +1,3 @@
-private-validation
+accessing
 firstIsValid
 	^ firstIsValid 

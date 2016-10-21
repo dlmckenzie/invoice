@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "DaveMcKenzie 9/21/2016 10:11",
 	"instvars" : [
-		"id" ],
+		"id",
+		"cust" ],
 	"name" : "DeleteCust",
 	"pools" : [
 		 ],

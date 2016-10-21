@@ -11,7 +11,9 @@
 		"name",
 		"first",
 		"last",
-		"invoices" ],
+		"invoices",
+		"validForDeletion",
+		"attachedInvoices" ],
 	"name" : "Customer",
 	"pools" : [
 		 ],

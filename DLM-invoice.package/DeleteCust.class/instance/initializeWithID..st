@@ -1,5 +1,7 @@
 initialization
 initializeWithID: aCustID
 	"initialize myself"
-	
-	id := aCustID
+
+	id := aCustID.
+	cust := Application customers retrieveByID: id.
+	self validate

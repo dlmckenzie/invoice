@@ -1,5 +1,5 @@
 testing
-testNewWithFirstLastInterface
+testNewWithFirstLast_interface
 	"test method interface"
 
 	self

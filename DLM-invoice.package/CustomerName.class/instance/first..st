@@ -1,3 +1,3 @@
-accessors
+accessing
 first: aString 
 	first := aString

@@ -1,4 +1,4 @@
-validation
+deprecated
 firstIsValidForUpdate: aString
 	"answer true/false as to whether aString is a valid update to customer's name"
 

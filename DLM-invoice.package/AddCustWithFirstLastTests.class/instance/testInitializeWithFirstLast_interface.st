@@ -1,5 +1,5 @@
 testing
-testInitializeWithFirstLastInterface
+testInitializeWithFirstLast_interface
 	"test method interface"
 
 	| cmd |

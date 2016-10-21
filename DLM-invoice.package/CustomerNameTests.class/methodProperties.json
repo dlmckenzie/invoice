@@ -5,7 +5,6 @@
 		"testFirstIsValid_answersFalseForInvalidFirstName" : "DaveMcKenzie 10/10/2016 10:37",
 		"testFirstIsValid_answersTrueForEmptyFirstName" : "DaveMcKenzie 10/10/2016 10:37",
 		"testFirstIsValid_answersTrueForValidFirstName" : "DaveMcKenzie 10/7/2016 17:08",
-		"testIdentityIsValid_interface" : "DaveMcKenzie 10/18/2016 08:38",
 		"testInitializeWithFirstLast_interface" : "DaveMcKenzie 10/7/2016 14:47",
 		"testInitializeWithFirstLast_savesArguments" : "DaveMcKenzie 10/18/2016 09:35",
 		"testLastIsValid_answersFalseForInValidLastName" : "DaveMcKenzie 10/10/2016 10:06",
@@ -16,8 +15,5 @@
 		"testValidateFirst_setsFirstIsValidToTrueForValidFirstName" : "DaveMcKenzie 10/17/2016 10:31",
 		"testValidateFirst_setsIsValidToFalseForInvalidFirstName" : "DaveMcKenzie 10/8/2016 22:46",
 		"testValidateFirst_setsLastIsValidToFalseForInvalidLastName" : "DaveMcKenzie 10/17/2016 10:27",
-		"testValidateForIdentity_interface" : "DaveMcKenzie 10/17/2016 09:34",
-		"testValidateForIdentity_setsIdentityIsValidToFalseForInvalidName" : "DaveMcKenzie 10/17/2016 11:21",
-		"testValidateForIdentity_setsIdentityIsValidToTrueForValidName" : "DaveMcKenzie 10/17/2016 10:44",
 		"testValidateLast_interface" : "DaveMcKenzie 10/12/2016 00:56",
 		"testValidateLast_setsLastIsValidToTrueForValidLastName" : "DaveMcKenzie 10/17/2016 10:37" } }

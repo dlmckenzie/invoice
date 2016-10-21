@@ -1,5 +1,5 @@
 testing
-testInitializeWithFirstLastAppAcceptsEmtpyAgs
+testInitializeWithFirstLast_acceptsEmtpyAgs
 	"method accepts empty arguments"
 
 	| cmd first last |

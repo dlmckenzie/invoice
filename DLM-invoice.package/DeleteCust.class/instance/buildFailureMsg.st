@@ -1,4 +1,4 @@
-printing
+private-printing
 buildFailureMsg
 	"print msg confirming unsuccessful execution of command"
 

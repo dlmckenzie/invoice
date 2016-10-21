@@ -1,4 +1,4 @@
-validation
+deprecated
 okToDelete
 	self associatedWithInvoices 
 		ifTrue: [ ^ false ]

@@ -1,0 +1,3 @@
+accessing
+lastValidationError
+	^ lastValidationError

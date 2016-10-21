@@ -1,11 +1,14 @@
-private-validation
+validation
 validateLast
 	"validate last name"
 
-	lastIsValid := last isString
-		ifFalse: [ false ]
+	last isString
+		ifFalse: [ lastIsValid := false.
+			lastValidationError := 'Last name must be a string.' ]
 		ifTrue: [ last isEmptyOrNil
-				ifTrue: [ false ]
+				ifTrue: [ lastIsValid := false.
+					lastValidationError := 'Last name may not be empty.' ]
 				ifFalse: [ (last includesSubstring: ',')
-						ifTrue: [ false ]
-						ifFalse: [ true ] ] ]
+						ifTrue: [ lastIsValid := false.
+							lastValidationError := 'Last name may not contain a comma' ]
+						ifFalse: [ lastIsValid := true. lastValidationError := '' ] ] ]

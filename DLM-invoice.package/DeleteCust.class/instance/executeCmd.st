@@ -2,12 +2,9 @@ action
 executeCmd
 	"execute the command"
 
-	| cust |
-	self validate.
 	
 	validArguments
-		ifTrue: [ cust := Application customers retrieveByID: id.
-	
+		ifTrue: [ 
 			Application customers delete: cust.
 			self buildSuccessMsg ]
 		ifFalse: [ self buildFailureMsg ].

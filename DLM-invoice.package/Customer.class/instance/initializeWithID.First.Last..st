@@ -1,4 +1,4 @@
-instance initialization
+initialization
 initializeWithID: anInteger First: aString Last: aString2
 	"answer customer initialized with id, first and last name."
 

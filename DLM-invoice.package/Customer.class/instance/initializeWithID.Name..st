@@ -1,4 +1,4 @@
-instance initialization
+initialization
 initializeWithID: anID Name: aName
 	"answers an initialized customer"
 

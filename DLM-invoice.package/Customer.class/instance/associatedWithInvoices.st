@@ -1,4 +1,4 @@
-accessing
+deprecated
 associatedWithInvoices
 	| b returnValue |
 	b := (invoices select: [ :a | a customer = self ]) size.
