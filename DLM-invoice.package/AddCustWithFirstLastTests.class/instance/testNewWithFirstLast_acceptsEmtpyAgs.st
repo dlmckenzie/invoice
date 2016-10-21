@@ -1,4 +1,4 @@
-testing
+testing - edge cases
 testNewWithFirstLast_acceptsEmtpyAgs
 	"method accepts empty arguments"
 

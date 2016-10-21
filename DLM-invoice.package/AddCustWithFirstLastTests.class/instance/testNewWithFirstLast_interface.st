@@ -1,4 +1,4 @@
-testing
+testing - interface
 testNewWithFirstLast_interface
 	"test method interface"
 

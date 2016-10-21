@@ -1,4 +1,4 @@
-testing
+testing - happy path
 testValidCustAnswersTrueForValidID
 	"test that validID answers true for an existing CustID"
 

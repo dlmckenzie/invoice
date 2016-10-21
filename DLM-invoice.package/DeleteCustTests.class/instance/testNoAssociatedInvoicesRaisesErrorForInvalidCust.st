@@ -1,4 +1,4 @@
-testing
+testing - exceptions
 testNoAssociatedInvoicesRaisesErrorForInvalidCust
 	"test method raises error for invalid cust"
 

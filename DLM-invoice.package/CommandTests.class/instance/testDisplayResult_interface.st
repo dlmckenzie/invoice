@@ -1,5 +1,5 @@
 testing - interface
-testDisplayResultInterface
+testDisplayResult_interface
 	"test method interface"
 
 	self

@@ -1,5 +1,5 @@
-testing
-testValidateInterface
+testing - interface
+testValidate_interface
 	"test method interface"
 
 	self

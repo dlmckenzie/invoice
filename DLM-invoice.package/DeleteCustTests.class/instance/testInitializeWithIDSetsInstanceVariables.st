@@ -1,4 +1,4 @@
-testing
+testing - happy path
 testInitializeWithIDSetsInstanceVariables
 	"happy path - test that instance variables are being set"
 

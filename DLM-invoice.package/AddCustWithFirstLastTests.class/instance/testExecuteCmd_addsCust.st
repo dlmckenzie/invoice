@@ -1,4 +1,4 @@
-testing
+testing - happy path
 testExecuteCmd_addsCust
 	"test happy path - method adds customer to customers"
 

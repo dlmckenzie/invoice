@@ -1,4 +1,4 @@
-testing
+testing - edge cases
 testValidateFirstName_answersFalseForInvalidFirstName
 	"Stubbed out as this test difficult to write"
 	

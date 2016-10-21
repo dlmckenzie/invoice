@@ -1,5 +1,5 @@
-testing
-testBuildFailureMsgInterface
+testing - interface
+testBuildFailureMsg_interface
 	"test method interface"
 
 	self

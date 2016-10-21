@@ -1,4 +1,4 @@
-testing
+testing - edge cases
 testExecuteCmdDoesntDeleteCustWhenValidationFails
 	"test happy path - method deletes cust when validation passes"
 

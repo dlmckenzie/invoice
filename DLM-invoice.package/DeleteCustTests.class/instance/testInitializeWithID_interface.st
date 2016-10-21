@@ -1,5 +1,5 @@
-testing
-testInitializeWithIDInterface
+testing - interface
+testInitializeWithID_interface
 
 	| cmd |
 	cmd := DeleteCust new.

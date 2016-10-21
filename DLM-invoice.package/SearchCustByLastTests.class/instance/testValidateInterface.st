@@ -1,4 +1,4 @@
-testing
+testing - interface
 testValidateInterface
 	self
 		assert: [ SearchCustByLast new respondsTo: #validate ]

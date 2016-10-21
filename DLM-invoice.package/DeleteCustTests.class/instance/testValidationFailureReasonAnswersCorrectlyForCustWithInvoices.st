@@ -1,4 +1,4 @@
-testing
+testing - edge cases
 testValidationFailureReasonAnswersCorrectlyForCustWithInvoices
 	| app cli cust custID cmd invoice |
 	app := App new.

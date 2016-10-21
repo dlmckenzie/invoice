@@ -1,4 +1,4 @@
-testing
+testing - interface
 testNewWithLastInterface
 	self
 		assert: [ SearchCustByLast respondsTo: #newWithLast: ]

@@ -1,4 +1,4 @@
-testing
+testing - edge cases
 testNoAssociatedInvoicesAnswersFalseWhenCustHasInvoices
 	"test method answers true when no invoices are associated with cust"
 

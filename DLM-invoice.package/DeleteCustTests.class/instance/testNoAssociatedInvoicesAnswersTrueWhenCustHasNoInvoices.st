@@ -1,4 +1,4 @@
-testing
+testing - happy path
 testNoAssociatedInvoicesAnswersTrueWhenCustHasNoInvoices
 	"test method answers true when no invoices are associated with cust"
 

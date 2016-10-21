@@ -1,5 +1,5 @@
-testing
-testValidateSetsValidArgumentsToFalseWhenAnyValidationFails
+testing - edge cases
+testValidate_setsValidArgumentsToFalseWhenAnyValidationFails
 	"needs comment"
 
 	| cmd |

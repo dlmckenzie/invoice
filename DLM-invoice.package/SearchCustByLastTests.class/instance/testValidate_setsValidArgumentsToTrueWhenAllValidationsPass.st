@@ -1,5 +1,5 @@
-testing
-testValidateSetsValidArgumentsToTrueWhenAllValidationsPass
+testing - happy path
+testValidate_setsValidArgumentsToTrueWhenAllValidationsPass
 	"ValidArguments should be set to true when all validations pass"
 
 	| cmd |

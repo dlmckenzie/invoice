@@ -1,4 +1,4 @@
-testing
+testing - interface
 testValidateArguments_interface
 	"test method interface"
 

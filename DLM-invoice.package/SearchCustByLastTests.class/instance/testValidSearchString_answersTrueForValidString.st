@@ -1,5 +1,5 @@
-testing
-testValidSearchStringAnswersTrueForValidString
+testing - happy path
+testValidSearchString_answersTrueForValidString
 	"comment"
 	
 	| cmd |

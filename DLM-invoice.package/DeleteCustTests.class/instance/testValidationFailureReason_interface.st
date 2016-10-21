@@ -1,5 +1,5 @@
-testing
-testValidationFailureReasonInterface
+testing - interface
+testValidationFailureReason_interface
 	"test method interface"
 
 	| cmd |

@@ -1,4 +1,4 @@
-testing
+testing - edge cases
 testValidateUpdatesValidationFailureReasonWhenAnyValidationFails
 	"test that validate updates validationFailureReason nil when any validation fails"
 

@@ -1,4 +1,4 @@
-testing
+testing - edge cases
 testValidArgumentsAnswersFalse_whenAnyArent
 	"test that validateArguments sets the ArgumentsAreValid instance variable 
 	to false when not all arguments are valid"

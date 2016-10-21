@@ -1,4 +1,4 @@
-testing
+testing - interface
 testValidSearchStringInterface
 	| cmd |
 	cmd := SearchCustByLast newWithLast: 'Smith'.

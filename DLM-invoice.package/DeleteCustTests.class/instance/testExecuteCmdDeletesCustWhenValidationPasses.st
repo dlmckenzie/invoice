@@ -1,4 +1,4 @@
-testing
+testing - happy path
 testExecuteCmdDeletesCustWhenValidationPasses
 	"test happy path - method deletes cust when validation passes"
 

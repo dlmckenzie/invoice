@@ -1,5 +1,5 @@
-testing
-testNoAssociatedInvoicesInterface
+testing - interface
+testNoAssociatedInvoices_interface
 	"test method interface"
 
 	| app cli id |

@@ -1,5 +1,5 @@
 testing - interface
-testExecuteCmdInterface
+testExecuteCmd_Interface
 	"test method interface"
 
 	self

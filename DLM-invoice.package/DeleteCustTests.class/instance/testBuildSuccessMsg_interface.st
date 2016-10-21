@@ -1,5 +1,5 @@
-testing
-testBuildSuccessMsgInterface
+testing - interface
+testBuildSuccessMsg_interface
 	"test method interface"
 
 	self

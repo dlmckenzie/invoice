@@ -1,5 +1,5 @@
-testing
-testValidateSetsValidationFailureReasonToNilWhenAllValidationsPass
+testing - happy path
+testValidate_setsValidationFailureReasonToNilWhenAllValidationsPass
 	"ValidationFailureReason should be set to nil when all validations pass"
 	| cmd |
 	cmd := SearchCustByLast newWithLast: 'Smith'.

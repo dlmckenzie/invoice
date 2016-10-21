@@ -1,4 +1,4 @@
-testing
+testing - edge cases
 testValidCustAnswersFalseForInvalidID
 	"test that validID answers false for a non-existant CustID"
 

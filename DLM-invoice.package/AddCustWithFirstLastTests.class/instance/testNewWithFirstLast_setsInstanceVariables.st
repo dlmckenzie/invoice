@@ -1,4 +1,4 @@
-testing
+testing - happy path
 testNewWithFirstLast_setsInstanceVariables
 	"happy path - test that instance variables are being set"
 

@@ -1,4 +1,4 @@
-testing
+testing - happy path
 testValidationFailureReasonAnwersNilForValidCmd
 	| app cli cust custID cmd |
 	app := App new.

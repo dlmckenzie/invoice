@@ -1,5 +1,5 @@
-testing
-testInitializeWithLastSetsInstanceVariables
+testing - happy path
+testInitializeWithLast_setsInstanceVariables
 	"happy path - test that instance variables are being set"
 
 	| cmd searchString |

@@ -1,4 +1,4 @@
-testing
+testing - edge cases
 testValidationFailureReasonAnswersCorrectlyForInvalidCust
 	| app cli cmd |
 	app := App new.

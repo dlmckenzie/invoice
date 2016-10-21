@@ -1,5 +1,5 @@
-testing
-testValidSearchStringAnswersFalseForNilSearchString
+testing - edge cases
+testValidSearchString_answersFalseForNilSearchString
 	"comment"
 
 	| cmd searchString |

@@ -1,4 +1,4 @@
-testing
+testing - interface
 testBuildFailureMsgInterface
 	"test method interface"
 

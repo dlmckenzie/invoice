@@ -1,5 +1,5 @@
-testing
-testValidationFailureReasonAnswersNilWhenValidationPasses
+testing - happy path
+testValidationFailureReason_answersNilWhenValidationPasses
 	"comment me"
 
 	| cmd |

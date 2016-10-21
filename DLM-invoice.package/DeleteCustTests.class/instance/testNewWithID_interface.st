@@ -1,5 +1,5 @@
-testing
-testNewWithIDInterface
+testing - interface
+testNewWithID_interface
 	self
 		assert: [ DeleteCust respondsTo: #newWithID: ]
 		description: 'DeleteCust newWithCust: method does not exist'.

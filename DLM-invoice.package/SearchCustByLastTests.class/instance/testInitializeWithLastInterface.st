@@ -1,4 +1,4 @@
-testing
+testing - interface
 testInitializeWithLastInterface
 	| cmd |
 	cmd := SearchCustByLast new.
