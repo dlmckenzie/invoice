@@ -8,4 +8,5 @@ validate
 			validArguments := false ]
 		ifTrue: [ self noAssociatedInvoices
 				ifFalse: [ validationFailureReason := 'Cust has associated invoices.'.
-					validArguments := false ] ]
+					validArguments := false ]
+				ifTrue: [ validArguments := true ] ]

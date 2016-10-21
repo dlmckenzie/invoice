@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"testBuildFailureMsgInterface" : "DaveMcKenzie 9/21/2016 12:14",
-		"testBuildSuccessMsgInterface" : "DaveMcKenzie 9/21/2016 11:49",
+		"testBuildSuccessMsgInterface" : "DaveMcKenzie 10/21/2016 00:46",
 		"testExecuteCmdDeletesCustWhenValidationPasses" : "DaveMcKenzie 10/19/2016 00:58",
 		"testExecuteCmdDoesntDeleteCustWhenValidationFails" : "DaveMcKenzie 10/19/2016 00:59",
 		"testExecuteCmdInterface" : "DaveMcKenzie 9/21/2016 11:17",
@@ -19,7 +19,6 @@
 		"testValidCustAnswersFalseForNilID" : "DaveMcKenzie 9/15/2016 00:06",
 		"testValidCustAnswersTrueForValidID" : "DaveMcKenzie 10/19/2016 01:16",
 		"testValidCustInterface" : "DaveMcKenzie 9/15/2016 11:31",
-		"testValidateFailureReasonRaisesErrorWhenValidateNotPreviouslyRun" : "DaveMcKenzie 10/19/2016 01:19",
 		"testValidateInterface" : "DaveMcKenzie 9/20/2016 13:18",
 		"testValidateKeepsValidationFailureReasonNilWhenAllValidationsPass" : "DaveMcKenzie 10/19/2016 01:20",
 		"testValidateUpdatesValidationFailureReasonWhenAnyValidationFails" : "DaveMcKenzie 10/19/2016 01:20",
