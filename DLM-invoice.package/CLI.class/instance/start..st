@@ -1,7 +1,6 @@
 interface - app
 start: anApp
 	Command initializeWithApp: anApp.
-	Parameter initializeWithApp: anApp.
 	World submorphs detect: [ :m | m model = Transcript ] ifNone: [ Transcript open ].
 	Transcript
 		clear;
