@@ -5,7 +5,7 @@
 		"testAddAddsCustToCustomers" : "DaveMcKenzie 10/19/2016 01:49",
 		"testAddExists" : "DaveMcKenzie 7/26/2016 11:05",
 		"testDeleteCustRaisesErrorIfAttachedToInvoice" : "DaveMcKenzie 10/19/2016 01:49",
-		"testDeleteDecreasesCustomersSizeBy1" : "DaveMcKenzie 9/22/2016 14:22",
+		"testDeleteDecreasesCustomersSizeBy1" : "DaveMcKenzie 10/24/2016 10:31",
 		"testDeleteRemovesCust" : "DaveMcKenzie 10/19/2016 01:50",
 		"testDeleteRemovesCust2" : "DaveMcKenzie 10/19/2016 01:50",
 		"testRetrieveAllWhenNoCustsAnswersEmptyDict" : "DaveMcKenzie 2/16/2016 23:27",
@@ -17,7 +17,7 @@
 		"testRetrieveByLastNameInterface" : "DaveMcKenzie 3/23/2016 12:10",
 		"testRetrieveByLastNameRaisesErrorOnEmptySearchString" : "DaveMcKenzie 3/24/2016 11:03",
 		"testRetrieveByLastNameRaisesErrorOnNumericSearchString" : "DaveMcKenzie 3/24/2016 11:09",
-		"testRetrieveByLastNameWorksOnFullStringMatch" : "DaveMcKenzie 10/19/2016 01:51",
-		"testRetrieveByLastNameWorksOnNoMatch" : "DaveMcKenzie 7/26/2016 11:05",
-		"testRetrieveByLastNameWorksOnSubstringMatchAtStart" : "DaveMcKenzie 7/26/2016 11:05",
-		"testRetrieveByLastNameWorksWithMultMatches" : "DaveMcKenzie 7/26/2016 11:05" } }
+		"testRetrieveByLastNameWorksOnFullStringMatch" : "DaveMcKenzie 10/24/2016 11:05",
+		"testRetrieveByLastNameWorksOnNoMatch" : "DaveMcKenzie 10/24/2016 11:06",
+		"testRetrieveByLastNameWorksOnSubstringMatchAtStart" : "DaveMcKenzie 10/24/2016 11:07",
+		"testRetrieveByLastNameWorksWithMultMatches" : "DaveMcKenzie 10/24/2016 11:09" } }

@@ -6,5 +6,5 @@ retrieveByLastName: aString
 		ifTrue: [ Error signal: 'invalid search string' ]
 		ifFalse: [ (aString isEmpty or: aString isNil)
 				ifTrue: [ Error signal: 'invalid search string' ]
-				ifFalse: [ ^ self select: [ :a | a last asLowercase includesSubstring: aString asLowercase ] ]
-			  "ifFalse: [ ^ self select: [ :a | aString , '*' match: a last ] ] ]" ]
+				ifFalse: [ ^ self select: [ :a | a name last asLowercase includesSubstring: aString asLowercase ] ]
+			"ifFalse: [ ^ self select: [ :a | aString , '*' match: a last ] ] ]" ]

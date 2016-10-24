@@ -4,10 +4,10 @@ testRetrieveByLastNameWorksOnFullStringMatch
 
 	| customers id last cust |
 	last := 'Richardson'.
-	cust := (Customer newWithName: (CustomerName newWithFirst: 'Lisa' Last: last)).
+	cust := Customer newWithName: (CustomerName newWithFirst: 'Lisa' Last: last).
 	customers := Customers new.
 	customers addCust: cust.
 	id := cust id.
 	self
-		assert: [ ((customers retrieveByLastName: last) at: id) last = last ]
+		assert: [ ((customers retrieveByLastName: last) at: id) name last = last ]
 		description: 'Failed to answer with cust matching last name'

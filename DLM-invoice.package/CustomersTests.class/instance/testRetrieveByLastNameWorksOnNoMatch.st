@@ -4,8 +4,8 @@ testRetrieveByLastNameWorksOnNoMatch
 
 	| customers cust |
 	customers := Customers new.
-	cust := Customer newWithFirst: 'Joe' Last: 'Richardson'.
+	cust := Customer newWithName: (CustomerName newWithFirst: 'Joe' Last: 'Richardson').
 	customers addCust: cust.
 	self
-		assert: [ (customers retrieveByLastName: 'Smith') size = 0 ]
+		assert: [ (customers retrieveByLastName: 'Smith') isEmpty  ]
 		description: 'Cust returned even though last name doesn''t match'
