@@ -1,4 +1,4 @@
-testing
+testing - happy path
 testInitialize_setsNextIDTo0
 	"test that initialize sets nextID to 0"
 

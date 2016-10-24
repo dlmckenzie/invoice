@@ -1,4 +1,4 @@
-testing
+testing - exceptions
 testNewWithFirstLastRaisesErrorOnNilLastName
 	"last name is required"
 

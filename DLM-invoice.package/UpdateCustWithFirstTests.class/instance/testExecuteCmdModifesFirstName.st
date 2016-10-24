@@ -1,4 +1,4 @@
-testing
+testing - happy path
 testExecuteCmdModifesFirstName
 	"test that last name gets modified"
 

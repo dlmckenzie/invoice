@@ -1,4 +1,4 @@
-testing
+testing - interface
 testUpdateFirstMethodRenamedToFirst
 	"test method updateFirst: was renamed to first:"
 	

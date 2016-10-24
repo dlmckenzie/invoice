@@ -1,4 +1,4 @@
-testing
+testing - interface
 testInitialize_interface
 	"method should answer self"
 

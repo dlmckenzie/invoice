@@ -1,15 +1,14 @@
-testing
+testing - happy path
 testDeletedCustIDNotReused
 	"test that deleted cust ids do not get reused"
 
-	| customers invoices cust id |
-	invoices := Invoices new.
+	| customers cust id |
 	customers := Customers new.
-	cust := Customer newWithFirst: 'Tom' Last: 'Reynolds'.
-	customers addCust: cust.
+	cust := Customer newWithName: (CustomerName newWithFirst: 'Tom' Last: 'Reynolds').
 	id := cust id.
+	customers addCust: cust.
 	customers delete: cust.
-	cust := Customer newWithFirst: 'Mindy' Last: 'Jones'.
+	cust := Customer newWithName: (CustomerName newWithFirst: 'Mindy' Last: 'Jones').
 	customers addCust: cust.
 	self
 		deny: [ customers includes: id ]

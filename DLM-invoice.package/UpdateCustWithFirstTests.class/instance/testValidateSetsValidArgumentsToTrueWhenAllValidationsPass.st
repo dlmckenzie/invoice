@@ -1,4 +1,4 @@
-testing
+testing - happy path
 testValidateSetsValidArgumentsToTrueWhenAllValidationsPass
 	"ValidArguments should be set to true when all validations pass"
 

@@ -1,4 +1,4 @@
-testing
+testing - interface
 testValidateCustInterface
 	"test method interface"
 

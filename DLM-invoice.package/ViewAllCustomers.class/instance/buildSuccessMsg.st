@@ -1,4 +1,4 @@
-printing
+private-printing
 buildSuccessMsg
 	"build message showing all customers"
 

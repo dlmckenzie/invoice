@@ -1,4 +1,4 @@
-testing
+testing - interface
 testNewWithCustFirst_interface
 	self
 		assert: [ UpdateCustWithFirst respondsTo: #newWithCust:First: ]

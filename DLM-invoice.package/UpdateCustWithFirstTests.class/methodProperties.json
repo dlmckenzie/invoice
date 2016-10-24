@@ -4,11 +4,11 @@
 	"instance" : {
 		"testExecuteCmdInterface" : "DaveMcKenzie 9/29/2016 14:52",
 		"testExecuteCmdModifesFirstName" : "DaveMcKenzie 10/19/2016 02:46",
-		"testInitializeWithCustFirstInterface" : "DaveMcKenzie 9/29/2016 14:41",
+		"testInitializeWithCustFirstInterface" : "DaveMcKenzie 10/21/2016 12:54",
 		"testInitializeWithCustFirstSetsInstanceVariables" : "DaveMcKenzie 10/7/2016 10:24",
 		"testNewWithCustFirst_interface" : "DaveMcKenzie 10/7/2016 09:43",
 		"testNewWithCustFirst_setsInstanceVariables" : "DaveMcKenzie 10/7/2016 09:46",
 		"testValidArgumentsInterface" : "DaveMcKenzie 9/29/2016 15:28",
 		"testValidateCustInterface" : "DaveMcKenzie 9/30/2016 00:53",
-		"testValidateInterface" : "DaveMcKenzie 10/7/2016 07:58",
+		"testValidateInterface" : "DaveMcKenzie 10/21/2016 13:16",
 		"testValidateSetsValidArgumentsToTrueWhenAllValidationsPass" : "DaveMcKenzie 10/7/2016 10:26" } }

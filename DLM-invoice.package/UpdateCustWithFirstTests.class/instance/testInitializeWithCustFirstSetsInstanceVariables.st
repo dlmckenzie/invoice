@@ -1,4 +1,4 @@
-testing
+testing - happy path
 testInitializeWithCustFirstSetsInstanceVariables
 	"Answer a new UpdateCustWithFirst command instance using the provided info"
 
