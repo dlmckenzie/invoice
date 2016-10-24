@@ -6,4 +6,4 @@ validateCust
 	cust
 		ifNil: [ validationFailureReason := 'Invalid cust id'.
 			validArguments := false ]
-		ifNotNil: [ origFirst := cust first ]
+		ifNotNil: [ origFirst := cust name first ]

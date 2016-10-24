@@ -4,7 +4,7 @@ testInitializeWithCustFirstSetsInstanceVariables
 
 	| first cust id cmd |
 	first := 'David'.
-	cust := Customer newWithFirst: 'Dave' Last: 'Mac'.
+	cust := Customer  newWithName: (CustomerName newWithFirst: 'Dave' Last: 'Mac').
 	id := cust id.
 	cmd := UpdateCustWithFirst new.
 	cmd initializeWithCust: id First: first.

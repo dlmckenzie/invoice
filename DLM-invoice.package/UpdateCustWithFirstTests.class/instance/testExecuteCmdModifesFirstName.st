@@ -12,4 +12,4 @@ testExecuteCmdModifesFirstName
 	app customers addCust: cust.
 	cmd := UpdateCustWithFirst newWithCust: cust id First: newFirst.
 	cmd executeCmd.
-	self assert: [ cust first = newFirst ] description: 'first name not being set'
+	self assert: [ cust name first = newFirst ] description: 'first name not being set'
