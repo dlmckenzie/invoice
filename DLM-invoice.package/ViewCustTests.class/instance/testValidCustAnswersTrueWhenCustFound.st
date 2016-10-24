@@ -7,11 +7,9 @@ testValidCustAnswersTrueWhenCustFound
 	app start.
 	cli := CLI new.
 	cli start: app.
-	app customers addCust: (Customer newWithFirst: 'Jenny' Last: 'Schultz').
-	app customers addCust: (Customer newWithFirst: 'Jim' Last: 'Jones').
-	cust := Customer newWithFirst: 'Sara' Last: 'Smith'.
+	app customers addCust: (Customer newWithName: (CustomerName newWithFirst: 'Jenny' Last: 'Schultz')).
+	app customers addCust: (Customer newWithName: (CustomerName newWithFirst: 'Jim' Last: 'Jones')).
+	cust := Customer newWithName: (CustomerName newWithFirst: 'Sara' Last: 'Smith').
 	id := cust id.
 	app customers addCust: cust.
-	self
-		assert: [ (ViewCust newWithID: id) validCust ]
-		description: 'ViewCust validCust should have answered true'
+	self assert: [ (ViewCust newWithID: id) validCust ] description: 'ViewCust validCust should have answered true'

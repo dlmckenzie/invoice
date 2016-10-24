@@ -1,5 +1,5 @@
 testing
-testInitializeWithIDInterface
+testInitializeWithID_interface
 	self
 		assert: [ ViewCust new respondsTo: #initializeWithID: ]
 		description: 'ViewCust initializeWithID method does not exist'.

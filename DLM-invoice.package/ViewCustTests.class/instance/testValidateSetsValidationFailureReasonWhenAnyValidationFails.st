@@ -7,7 +7,7 @@ testValidateSetsValidationFailureReasonWhenAnyValidationFails
 	app start.
 	cli := CLI new.
 	cli start: app.
-	cust := Customer newWithFirst: 'Sam' Last: 'Barry'.
+	cust := Customer newWithName: (CustomerName newWithFirst: 'Sam' Last: 'Barry').
 	app customers addCust: cust.
 	cmd := ViewCust newWithID: -1.
 	cmd validate.
