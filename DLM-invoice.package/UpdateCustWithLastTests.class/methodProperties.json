@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testExecuteCmd_interface" : "DaveMcKenzie 10/25/2016 10:11",
+		"testExecuteCmd_modifesLastName" : "DaveMcKenzie 10/25/2016 10:43",
+		"testInitializeWithCustLast_interface" : "DaveMcKenzie 10/25/2016 10:32",
+		"testInitializeWithCustLast_setsInstanceVariables" : "DaveMcKenzie 10/25/2016 10:34",
+		"testNewWithCustLast_interface" : "DaveMcKenzie 10/25/2016 10:36",
+		"testNewWithCustLast_setsInstanceVariables" : "DaveMcKenzie 10/25/2016 10:37",
+		"testValidateCust_interface" : "DaveMcKenzie 10/25/2016 10:38",
+		"testValidate_interface" : "DaveMcKenzie 10/25/2016 10:39",
+		"testValidate_setsValidArgumentsToTrueWhenAllValidationsPass" : "DaveMcKenzie 10/25/2016 10:47" } }

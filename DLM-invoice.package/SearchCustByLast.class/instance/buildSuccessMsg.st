@@ -14,15 +14,17 @@ buildSuccessMsg
 				nextPutAll: '  <No matching customers found>';
 				cr ]
 		ifFalse: [ orderedKeys := (queryResult associations
-				asSortedCollection: [ :x :y | (x value name last , x value name first) < (y value name last , y value name first) ])
+				asSortedCollection: [ :x :y | 
+					(x value name last , x value name first)
+						< (y value name last , y value name first) ])
 				collect: [ :association | association key ].
 			orderedKeys
 				do: [ :a | 
 					stream
-						nextPutAll: '  Customer ' ;
-						nextPutAll: a asString ;
+						nextPutAll: '  Customer ';
+						nextPutAll: a asString;
 						nextPutAll: ': ';
-						nextPutAll: (queryResult retrieveByID: a) first;
+						nextPutAll: (queryResult retrieveByID: a) name first;
 						space;
-						nextPutAll: (queryResult retrieveByID: a) last;
+						nextPutAll: (queryResult retrieveByID: a) name last;
 						cr ] ]
