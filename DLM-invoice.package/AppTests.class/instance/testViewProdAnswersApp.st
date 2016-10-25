@@ -1,4 +1,4 @@
-testing - customer
+testing - product
 testViewProdAnswersApp
 	"test that method answers App (self)"
 

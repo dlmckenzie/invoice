@@ -1,4 +1,4 @@
-testing - customer
+testing - product
 testViewProdExists
 	"test that  method exists"
 
