@@ -19,7 +19,7 @@ buildSuccessMsg
 				nextPutAll: '  Cust ';
 				nextPutAll: a asString;
 				nextPutAll: ': ';
-				nextPutAll: (queryResult retrieveByID: a) first;
+				nextPutAll: (queryResult retrieveByID: a) name first;
 				space;
-				nextPutAll: (queryResult retrieveByID: a) last;
+				nextPutAll: (queryResult retrieveByID: a) name last;
 				cr ] ]

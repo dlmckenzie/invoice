@@ -1,5 +1,5 @@
 testing - happy path
-testValidateSetsValidArgumentsToTrueWhenAllValidationsPass
+testValidate_setsValidArgumentsToTrueWhenAllValidationsPass
 	"ValidArguments should be set to true when all validations pass"
 
 	| app cmd cust |

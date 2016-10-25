@@ -1,5 +1,5 @@
 testing - interface
-testInitializeWithCustFirstInterface
+testInitializeWithCustFirst_interface
 	"test interface	"
 
 	| cmd |

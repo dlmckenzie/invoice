@@ -1,5 +1,5 @@
 testing - happy path
-testInitializeWithCustFirstSetsInstanceVariables
+testInitializeWithCustFirst_setsInstanceVariables
 	"Answer a new UpdateCustWithFirst command instance using the provided info"
 
 	| first cust id cmd |

@@ -2,13 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testExecuteCmdInterface" : "DaveMcKenzie 9/29/2016 14:52",
-		"testExecuteCmdModifesFirstName" : "DaveMcKenzie 10/24/2016 11:35",
-		"testInitializeWithCustFirstInterface" : "DaveMcKenzie 10/21/2016 12:54",
-		"testInitializeWithCustFirstSetsInstanceVariables" : "DaveMcKenzie 10/24/2016 11:17",
+		"testExecuteCmd_interface" : "DaveMcKenzie 10/25/2016 07:34",
+		"testExecuteCmd_modifesFirstName" : "DaveMcKenzie 10/25/2016 07:51",
+		"testInitializeWithCustFirst_interface" : "DaveMcKenzie 10/25/2016 07:34",
+		"testInitializeWithCustFirst_setsInstanceVariables" : "DaveMcKenzie 10/25/2016 07:52",
 		"testNewWithCustFirst_interface" : "DaveMcKenzie 10/7/2016 09:43",
 		"testNewWithCustFirst_setsInstanceVariables" : "DaveMcKenzie 10/24/2016 11:17",
-		"testValidArgumentsInterface" : "DaveMcKenzie 9/29/2016 15:28",
-		"testValidateCustInterface" : "DaveMcKenzie 9/30/2016 00:53",
-		"testValidateInterface" : "DaveMcKenzie 10/21/2016 13:16",
-		"testValidateSetsValidArgumentsToTrueWhenAllValidationsPass" : "DaveMcKenzie 10/24/2016 11:18" } }
+		"testValidArguments_interface" : "DaveMcKenzie 10/25/2016 07:34",
+		"testValidateCust_interface" : "DaveMcKenzie 10/25/2016 07:35",
+		"testValidate_interface" : "DaveMcKenzie 10/25/2016 07:35",
+		"testValidate_setsValidArgumentsToTrueWhenAllValidationsPass" : "DaveMcKenzie 10/25/2016 07:52" } }

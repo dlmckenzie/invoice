@@ -1,5 +1,5 @@
 testing - happy path
-testExecuteCmdModifesFirstName
+testExecuteCmd_modifesFirstName
 	"test that last name gets modified"
 
 	| app cust cli cmd newFirst |

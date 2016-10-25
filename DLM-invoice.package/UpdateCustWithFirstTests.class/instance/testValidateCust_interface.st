@@ -1,5 +1,5 @@
 testing - interface
-testValidateCustInterface
+testValidateCust_interface
 	"test method interface"
 
 	self

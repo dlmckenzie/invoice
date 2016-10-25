@@ -14,7 +14,7 @@ buildSuccessMsg
 				nextPutAll: '  <No matching customers found>';
 				cr ]
 		ifFalse: [ orderedKeys := (queryResult associations
-				asSortedCollection: [ :x :y | (x value last , x value first) < (y value last , y value first) ])
+				asSortedCollection: [ :x :y | (x value name last , x value name first) < (y value name last , y value name first) ])
 				collect: [ :association | association key ].
 			orderedKeys
 				do: [ :a | 

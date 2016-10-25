@@ -1,5 +1,5 @@
 testing - interface
-testValidateInterface
+testValidate_interface
 	self
 		assert: [ UpdateCustWithFirst new respondsTo: #validate ]
 		description: 'UpdateCustWithFirst validate method does not exist'.
