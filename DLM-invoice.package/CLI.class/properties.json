@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "DaveMcKenzie 8/10/2016 14:02",
 	"instvars" : [
-		"app" ],
+		"app",
+		"stream" ],
 	"name" : "CLI",
 	"pools" : [
 		 ],

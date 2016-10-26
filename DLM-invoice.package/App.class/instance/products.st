@@ -1,3 +1,3 @@
-private - customer
+accessing
 products
 	^ products

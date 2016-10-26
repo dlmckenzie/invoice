@@ -1,7 +1,10 @@
 {
 	"class" : {
-		"initializeWithApp:" : "DaveMcKenzie 10/7/2016 08:39" },
+		"displayHelp:" : "DaveMcKenzie 10/26/2016 09:59",
+		"initializeWithApp:" : "DaveMcKenzie 10/7/2016 08:39",
+		"showHelpShort" : "DaveMcKenzie 10/26/2016 09:33" },
 	"instance" : {
 		"buildSuccessMsg" : "DaveMcKenzie 9/21/2016 14:14",
 		"displayResult" : "DaveMcKenzie 9/13/2016 22:32",
-		"executeCmd" : "DaveMcKenzie 9/6/2016 13:07" } }
+		"executeCmd" : "DaveMcKenzie 9/6/2016 13:07",
+		"showHelpFull" : "DaveMcKenzie 10/26/2016 09:21" } }

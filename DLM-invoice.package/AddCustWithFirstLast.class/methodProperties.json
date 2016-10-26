@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"newWithFirst:Last:" : "DaveMcKenzie 9/14/2016 09:13" },
+		"newWithFirst:Last:" : "DaveMcKenzie 9/14/2016 09:13",
+		"showHelpShort" : "DaveMcKenzie 10/26/2016 10:02" },
 	"instance" : {
 		"buildFailureMsg" : "DaveMcKenzie 10/24/2016 11:50",
 		"buildSuccessMsg" : "DaveMcKenzie 10/18/2016 11:57",
