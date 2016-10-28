@@ -4,7 +4,7 @@ help: aString
 
 	| cmdString validCommands |
 	validCommands := #('addCustWithFirst:Last:' 'viewCust:' 'viewAllCustomers' 'searchCustByLast:' 'updateCust:WithFirst:' 'updateCust:WithLast:' 'deleteCust:').
-	(validCommands includes: 'addCustWithFirst:Last:')
+	(validCommands includes: aString)
 		ifTrue: [ cmdString := aString capitalized copyWithoutAll: ':'.
 			cmdString := cmdString , ' showHelpFull'.
 			Compiler evaluate: cmdString ].
