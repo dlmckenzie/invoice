@@ -2,7 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testDisplayHelpFullUsingAnd_interface" : "DaveMcKenzie 11/1/2016 11:31",
+		"testDisplayHelpShort_interface" : "DaveMcKenzie 11/1/2016 11:31",
 		"testDisplayResult_interface" : "DaveMcKenzie 10/21/2016 10:29",
 		"testDisplayResult_raisesSubClassResponsibilityError" : "DaveMcKenzie 10/21/2016 10:29",
-		"testExecuteCmd_Interface" : "DaveMcKenzie 10/21/2016 10:31",
+		"testExecuteCmd_interface" : "DaveMcKenzie 11/1/2016 11:32",
 		"testExecuteCmd_raisesSubClassResponsibilityError" : "DaveMcKenzie 10/21/2016 10:30" } }

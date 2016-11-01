@@ -1,5 +1,5 @@
 testing
-testValidateSetsValidArgumentsFalseWhenAnyValidationFails
+testValidate_setsValidArgumentsFalseWhenAnyValidationFails
 	"test that validate sets validArguments to false when any validation fails"
 
 	| app cli cust cmd |

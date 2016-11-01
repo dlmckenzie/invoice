@@ -1,5 +1,5 @@
 testing
-testInitializeWithIDSetsInstanceVar
+testInitializeWithID_setsInstanceVar
 	"test that instance variable(s) gets set"
 	
 	| cmd id|

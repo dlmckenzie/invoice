@@ -1,4 +1,4 @@
-testing
+testing - interface
 testInitializeWithID_interface
 	self
 		assert: [ ViewCust new respondsTo: #initializeWithID: ]

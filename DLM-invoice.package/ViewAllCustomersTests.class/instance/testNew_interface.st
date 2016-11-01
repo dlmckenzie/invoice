@@ -1,5 +1,5 @@
 testing - interface
-testNewInterface
+testNew_interface
 	"test method's interface"
 
 	self

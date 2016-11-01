@@ -1,5 +1,5 @@
 testing
-testValidCust_AnswersFalseWhenCustNotFound
+testValidCust_answersFalseWhenCustNotFound
 	"test that method answers false for invalid cust id"
 
 	self

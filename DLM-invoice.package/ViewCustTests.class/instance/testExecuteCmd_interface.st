@@ -1,4 +1,4 @@
-testing
+testing - interface
 testExecuteCmd_interface
 	"test method exists"
 

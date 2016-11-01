@@ -15,6 +15,8 @@
 		"testNoAssociatedInvoicesAnswersTrueWhenCustHasNoInvoices" : "DaveMcKenzie 10/19/2016 01:15",
 		"testNoAssociatedInvoicesRaisesErrorForInvalidCust" : "DaveMcKenzie 9/21/2016 11:09",
 		"testNoAssociatedInvoices_interface" : "DaveMcKenzie 10/21/2016 10:37",
+		"testShowHelpFull_interface" : "DaveMcKenzie 11/1/2016 12:16",
+		"testShowHelpShort_interface" : "DaveMcKenzie 11/1/2016 12:16",
 		"testValidCustAnswersFalseForInvalidID" : "DaveMcKenzie 9/14/2016 23:52",
 		"testValidCustAnswersFalseForNilID" : "DaveMcKenzie 9/15/2016 00:06",
 		"testValidCustAnswersTrueForValidID" : "DaveMcKenzie 10/19/2016 01:16",

@@ -15,5 +15,4 @@
 		"testNewWithName_assignsUniqueID" : "DaveMcKenzie 10/22/2016 23:47",
 		"testNewWithName_createsCust" : "DaveMcKenzie 10/22/2016 23:47",
 		"testNewWithName_createsCustWithIncrementedID" : "DaveMcKenzie 10/22/2016 23:48",
-		"testNewWithName_interface" : "DaveMcKenzie 10/18/2016 09:51",
-		"testUpdateFirstMethodRenamedToFirst" : "DaveMcKenzie 4/6/2016 11:50" } }
+		"testNewWithName_interface" : "DaveMcKenzie 10/18/2016 09:51" } }

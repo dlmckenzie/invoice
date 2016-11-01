@@ -2,7 +2,8 @@ testing - interface
 testLastMethodExists
 	"confirm method exists"
 
-	|customer|
-	customer := Customer new.
-	self assert: [ customer respondsTo: #last: ]
-			description: 'method Customer last: does not exist'
+	| customerName |
+	customerName := CustomerName new.
+	self
+		assert: [ customerName respondsTo: #last: ]
+		description: 'method CustomerName last: does not exist'

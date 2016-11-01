@@ -1,5 +1,5 @@
 testing
-testValidCustAnswersTrueWhenCustFound
+testValidCust_answersTrueWhenCustFound
 	"test that method answers true for valid cust id"
 
 	| app cli cust id |

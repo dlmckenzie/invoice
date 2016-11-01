@@ -1,5 +1,5 @@
-testing
-testNewWithIDInterface
+testing - interface
+testNewWithID_interface
 	self
 		assert: [ ViewCust respondsTo: #newWithID: ]
 		description: 'ViewCust newWithID method does not exist'.

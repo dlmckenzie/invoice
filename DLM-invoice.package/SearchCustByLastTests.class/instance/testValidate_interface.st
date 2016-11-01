@@ -1,5 +1,5 @@
 testing - interface
-testValidateInterface
+testValidate_interface
 	self
 		assert: [ SearchCustByLast new respondsTo: #validate ]
 		description: 'SearchCustByLast validate method does not exist'.

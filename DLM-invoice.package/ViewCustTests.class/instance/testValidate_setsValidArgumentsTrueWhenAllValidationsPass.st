@@ -1,5 +1,5 @@
 testing
-testValidateSetsValidArgumentsTrueWhenAllValidationsPass
+testValidate_setsValidArgumentsTrueWhenAllValidationsPass
 	"test that validate sets validArguments to true when all valications pass"
 
 	| app cli cust cmd |

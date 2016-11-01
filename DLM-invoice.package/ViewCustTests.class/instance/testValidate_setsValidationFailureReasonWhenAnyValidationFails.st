@@ -1,5 +1,5 @@
 testing
-testValidateSetsValidationFailureReasonWhenAnyValidationFails
+testValidate_setsValidationFailureReasonWhenAnyValidationFails
 	"test that validate updates validationFailureReason nil when any validation fails"
 
 	| app cli cust cmd |

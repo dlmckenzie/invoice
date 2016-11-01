@@ -9,8 +9,6 @@
 	"instvars" : [
 		"id",
 		"name",
-		"first",
-		"last",
 		"invoices",
 		"validForDeletion",
 		"attachedInvoices" ],

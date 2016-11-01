@@ -1,5 +1,5 @@
 testing
-testValidateSetsValidationFailureReasonNilWhenAllValidationsPass
+testValidate_setsValidationFailureReasonNilWhenAllValidationsPass
 	"test that validate keeps validationFailureReason nil when all valications pass"
 
 	| app cli cust cmd |

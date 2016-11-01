@@ -8,6 +8,8 @@
 		"testInitializeWithCustLast_setsInstanceVariables" : "DaveMcKenzie 10/25/2016 10:34",
 		"testNewWithCustLast_interface" : "DaveMcKenzie 10/25/2016 10:36",
 		"testNewWithCustLast_setsInstanceVariables" : "DaveMcKenzie 10/25/2016 10:37",
+		"testShowHelpFull_interface" : "DaveMcKenzie 11/1/2016 12:49",
+		"testShowHelpShort_interface" : "DaveMcKenzie 11/1/2016 12:55",
 		"testValidateCust_interface" : "DaveMcKenzie 10/25/2016 10:38",
 		"testValidate_interface" : "DaveMcKenzie 10/25/2016 10:39",
 		"testValidate_setsValidArgumentsToTrueWhenAllValidationsPass" : "DaveMcKenzie 10/25/2016 10:47" } }

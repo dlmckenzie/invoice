@@ -10,6 +10,8 @@
 		"testNewWithFirstLast_acceptsEmtpyAgs" : "DaveMcKenzie 10/21/2016 00:29",
 		"testNewWithFirstLast_interface" : "DaveMcKenzie 10/21/2016 00:30",
 		"testNewWithFirstLast_setsInstanceVariables" : "DaveMcKenzie 10/21/2016 00:30",
+		"testShowHelpFull_interface" : "DaveMcKenzie 11/1/2016 12:00",
+		"testShowHelpShort_interface" : "DaveMcKenzie 11/1/2016 12:02",
 		"testValidArgumentsAnswersFalse_whenAnyArent" : "DaveMcKenzie 10/21/2016 00:31",
 		"testValidateArguments_interface" : "DaveMcKenzie 10/21/2016 00:33",
 		"testValidateFirstName_answersFalseForInvalidFirstName" : "DaveMcKenzie 10/21/2016 00:43" } }
