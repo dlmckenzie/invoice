@@ -10,10 +10,10 @@
 		"last",
 		"firstIsValid",
 		"lastIsValid",
-		"nameIsValid",
 		"firstValidationError",
 		"lastValidationError",
-		"nameValidationError" ],
+		"isValid",
+		"validationError" ],
 	"name" : "CustomerName",
 	"pools" : [
 		 ],

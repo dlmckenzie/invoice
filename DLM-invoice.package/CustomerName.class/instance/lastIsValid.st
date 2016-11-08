@@ -1,3 +1,3 @@
-accessing
+accessing - validation
 lastIsValid
 	^ lastIsValid
