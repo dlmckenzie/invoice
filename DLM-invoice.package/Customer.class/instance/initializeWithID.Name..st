@@ -4,4 +4,5 @@ initializeWithID: anID Name: aName
 
 	id := anID.
 	name := aName.
-	invoices := self class invoices
+	invoices := self class invoices.
+	self validate.
