@@ -1,5 +1,5 @@
 testing - interface
-testValidateArguments_interface
+testValidArguments_interface
 	"test method interface"
 
 	self assert: [ AddCustWithFirstLast new respondsTo: #validArguments ] description: 'validArguments method not recognized';
