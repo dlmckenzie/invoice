@@ -3,4 +3,5 @@ initializeWithCust: aCustID First: aFirstNameString
 	"set instance variables"
 
 	id := aCustID.
-	first := aFirstNameString
+	first := aFirstNameString.
+	self validate

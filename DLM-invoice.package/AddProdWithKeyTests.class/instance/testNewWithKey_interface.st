@@ -6,5 +6,5 @@ testNewWithKey_interface
 		assert: [ AddProdWithKey respondsTo: #newWithKey: ]
 		description: 'AddProdWithKey newWithKey method does not exist'.
 	self
-		assert: [ (AddProdWithKey newWithKey: 'Item A') isMemberOf: AddProdWithKey  ]
+		assert: [ (AddProdWithKey newWithKey: 'Item A') isMemberOf: AddProdWithKey ]
 		description: 'method did not answer with an AddProdWithKey command'

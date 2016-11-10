@@ -1,3 +1,6 @@
 initialization
 initializeWithID: anInteger
-	id := anInteger
+	"set instance variables"
+	
+	id := anInteger.
+	self validate

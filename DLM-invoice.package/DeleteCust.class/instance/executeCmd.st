@@ -2,7 +2,6 @@ action
 executeCmd
 	"execute the command"
 
-	
 	validArguments
 		ifTrue: [ 
 			Application customers delete: cust.
