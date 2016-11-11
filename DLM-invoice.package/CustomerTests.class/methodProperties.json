@@ -18,7 +18,7 @@
 		"testNewWithName_createsCust" : "DaveMcKenzie 10/22/2016 23:47",
 		"testNewWithName_createsCustWithIncrementedID" : "DaveMcKenzie 10/22/2016 23:48",
 		"testNewWithName_interface" : "DaveMcKenzie 10/18/2016 09:51",
-		"testValidateInterface" : "DaveMcKenzie 11/8/2016 20:20",
+		"testValidate_interface" : "DaveMcKenzie 11/10/2016 12:24",
 		"testValidationError_answersEmptyStringWhenIsValidIsTrue" : "DaveMcKenzie 11/9/2016 08:52",
 		"testValidationError_answersStringWhenIsValidIsFalse" : "DaveMcKenzie 11/9/2016 08:51",
 		"testValidationError_interface" : "DaveMcKenzie 11/8/2016 20:58",

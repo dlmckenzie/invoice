@@ -1,0 +1,3 @@
+testing - edge cases
+testValidate_setsIsValidToFalseWhenAnyValidationIsFalse
+	

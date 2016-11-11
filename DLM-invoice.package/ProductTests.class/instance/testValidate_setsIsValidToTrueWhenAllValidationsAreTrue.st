@@ -1,0 +1,3 @@
+testing - happy path
+testValidate_setsIsValidToTrueWhenAllValidationsAreTrue
+	
