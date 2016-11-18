@@ -1,7 +1,6 @@
-accesing
+accessing
 updatePrice: aNumber
-	"update price to the argument"
+	"anwer the product price"
 
-	(self class priceIsValid: aNumber)
-		ifTrue: [ price := aNumber ]
-		ifFalse: [ Error signal: 'Invalid price - no update made' ]
+	price := aNumber.
+	self validate

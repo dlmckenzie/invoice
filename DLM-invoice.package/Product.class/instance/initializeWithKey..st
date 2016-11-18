@@ -2,6 +2,10 @@ private - initialization
 initializeWithKey: aProductKeyString
 	"initialization using product key"
 
-	(self class keyIsValidForIdentity: aProductKeyString)
+	key := aProductKeyString.
+	description := ''.
+	self validate
+
+	"(self class keyIsValidForIdentity: aProductKeyString)
 		ifTrue: [ key := aProductKeyString ]
-		ifFalse: [ Error signal: 'Invalid Product Key' ]
+		ifFalse: [ Error signal: 'Invalid Product Key' ]"

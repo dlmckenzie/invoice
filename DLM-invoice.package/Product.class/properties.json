@@ -8,7 +8,13 @@
 	"instvars" : [
 		"key",
 		"description",
-		"price" ],
+		"price",
+		"isValid",
+		"descriptionIsValid",
+		"keyIsValid",
+		"priceIsValid",
+		"keyValidationError",
+		"validationError" ],
 	"name" : "Product",
 	"pools" : [
 		 ],

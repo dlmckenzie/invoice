@@ -4,6 +4,6 @@ testUpdateDescription_updatesDescription
 
 	| description |
 	description := 'ABC'.
-	self assert: [ ((Product new) updateDescription: description ) description = description  ] 
-		description: 'description saved does not match description retrieved' 
-		
+	self
+		assert: [ ((Product newWithKey: 'A') updateDescription: description) description = description ]
+		description: 'description saved does not match description retrieved'

@@ -1,4 +1,4 @@
-accesing
+accessing
 price
 	"anwer the product price"
 

@@ -1,15 +1,21 @@
 {
 	"class" : {
-		"descriptionIsValid:" : "DaveMcKenzie 6/1/2016 12:23",
-		"keyIsValidForIdentity:" : "DaveMcKenzie 5/9/2016 08:59",
-		"newWithKey:" : "DaveMcKenzie 6/28/2016 13:09",
-		"priceIsValid:" : "DaveMcKenzie 6/1/2016 12:49" },
+		"newWithKey:" : "DaveMcKenzie 11/17/2016 12:50" },
 	"instance" : {
-		"description" : "DaveMcKenzie 6/1/2016 21:29",
+		"description" : "DaveMcKenzie 11/18/2016 13:03",
+		"descriptionIsValid" : "DaveMcKenzie 11/18/2016 13:04",
 		"identifier" : "DaveMcKenzie 8/14/2016 21:14",
-		"initializeWithKey:" : "DaveMcKenzie 6/1/2016 15:29",
+		"initializeWithKey:" : "DaveMcKenzie 11/18/2016 10:27",
+		"isValid" : "DaveMcKenzie 11/18/2016 13:00",
 		"key" : "DaveMcKenzie 5/6/2016 08:01",
+		"keyIsValid" : "DaveMcKenzie 11/12/2016 00:18",
+		"keyValidationError" : "DaveMcKenzie 11/18/2016 14:54",
 		"price" : "DaveMcKenzie 5/9/2016 09:49",
-		"updateDescription:" : "DaveMcKenzie 6/1/2016 12:28",
-		"updatePrice:" : "DaveMcKenzie 6/1/2016 12:50",
-		"validate" : "DaveMcKenzie 11/10/2016 12:26" } }
+		"priceIsValid" : "DaveMcKenzie 11/18/2016 13:09",
+		"updateDescription:" : "DaveMcKenzie 11/18/2016 14:38",
+		"updatePrice:" : "DaveMcKenzie 11/18/2016 14:33",
+		"validate" : "DaveMcKenzie 11/18/2016 15:05",
+		"validateDescription" : "DaveMcKenzie 11/18/2016 13:04",
+		"validateKey" : "DaveMcKenzie 11/18/2016 14:57",
+		"validatePrice" : "DaveMcKenzie 11/18/2016 12:52",
+		"validationError" : "DaveMcKenzie 11/18/2016 15:01" } }
