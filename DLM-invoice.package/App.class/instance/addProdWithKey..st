@@ -2,11 +2,11 @@ interface - products
 addProdWithKey: aString
 	"add product with key"
 
-	(Product keyIsValidForIdentity: aString)
+	"(Product keyIsValidForIdentity: aString)
 		ifFalse: [ Transcript
 				show: 'Invalid key - no changes made';
 				cr.
-			^ self ].
+			^ self ]."
 	(products keyIsUnique: aString)
 		ifTrue: [ products addProd: (Product newWithKey: aString).
 			Transcript

@@ -3,7 +3,7 @@ addProdWithKey: aKeyString Desc: aDescString Price: aPriceFloat
 	"add product with key, description, and price"
 
 	| prod |
-	(Product keyIsValidForIdentity: aKeyString)
+"	(Product keyIsValidForIdentity: aKeyString)
 		ifFalse: [ Transcript
 				show: 'Invalid product key - no changes made';
 				cr.
@@ -17,7 +17,7 @@ addProdWithKey: aKeyString Desc: aDescString Price: aPriceFloat
 		ifFalse: [ Transcript
 				show: 'Invalid product price - no changes made';
 				cr.
-			^ self ].
+			^ self ]."
 	(products keyIsUnique: aKeyString)
 		ifTrue: [ products addProd: (Product newWithKey: aKeyString).
 			prod := products retrieveByKey: aKeyString.
@@ -35,7 +35,7 @@ addProdWithKey: aKeyString Desc: aDescString Price: aPriceFloat
 				cr;
 				show: '	Price: ';
 				show: '$';
-				show: (aPriceFloat printShowingDecimalPlaces: 2);
+				show: (aPriceFloat isNumber ifTrue: [aPriceFloat printShowingDecimalPlaces: 2] ifFalse: [aPriceFloat asString]);
 				cr ]
 		ifFalse: [ Transcript
 				show: 'Duplicate product key - no changes made';

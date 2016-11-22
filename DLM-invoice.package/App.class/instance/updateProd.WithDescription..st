@@ -3,11 +3,11 @@ updateProd: aProductString WithDescription: aDescString
 	"update product with new description"
 
 	| prod old |
-	(Product descriptionIsValid: aDescString)
+	"(Product descriptionIsValid: aDescString)
 		ifFalse: [ Transcript
 				show: 'Invalid product description - no changes made.';
 				cr.
-			^ self ].
+			^ self ]."
 	prod := products retrieveByKey: aProductString.
 	prod isNil
 		ifTrue: [ Transcript
@@ -18,8 +18,9 @@ updateProd: aProductString WithDescription: aDescString
 			^ self ].
 	old := prod description.
 	old = aDescString
-		ifTrue:
-			[ Transcript show: 'Current and replacement product description match - no changes made.'; cr.
+		ifTrue: [ Transcript
+				show: 'Current and replacement product description match - no changes made.';
+				cr.
 			^ self ].
 	prod updateDescription: aDescString.
 	Transcript

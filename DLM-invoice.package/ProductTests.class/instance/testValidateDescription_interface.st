@@ -1,5 +1,5 @@
 testing - interface
-testValidateDesc_interface
+testValidateDescription_interface
 	"test method interface"
 
 	self

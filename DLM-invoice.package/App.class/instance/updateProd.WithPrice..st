@@ -3,11 +3,11 @@ updateProd: aProductString WithPrice: aFloat
 	"update product with new description"
 
 	| prod old |
-	(Product priceIsValid: aFloat)
+"	(Product priceIsValid: aFloat)
 		ifFalse: [ Transcript
 				show: 'Invalid price - no changes made.';
 				cr.
-			^ self ].
+			^ self ]."
 	prod := products retrieveByKey: aProductString.
 	prod isNil
 		ifTrue: [ Transcript
