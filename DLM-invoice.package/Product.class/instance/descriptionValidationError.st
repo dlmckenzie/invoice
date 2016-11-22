@@ -1,7 +1,5 @@
 accessing - validation
-keyValidationError
+descriptionValidationError
 	"answers the validation error for the product''s key"
-	
-	^ keyValidationError 
 
-	
+	^ descriptionValidationError

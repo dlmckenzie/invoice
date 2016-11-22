@@ -1,4 +1,4 @@
-accessing
+action
 updatePrice: aNumber
 	"anwer the product price"
 

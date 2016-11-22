@@ -1,4 +1,4 @@
-validation
+private - validation
 validate
 	"validate product"
 
@@ -6,4 +6,4 @@ validate
 		& self validatePrice priceIsValid.
 	validationError := isValid
 		ifTrue: [ '' ]
-		ifFalse: [ 'Product is not valid' ].
+		ifFalse: [ 'Product is not valid - check the product key, description and price' ]

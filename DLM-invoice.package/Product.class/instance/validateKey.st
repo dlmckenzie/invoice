@@ -1,4 +1,4 @@
-validation
+private - validation
 validateKey
 	"validate product key"
 

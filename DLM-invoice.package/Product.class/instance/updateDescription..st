@@ -1,4 +1,4 @@
-accessing
+action
 updateDescription: aString
 	"update name to aString"
 
