@@ -1,5 +1,5 @@
 testing - edge cases
-testValidate_setIsValidToFalseWhenAnyValidationFails
+testValidate_setsIsValidToFalseWhenAnyValidationFails
 	"test description"
 
 	| prod |

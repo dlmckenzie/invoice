@@ -1,4 +1,4 @@
-testing - happy path
+testing - edge cases
 testValidatePrice_setsPriceIsValidTrueWhenPriceIsNil
 	"test description"
 
