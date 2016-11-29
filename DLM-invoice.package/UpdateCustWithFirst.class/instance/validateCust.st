@@ -4,6 +4,6 @@ validateCust
 
 	cust := Application customers retrieveByID: id.
 	cust
-		ifNil: [ validationFailureReason := 'Invalid cust id'.
+		ifNil: [ validationError := 'Invalid cust id'.
 			validArguments := false ]
 		ifNotNil: [ origFirst := cust name first ]

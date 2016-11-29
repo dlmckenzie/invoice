@@ -10,5 +10,5 @@ buildFailureMsg
 		cr;
 		nextPutAll: '  Reason:';
 		space;
-		nextPutAll: validationFailureReason;
+		nextPutAll: validationError;
 		cr

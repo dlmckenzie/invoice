@@ -4,9 +4,9 @@ validate
 	If not valid, update validationFailureReason"
 
 	self validCust
-		ifFalse: [ validationFailureReason := 'Cust ID is invalid or does not exist.'.
+		ifFalse: [ validationError := 'Cust ID is invalid or does not exist.'.
 			validArguments := false ]
 		ifTrue: [ self noAssociatedInvoices
-				ifFalse: [ validationFailureReason := 'Cust has associated invoices.'.
+				ifFalse: [ validationError := 'Cust has associated invoices.'.
 					validArguments := false ]
 				ifTrue: [ validArguments := true ] ]

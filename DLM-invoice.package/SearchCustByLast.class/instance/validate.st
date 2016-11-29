@@ -4,8 +4,8 @@ validate
 	If not valid, update validationFailureReason"
 
 	validArguments := true.
-	validationFailureReason := nil.
+	validationError := nil.
 	self validSearchString
 		ifTrue: [ ^ self ].
 	validArguments := false.
-	validationFailureReason := 'Search string may not be empty'
+	validationError := 'Search string may not be empty'

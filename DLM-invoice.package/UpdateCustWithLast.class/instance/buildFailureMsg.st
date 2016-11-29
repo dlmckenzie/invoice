@@ -7,5 +7,5 @@ buildFailureMsg
 		nextPutAll: 'Last name update for cust ID ''';
 		nextPutAll: id asString;
 		nextPutAll: ''' failed - ';
-		nextPutAll: validationFailureReason;
+		nextPutAll: validationError;
 		cr

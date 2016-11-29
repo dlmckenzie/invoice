@@ -4,8 +4,8 @@ validateLast
 
 	cust name lastIsValid
 		ifTrue: [ last = origLast
-				ifTrue: [ validationFailureReason := 'New last name matches current name'.
+				ifTrue: [ validationError := 'New last name matches current name'.
 					validArguments := false ]
 				ifFalse: [ validArguments := true ] ]
-		ifFalse: [ validationFailureReason := 'Invalid last name'.
+		ifFalse: [ validationError := 'Invalid last name'.
 			validArguments := false ]

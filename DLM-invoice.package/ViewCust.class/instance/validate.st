@@ -4,8 +4,8 @@ validate
 	If not valid, update validationFailureReason"
 
 	validArguments := true.
-	validationFailureReason := nil.
+	validationError := nil.
 	self validCust
 		ifTrue: [ ^ self ].
 	validArguments := false.
-	validationFailureReason := 'Cust ID is invalid or does not exist'
+	validationError := 'Cust ID is invalid or does not exist'

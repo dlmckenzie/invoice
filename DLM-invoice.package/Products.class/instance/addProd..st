@@ -4,5 +4,5 @@ addProd: aProduct
 
 	(self keyIsUnique: aProduct key)
 		ifTrue: [ self at: aProduct key put: aProduct ]
-		ifFalse: [ Error signal: 'duplicate key' ].
-	 ^ aProduct
+		ifFalse: [ Error signal: 'duplicate product key' ].
+	^ aProduct

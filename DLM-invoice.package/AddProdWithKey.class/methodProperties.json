@@ -2,5 +2,9 @@
 	"class" : {
 		"newWithKey:" : "DaveMcKenzie 11/3/2016 09:19" },
 	"instance" : {
+		"buildFailureMsg" : "DaveMcKenzie 11/29/2016 13:52",
+		"buildSuccessMsg" : "DaveMcKenzie 11/29/2016 14:53",
+		"executeCmd" : "DaveMcKenzie 11/29/2016 13:37",
 		"initializeWithKey:" : "DaveMcKenzie 11/10/2016 09:12",
-		"validate" : "DaveMcKenzie 11/10/2016 10:13" } }
+		"key" : "DaveMcKenzie 11/28/2016 10:23",
+		"validate" : "DaveMcKenzie 11/29/2016 01:53" } }

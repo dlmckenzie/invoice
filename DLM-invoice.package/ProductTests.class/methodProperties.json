@@ -7,7 +7,7 @@
 		"testDescription_interface" : "DaveMcKenzie 11/18/2016 14:45",
 		"testIdentifier_interface" : "DaveMcKenzie 11/18/2016 23:28",
 		"testInitializeWithKey_initializesProduct" : "DaveMcKenzie 11/10/2016 21:53",
-		"testInitializeWithKey_interface" : "DaveMcKenzie 11/19/2016 00:31",
+		"testInitializeWithKey_setsInstanceVariables" : "DaveMcKenzie 11/28/2016 10:28",
 		"testIsValid_interface" : "DaveMcKenzie 11/11/2016 11:44",
 		"testKeyIsValid_interface" : "DaveMcKenzie 11/18/2016 10:13",
 		"testKeyValidationError_interface" : "DaveMcKenzie 11/22/2016 22:29",

@@ -1,3 +1,3 @@
 private - testing
-last
-	^ last
+key
+	^ key

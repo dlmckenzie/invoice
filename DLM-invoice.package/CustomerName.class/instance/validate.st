@@ -1,4 +1,4 @@
-validation
+private - validation
 validate
 	self validateFirst.
 	self validateLast.

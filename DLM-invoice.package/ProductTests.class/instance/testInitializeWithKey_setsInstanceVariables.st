@@ -1,5 +1,5 @@
 testing - interface
-testInitializeWithKey_interface
+testInitializeWithKey_setsInstanceVariables
 	"method Product initializeWithKey exists"
 
 	self
