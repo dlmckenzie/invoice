@@ -2,12 +2,12 @@ interface - help
 helpProd
 	"prints help intro to Transcript"
 
-	Transcript
-		show: '  Products:';
+	stream := String new writeStream.
+	stream
+		nextPutAll: '  Products:';
 		cr.
-	Transcript
-		show: '     Add  -  addProdWithKey:';
-		cr.
+	self displayHelp: stream.
+	AddProdWithKey showHelpShort.
 	Transcript
 		show: '     Add  -  addProdWithKey:Desc:Price:';
 		cr.

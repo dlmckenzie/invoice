@@ -13,5 +13,11 @@
 		"testDeleteCust_deletesCustThatPassesValidation" : "DaveMcKenzie 10/18/2016 15:53",
 		"testDeleteCust_doesNotDeleteCustThatFailsValidation" : "DaveMcKenzie 10/19/2016 00:52",
 		"testDeleteCust_interface" : "DaveMcKenzie 10/7/2016 12:01",
+		"testDisplayHelp_interface" : "DaveMcKenzie 12/1/2016 10:06",
+		"testHelp2_interface" : "DaveMcKenzie 12/1/2016 10:09",
+		"testHelpCust_interface" : "DaveMcKenzie 12/1/2016 10:10",
+		"testHelpIntro_interface" : "DaveMcKenzie 12/1/2016 10:11",
+		"testHelpProd_interface" : "DaveMcKenzie 12/1/2016 10:11",
+		"testHelp_interface" : "DaveMcKenzie 12/1/2016 10:09",
 		"testSearchCustByLast_interface" : "DaveMcKenzie 10/7/2016 12:02",
 		"testStart_interface" : "DaveMcKenzie 10/7/2016 12:02" } }
