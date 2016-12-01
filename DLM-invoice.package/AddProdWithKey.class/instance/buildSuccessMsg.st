@@ -8,4 +8,4 @@ buildSuccessMsg
 		cr;
 		nextPutAll: '	Key: ';
 		nextPutAll: key;
-		cr; cr.
+		cr.

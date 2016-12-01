@@ -15,6 +15,7 @@
 		"testInitializeWithKey_setsInstanceVariables" : "DaveMcKenzie 11/28/2016 10:28",
 		"testNewWithKey_interface" : "DaveMcKenzie 11/10/2016 09:17",
 		"testNewWithKey_setsInstanceVariables" : "DaveMcKenzie 11/28/2016 08:40",
+		"testNewWithKey_setsValidParamsToFalseForEmptyStringKey" : "DaveMcKenzie 12/1/2016 09:05",
 		"testValidate_interface" : "DaveMcKenzie 11/10/2016 10:17",
 		"testValidate_setsValidArgumentsToFalseForDuplicateProdKey" : "DaveMcKenzie 11/29/2016 13:01",
 		"testValidate_setsValidArgumentsToTrueForValidProdKey" : "DaveMcKenzie 11/29/2016 12:50" } }
