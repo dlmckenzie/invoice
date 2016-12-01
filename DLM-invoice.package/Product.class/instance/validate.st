@@ -6,4 +6,11 @@ validate
 		& self validatePrice priceIsValid.
 	validationError := isValid
 		ifTrue: [ '' ]
-		ifFalse: [ 'Product is not valid - check the product key, description and price' ]
+		ifFalse: [ keyIsValid
+				ifFalse: [ keyValidationError ]
+				ifTrue: [ descriptionIsValid
+						ifFalse: [ descriptionValidationError ]
+						ifTrue: [ priceIsValid
+								ifFalse: [ priceValidationError ]
+								ifTrue: [ '' ]
+							 ] ] ]

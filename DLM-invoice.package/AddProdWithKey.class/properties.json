@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "DaveMcKenzie 11/3/2016 08:40",
 	"instvars" : [
-		"key" ],
+		"key",
+		"prod" ],
 	"name" : "AddProdWithKey",
 	"pools" : [
 		 ],

@@ -1,13 +1,12 @@
 private-validation
 validate
-	"validates that command can be processed (not whether it will be completed successfully)"
+	"validates that command can be processed successfully"
 
-	key isEmptyOrNil 
-		ifTrue: [ validationError := 'Product key cannot be empty'.
-			validArguments := false ]
-		ifFalse: [ (Application products keyIsUnique: key)
-			ifTrue: [ validationError := String empty.
-					validArguments := true ] 
-			ifFalse: [ validationError := 'Product key ''' , key , ''' is not unique' .
-				validArguments := false] ]
+	prod isValid
+		ifTrue: [ (Application products keyIsUnique: key)
+				ifTrue: [ validArguments := true ]
+				ifFalse: [ validArguments := false.
+					validationError := 'Product key is not unique' ] ]
+		ifFalse: [ validArguments := false.
+			validationError := prod validationError ]
 	

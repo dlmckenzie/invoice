@@ -3,4 +3,5 @@ initializeWithKey: aProductKeyString
 	"initialize myself"
 
 	key := aProductKeyString.
-	self validate.
+	prod := Product newWithKey: key.
+	self validate
