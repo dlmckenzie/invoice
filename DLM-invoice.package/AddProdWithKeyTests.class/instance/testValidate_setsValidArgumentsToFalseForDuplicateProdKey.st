@@ -1,4 +1,4 @@
-testing - happy path
+testing - edge cases
 testValidate_setsValidArgumentsToFalseForDuplicateProdKey
 	"test that validArguments set to true for valid prod key"
 

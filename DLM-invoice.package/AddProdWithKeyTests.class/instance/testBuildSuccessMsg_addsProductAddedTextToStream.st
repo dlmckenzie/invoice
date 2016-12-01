@@ -9,4 +9,4 @@ testBuildSuccessMsg_addsProductAddedTextToStream
 	cli start: app.
 	cmd := AddProdWithKey newWithKey: 'A100'.
 	cmd executeCmd.
-	self assert: [ cmd stream contents includesSubstring: 'Product added' ] description: 'wtf'
+	self assert: [ cmd stream contents includesSubstring: 'Product added' ] description: 'The text ''Product added'' was not displayed to user'

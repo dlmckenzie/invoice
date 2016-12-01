@@ -1,6 +1,6 @@
-testing - happy path
-testExecuteCmd_doesNotAddInvalidProd
-	"test that executeCmd does not add invalid product to products"
+testing - edge cases
+testExecuteCmd_doesNotAddDuplicateProd
+	"test that executeCmd does not add a product with key that already exists"
 
 	| app cmd cli key |
 	key := 'A100'.

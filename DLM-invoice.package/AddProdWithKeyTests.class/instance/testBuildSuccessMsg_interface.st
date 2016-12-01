@@ -3,6 +3,6 @@ testBuildSuccessMsg_interface
 	"test method interface"
 
 	self
-		assert: [ AddProdWithKey new respondsTo: #buildSuccessMsg ]
+		assert: [ (AddProdWithKey newWithKey: 'A10') respondsTo: #buildSuccessMsg ]
 		description: 'AddProdWithKey buildSuccessMsg not found'.
-	self assert: [ AddProdWithKey new buildSuccessMsg isMemberOf: AddProdWithKey ] description: 'AddProdWithKey buildSuccessMsg did not answer self'
+	self assert: [ (AddProdWithKey newWithKey: 'A10') buildSuccessMsg isMemberOf: AddProdWithKey ] description: 'AddProdWithKey buildSuccessMsg did not answer self'

@@ -3,8 +3,8 @@ testBuildFailureMsg_interface
 	"test method interface"
 
 	self
-		assert: [ AddProdWithKey new respondsTo: #buildFailureMsg ]
+		assert: [ (AddProdWithKey newWithKey: '') respondsTo: #buildFailureMsg ]
 		description: 'AddProdWithKey buildFailureMsg not found'.
 	self
-		assert: [ AddProdWithKey new buildFailureMsg isMemberOf: AddProdWithKey ]
+		assert: [ (AddProdWithKey newWithKey: '') buildFailureMsg isMemberOf: AddProdWithKey ]
 		description: 'AddProdWithKey buildFailureMsg did not answer self'
