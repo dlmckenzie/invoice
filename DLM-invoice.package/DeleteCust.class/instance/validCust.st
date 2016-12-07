@@ -1,4 +1,4 @@
-private-validation
+private - validation
 validCust
 	"answer whether cust id is valid"
 

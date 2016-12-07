@@ -10,7 +10,7 @@
 		"testInitializeWithKey_setsInstanceVariables" : "DaveMcKenzie 11/28/2016 10:28",
 		"testIsValid_interface" : "DaveMcKenzie 11/11/2016 11:44",
 		"testKeyIsValid_interface" : "DaveMcKenzie 11/18/2016 10:13",
-		"testKeyValidationError_interface" : "DaveMcKenzie 11/22/2016 22:29",
+		"testKeyValidationError_interface" : "DaveMcKenzie 12/6/2016 11:37",
 		"testKey_interface" : "DaveMcKenzie 11/19/2016 00:29",
 		"testKey_raisesErrorWithEmptyKey" : "DaveMcKenzie 11/10/2016 21:57",
 		"testKey_raisesErrorWithNilKey" : "DaveMcKenzie 11/10/2016 21:58",

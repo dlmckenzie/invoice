@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"newWithKey:Desc:Price:" : "DaveMcKenzie 12/3/2016 19:41" },
+	"instance" : {
+		"descIsValid" : "DaveMcKenzie 12/4/2016 23:45",
+		"initializeWithKey:Desc:Price:" : "DaveMcKenzie 12/4/2016 22:27",
+		"keyIsValid" : "DaveMcKenzie 12/4/2016 23:45",
+		"priceIsValid" : "DaveMcKenzie 12/4/2016 23:45",
+		"prod" : "DaveMcKenzie 12/6/2016 11:45",
+		"validate" : "DaveMcKenzie 12/6/2016 23:56",
+		"validateDesc" : "DaveMcKenzie 12/4/2016 21:36",
+		"validateKey" : "DaveMcKenzie 12/6/2016 23:29",
+		"validatePrice" : "DaveMcKenzie 12/4/2016 18:37" } }

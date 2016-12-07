@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testAddProdWithKeyDescPrice_exists" : "DaveMcKenzie 12/3/2016 20:10",
+		"testInitializeWithKeyDescPrice_interface" : "DaveMcKenzie 12/3/2016 20:13",
+		"testNewWithKeyDescPrice_interface" : "DaveMcKenzie 12/3/2016 19:48",
+		"testValidateDesc_setsValidDescTrueForValidDesc" : "DaveMcKenzie 12/7/2016 00:06",
+		"testValidateKey_interface" : "DaveMcKenzie 12/4/2016 23:40",
+		"testValidateKey_setsValidKeyFalseForInvalidDesc" : "DaveMcKenzie 12/6/2016 09:52",
+		"testValidateKey_setsValidKeyFalseForInvalidKey" : "DaveMcKenzie 12/6/2016 09:52",
+		"testValidateKey_setsValidKeyTrueForValidKey" : "DaveMcKenzie 12/6/2016 16:32",
+		"testValidatePrice_setsValidPriceTrueForValidPrice" : "DaveMcKenzie 12/7/2016 00:05",
+		"testValidate_interface" : "DaveMcKenzie 12/3/2016 20:16",
+		"testValidate_setsValidArgumentsToFalseWhenKeyValidationFails" : "DaveMcKenzie 12/6/2016 23:50",
+		"testValidate_setsValidArgumentsToTrueWhenAllValidationsPass" : "DaveMcKenzie 12/6/2016 23:50" } }

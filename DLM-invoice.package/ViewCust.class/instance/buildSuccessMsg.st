@@ -1,4 +1,4 @@
-private-printing
+private - printing
 buildSuccessMsg
 	"print msg showing customer details"
 

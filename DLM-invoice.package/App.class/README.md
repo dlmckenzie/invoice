@@ -1,8 +1,6 @@
 Primary container for invoicing app.
 
 To start invoicing app, open playground, then:
-	app := App new.
-	app start.
+	app := App new start
 To start invoicing app with command line interface add these lines:
-	cli := CLI new.
-	cli start: app.
+	cli := CLI new start: app

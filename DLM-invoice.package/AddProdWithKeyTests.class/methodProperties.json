@@ -3,14 +3,13 @@
 		 },
 	"instance" : {
 		"testAddProdWithKey_exists" : "DaveMcKenzie 11/3/2016 08:38",
-		"testBuildFailureMsg_addsProductNotAddedTextToStream" : "DaveMcKenzie 11/30/2016 14:05",
 		"testBuildFailureMsg_interface" : "DaveMcKenzie 12/1/2016 00:53",
-		"testBuildSuccessMsg_addsProductAddedTextToStream" : "DaveMcKenzie 11/29/2016 15:09",
-		"testBuildSuccessMsg_interface" : "DaveMcKenzie 12/1/2016 00:53",
-		"testExecuteCmd_addsValidProd" : "DaveMcKenzie 11/29/2016 13:30",
-		"testExecuteCmd_doesNotAddDuplicateProd" : "DaveMcKenzie 11/30/2016 15:18",
-		"testExecuteCmd_doesNotAddEmptyStringProd" : "DaveMcKenzie 11/30/2016 23:21",
-		"testExecuteCmd_interface" : "DaveMcKenzie 11/29/2016 13:14",
+		"testBuildSuccessMsg_addsProductAddedTextToStream" : "DaveMcKenzie 12/6/2016 14:36",
+		"testBuildSuccessMsg_interface" : "DaveMcKenzie 12/6/2016 14:20",
+		"testExecuteCmd_addsValidProd" : "DaveMcKenzie 12/6/2016 14:22",
+		"testExecuteCmd_doesNotAddDuplicateProd" : "DaveMcKenzie 12/6/2016 14:26",
+		"testExecuteCmd_doesNotAddEmptyStringProd" : "DaveMcKenzie 12/6/2016 14:25",
+		"testExecuteCmd_interface" : "DaveMcKenzie 12/6/2016 13:53",
 		"testInitializeWithKey_interface" : "DaveMcKenzie 11/28/2016 10:32",
 		"testInitializeWithKey_setsInstanceVariables" : "DaveMcKenzie 11/28/2016 10:28",
 		"testNewWithKey_interface" : "DaveMcKenzie 11/10/2016 09:17",
@@ -19,5 +18,5 @@
 		"testShowHelpFull_interface" : "DaveMcKenzie 12/1/2016 09:35",
 		"testShowHelpShort_interface" : "DaveMcKenzie 12/1/2016 09:32",
 		"testValidate_interface" : "DaveMcKenzie 12/1/2016 11:13",
-		"testValidate_setsValidArgumentsToFalseForDuplicateProdKey" : "DaveMcKenzie 11/29/2016 13:01",
-		"testValidate_setsValidArgumentsToTrueForValidProdKey" : "DaveMcKenzie 11/29/2016 12:50" } }
+		"testValidate_setsValidArgumentsToFalseForDuplicateProdKey" : "DaveMcKenzie 12/6/2016 14:14",
+		"testValidate_setsValidArgumentsToTrueForValidProdKey" : "DaveMcKenzie 12/6/2016 14:05" } }

@@ -1,4 +1,4 @@
-testing
+private - testing
 validationFailureReason
 
 	validArguments isNil

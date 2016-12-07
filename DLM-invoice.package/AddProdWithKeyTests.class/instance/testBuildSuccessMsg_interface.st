@@ -5,4 +5,6 @@ testBuildSuccessMsg_interface
 	self
 		assert: [ (AddProdWithKey newWithKey: 'A10') respondsTo: #buildSuccessMsg ]
 		description: 'AddProdWithKey buildSuccessMsg not found'.
-	self assert: [ (AddProdWithKey newWithKey: 'A10') buildSuccessMsg isMemberOf: AddProdWithKey ] description: 'AddProdWithKey buildSuccessMsg did not answer self'
+	self
+		assert: [ (AddProdWithKey newWithKey: 'A10') buildSuccessMsg isMemberOf: AddProdWithKey ]
+		description: 'AddProdWithKey buildSuccessMsg did not answer self'

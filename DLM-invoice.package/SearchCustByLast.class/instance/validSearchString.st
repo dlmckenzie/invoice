@@ -1,4 +1,4 @@
-private-validation
+private - validation
 validSearchString
 	"answer if search string is valid"
 

@@ -1,3 +1,3 @@
-private-printing
+private - printing
 buildSuccessMsg
 	^ self subclassResponsibility

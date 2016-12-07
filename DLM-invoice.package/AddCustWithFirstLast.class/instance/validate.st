@@ -1,4 +1,4 @@
-private-validation
+private - validation
 validate
 	"validates that command can be processed successfully"
 	validArguments := name isValid.

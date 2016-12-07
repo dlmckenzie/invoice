@@ -1,4 +1,4 @@
-private-printing
+private - printing
 buildFailureMsg
 	"build failure msg"
 

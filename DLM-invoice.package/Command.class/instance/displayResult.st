@@ -1,4 +1,4 @@
-private-printing
+private - printing
 displayResult
 	"display result to user"
 

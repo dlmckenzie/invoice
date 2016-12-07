@@ -1,11 +1,13 @@
 testing - happy path
 testValidate_setsValidArgumentsToTrueForValidProdKey
 	"test that validArguments set to true for valid prod key"
-	
-	| app |
+
+	| app cli |
 	app := App new.
 	app start.
+	cli := CLI new.
+	cli start: app.
 	app products addProd: (Product newWithKey: 'A100').
-	self
+	self 
 		assert: [ (AddProdWithKey newWithKey: 'A200') validArguments ]
 		description: 'validate should have set validArguments instance variable to true'
