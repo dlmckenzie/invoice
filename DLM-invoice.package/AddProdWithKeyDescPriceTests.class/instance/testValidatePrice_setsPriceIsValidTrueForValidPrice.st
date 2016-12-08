@@ -1,5 +1,5 @@
 testing - happy path
-testValidatePrice_setsValidPriceTrueForValidPrice
+testValidatePrice_setsPriceIsValidTrueForValidPrice
 	"test interface"
 
 	self

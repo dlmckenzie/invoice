@@ -1,5 +1,5 @@
 testing - happy path
-testValidateKey_setsValidKeyTrueForValidKey
+testValidateKey_setsKeyIsValidTrueForValidKey
 	"test interface"
 
 	AddProdWithKeyDescPrice initializeWithApp: (App new start).

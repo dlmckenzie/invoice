@@ -1,11 +1,12 @@
 testing - edge cases
 testValidate_setsValidArgumentsToFalseWhenKeyValidationFails
-	"test that validArguments set to false for invalid prod key, description or price"
+	"test that validArguments set to false for invalid prod key"
 
-	| app |
-	app := App new.
-	app start.
-	app products addProd: (Product newWithKey: 'A100').
+	| app key |
+	app := App new start.
+	key := 'A100'.
+	Command initializeWithApp: app.
+	app products addProd: (Product newWithKey: key).
 	self
-		assert: [ (AddProdWithKeyDescPrice  newWithKey: 'A100' Desc: 'Part A200' Price: 40.99) validArguments  ]
-		description: 'validate should have set isValid instance variable to true'
+		deny: [ (AddProdWithKeyDescPrice  newWithKey: key Desc: 'Part A100' Price: 40.99) validArguments  ]
+		description: 'validate should have set validArguments to false because of duplicate key'

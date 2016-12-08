@@ -1,6 +1,6 @@
 testing - happy path
-testValidateDesc_setsValidDescTrueForValidDesc
-	"test interface"
+testValidateDesc_setsDescIsValidTrueForValidDesc
+	"test that descIsValid is set to true for a valid description"
 
 	self
 		assert: [ (AddProdWithKeyDescPrice newWithKey: 'A10' Desc: 'Part A10' Price: 40) descIsValid ]
