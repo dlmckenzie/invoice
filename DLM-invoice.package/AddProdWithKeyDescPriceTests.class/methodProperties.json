@@ -3,6 +3,11 @@
 		 },
 	"instance" : {
 		"testAddProdWithKeyDescPrice_exists" : "DaveMcKenzie 12/3/2016 20:10",
+		"testBuildFailureMsg_interface" : "DaveMcKenzie 12/8/2016 11:44",
+		"testBuildSuccessMsg_interface" : "DaveMcKenzie 12/8/2016 11:36",
+		"testExecuteCmd_addsProduct" : "DaveMcKenzie 12/8/2016 11:04",
+		"testExecuteCmd_doesNotaddInvalidProduct" : "DaveMcKenzie 12/8/2016 11:44",
+		"testExecuteCmd_interface" : "DaveMcKenzie 12/8/2016 10:50",
 		"testInitializeWithKeyDescPrice_interface" : "DaveMcKenzie 12/3/2016 20:13",
 		"testNewWithKeyDescPrice_interface" : "DaveMcKenzie 12/3/2016 19:48",
 		"testValidateDesc_interface" : "DaveMcKenzie 12/7/2016 09:05",
