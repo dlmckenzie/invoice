@@ -10,6 +10,8 @@
 		"testExecuteCmd_interface" : "DaveMcKenzie 12/8/2016 10:50",
 		"testInitializeWithKeyDescPrice_interface" : "DaveMcKenzie 12/3/2016 20:13",
 		"testNewWithKeyDescPrice_interface" : "DaveMcKenzie 12/3/2016 19:48",
+		"testShowHelpFull_interface" : "DaveMcKenzie 12/9/2016 08:48",
+		"testShowHelpShort_interface" : "DaveMcKenzie 12/9/2016 08:49",
 		"testValidateDesc_interface" : "DaveMcKenzie 12/7/2016 09:05",
 		"testValidateDesc_setsDescIsValidFalseForInvalidDesc" : "DaveMcKenzie 12/8/2016 10:29",
 		"testValidateDesc_setsDescIsValidTrueForValidDesc" : "DaveMcKenzie 12/8/2016 10:28",
