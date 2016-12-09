@@ -6,6 +6,7 @@
 		"testAddCustWithFirstLast_addsCustWithEmptyFirstName" : "DaveMcKenzie 10/7/2016 12:00",
 		"testAddCustWithFirstLast_interface" : "DaveMcKenzie 10/7/2016 12:00",
 		"testAddCustWithFirstLast_preventsAddingCustWithEmptyLastName" : "DaveMcKenzie 10/7/2016 12:01",
+		"testAddProdWithKeyDescPrice_interface" : "DaveMcKenzie 12/9/2016 07:49",
 		"testAddProdWithKey_addsProduct" : "DaveMcKenzie 12/1/2016 08:24",
 		"testAddProdWithKey_interface" : "DaveMcKenzie 12/1/2016 08:22",
 		"testAddProdWithKey_preventsAddingDuplicateProduct" : "DaveMcKenzie 12/1/2016 08:33",

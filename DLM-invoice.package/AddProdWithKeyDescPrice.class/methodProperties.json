@@ -2,8 +2,8 @@
 	"class" : {
 		"newWithKey:Desc:Price:" : "DaveMcKenzie 12/3/2016 19:41" },
 	"instance" : {
-		"buildFailureMsg" : "DaveMcKenzie 12/8/2016 11:44",
-		"buildSuccessMsg" : "DaveMcKenzie 12/8/2016 11:39",
+		"buildFailureMsg" : "DaveMcKenzie 12/9/2016 07:56",
+		"buildSuccessMsg" : "DaveMcKenzie 12/9/2016 07:56",
 		"descIsValid" : "DaveMcKenzie 12/4/2016 23:45",
 		"executeCmd" : "DaveMcKenzie 12/8/2016 11:32",
 		"initializeWithKey:Desc:Price:" : "DaveMcKenzie 12/4/2016 22:27",
