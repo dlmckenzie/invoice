@@ -1,0 +1,14 @@
+{
+	"category" : "DLM-Invoice",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "DeleteProdTests",
+	"pools" : [
+		 ],
+	"super" : "CommandTests",
+	"type" : "normal" }

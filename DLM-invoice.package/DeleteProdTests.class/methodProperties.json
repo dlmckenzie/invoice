@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testDeleteProd_exists" : "DaveMcKenzie 12/9/2016 09:46",
+		"testInitializeWithKey_setsInstanceVariables" : "DaveMcKenzie 12/9/2016 10:13",
+		"testNewWithKey_interface" : "DaveMcKenzie 12/9/2016 10:07",
+		"testValidateKey_interface" : "DaveMcKenzie 12/10/2016 23:31",
+		"testValidateKey_setsIsValidTrueForExitingKey" : "DaveMcKenzie 12/10/2016 23:53",
+		"testValidate_interface" : "DaveMcKenzie 12/10/2016 01:15",
+		"testValidate_setsValidArgumentsToFalseWhenAllKeyValidationFails" : "DaveMcKenzie 12/10/2016 22:41",
+		"testValidate_setsValidArgumentsToFalseWhenKeyValidationFails" : "DaveMcKenzie 12/10/2016 21:21",
+		"testValidate_setsValidArgumentsToFalseWhenReferencedByInvoice" : "DaveMcKenzie 12/10/2016 21:32",
+		"testValidate_setsValidArgumentsToTrueWhenAllValidationsPass" : "DaveMcKenzie 12/10/2016 22:43",
+		"testValidate_setsValidationErrorToEmptyStringWhenAllValidationsPass" : "DaveMcKenzie 12/10/2016 22:32",
+		"testValidate_setsValidationErrorToStringWhenValidationFails" : "DaveMcKenzie 12/10/2016 21:30" } }

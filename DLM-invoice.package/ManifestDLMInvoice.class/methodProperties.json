@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"ruleRBBadMessageRuleV1FalsePositive" : "DaveMcKenzie 12/3/2016 19:40",
+		"ruleRBBadMessageRuleV1FalsePositive" : "DaveMcKenzie 12/9/2016 09:50",
 		"ruleRBCodeCruftLeftInMethodsRuleV1FalsePositive" : "DaveMcKenzie 10/4/2016 11:57",
 		"ruleRBInconsistentMethodClassificationRuleV1FalsePositive" : "DaveMcKenzie 7/25/2016 12:12",
 		"ruleRBMissingSubclassResponsibilityRuleV1FalsePositive" : "DaveMcKenzie 12/2/2016 23:26",

@@ -1,0 +1,17 @@
+{
+	"category" : "DLM-Invoice",
+	"classinstvars" : [
+		"key" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DaveMcKenzie 12/9/2016 09:47",
+	"instvars" : [
+		"key",
+		"prod",
+		"keyIsValid",
+		"keyValidationFailureReason" ],
+	"name" : "DeleteProd",
+	"pools" : [
+		 ],
+	"super" : "CommandWithParam",
+	"type" : "normal" }
