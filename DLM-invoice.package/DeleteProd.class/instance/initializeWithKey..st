@@ -1,7 +1,7 @@
 initialization
 initializeWithKey: aProductKey
 	"initialize myself"
-	
+
 	key := aProductKey.
-	prod := Product newWithKey: key.
+	prod := Application products retrieveByKey: key.
 	self validate

@@ -9,4 +9,4 @@ testValidate_setsValidationErrorToEmptyStringWhenAllValidationsPass
 	app products addProd: prod.
 	self
 		assert: [ (DeleteProd newWithKey: 'A10') validationFailureReason isEmpty ]
-		description: 'validArguments should be true'
+		description: 'validationFailureReason should be empty'

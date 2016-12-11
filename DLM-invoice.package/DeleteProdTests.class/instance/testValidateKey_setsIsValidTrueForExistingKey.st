@@ -1,5 +1,5 @@
 testing - happy path
-testValidateKey_setsIsValidTrueForExitingKey
+testValidateKey_setsIsValidTrueForExistingKey
 	"test that method sets isValid to true for existing key"
 
 	| app cmd prod key |
@@ -10,4 +10,4 @@ testValidateKey_setsIsValidTrueForExitingKey
 	DeleteProd initializeWithApp: app.
 	cmd := DeleteProd newWithKey: key.
 	cmd validateKey.
-	self assert: [ cmd keyIsValid ] description: 'keyIsValid should be false for existing key'
+	self assert: [ cmd keyIsValid ] description: 'keyIsValid should be true for existing key'

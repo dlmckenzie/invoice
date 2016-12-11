@@ -3,14 +3,16 @@
 		 },
 	"instance" : {
 		"testDeleteProd_exists" : "DaveMcKenzie 12/9/2016 09:46",
+		"testExecuteCmd_deletesProduct" : "DaveMcKenzie 12/11/2016 12:33",
+		"testExecuteCmd_doesntDeleteAnythingForIncorrectProductKey" : "DaveMcKenzie 12/11/2016 12:37",
+		"testExecuteCmd_interface" : "DaveMcKenzie 12/11/2016 10:13",
 		"testInitializeWithKey_setsInstanceVariables" : "DaveMcKenzie 12/9/2016 10:13",
 		"testNewWithKey_interface" : "DaveMcKenzie 12/9/2016 10:07",
 		"testValidateKey_interface" : "DaveMcKenzie 12/10/2016 23:31",
-		"testValidateKey_setsIsValidTrueForExitingKey" : "DaveMcKenzie 12/10/2016 23:53",
+		"testValidateKey_setsIsValidFalseForNonExistantKey" : "DaveMcKenzie 12/11/2016 00:18",
+		"testValidateKey_setsIsValidTrueForExistingKey" : "DaveMcKenzie 12/11/2016 00:16",
 		"testValidate_interface" : "DaveMcKenzie 12/10/2016 01:15",
-		"testValidate_setsValidArgumentsToFalseWhenAllKeyValidationFails" : "DaveMcKenzie 12/10/2016 22:41",
-		"testValidate_setsValidArgumentsToFalseWhenKeyValidationFails" : "DaveMcKenzie 12/10/2016 21:21",
-		"testValidate_setsValidArgumentsToFalseWhenReferencedByInvoice" : "DaveMcKenzie 12/10/2016 21:32",
+		"testValidate_setsValidArgumentsToFalseWhenKeyValidationFails" : "DaveMcKenzie 12/11/2016 00:37",
 		"testValidate_setsValidArgumentsToTrueWhenAllValidationsPass" : "DaveMcKenzie 12/10/2016 22:43",
-		"testValidate_setsValidationErrorToEmptyStringWhenAllValidationsPass" : "DaveMcKenzie 12/10/2016 22:32",
-		"testValidate_setsValidationErrorToStringWhenValidationFails" : "DaveMcKenzie 12/10/2016 21:30" } }
+		"testValidate_setsValidationErrorToEmptyStringWhenAllValidationsPass" : "DaveMcKenzie 12/11/2016 00:31",
+		"testValidate_setsValidationErrorToStringWhenValidationFails" : "DaveMcKenzie 12/11/2016 00:33" } }

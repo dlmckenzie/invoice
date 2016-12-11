@@ -1,5 +1,12 @@
 testing - edge cases
 testValidate_setsValidArgumentsToFalseWhenKeyValidationFails
-	"test that validate sets validArguments instande variable to false when key validation fails"
-	
-	self assert: [ false ] description: 'test not written' 
+	"test that validate sets validArguments instance variable to false when key validation fails"
+
+	| app prod |
+	app := App new start.
+	DeleteProd initializeWithApp: app.
+	prod := Product newWithKey: 'A10'.
+	app products addProd: prod.
+	self
+		deny: [ (DeleteProd newWithKey: 'A12') validArguments ]
+		description: 'validArguments should be false'
