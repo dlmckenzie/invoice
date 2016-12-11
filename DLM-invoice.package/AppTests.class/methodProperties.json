@@ -4,7 +4,6 @@
 	"instance" : {
 		"testAppExists" : "DaveMcKenzie 4/14/2016 22:58",
 		"testAppStartExists" : "DaveMcKenzie 4/14/2016 23:06",
-		"testDeleteProdInterface" : "DaveMcKenzie 6/2/2016 10:40",
 		"testSearchProdByDescInterface" : "DaveMcKenzie 6/1/2016 23:13",
 		"testUpdateProdWithDescriptionInterface" : "DaveMcKenzie 6/1/2016 23:16",
 		"testUpdateProdWithPriceInterface" : "DaveMcKenzie 6/2/2016 09:52",
