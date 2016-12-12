@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testInitializeWithKeyDesc_setsAttributes" : "DaveMcKenzie 12/12/2016 09:22",
 		"testInitializeWithProdDesc_interface" : "DaveMcKenzie 12/12/2016 08:57",
+		"testNewWithKeyDesc_createsNewInstance" : "DaveMcKenzie 12/12/2016 09:14",
 		"testNewWithKeyDesc_interface" : "DaveMcKenzie 12/12/2016 08:51",
 		"testUpdateProdWithDesc_exists" : "DaveMcKenzie 12/12/2016 08:29" } }

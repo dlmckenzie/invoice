@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "DaveMcKenzie 12/12/2016 08:30",
 	"instvars" : [
-		 ],
+		"key",
+		"desc" ],
 	"name" : "UpdateProdWithDesc",
 	"pools" : [
 		 ],
