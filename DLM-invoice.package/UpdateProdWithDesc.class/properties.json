@@ -4,13 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "DaveMcKenzie 12/9/2016 09:47",
+	"commentStamp" : "DaveMcKenzie 12/12/2016 08:30",
 	"instvars" : [
-		"key",
-		"prod",
-		"keyIsValid",
-		"keyValidationFailureReason" ],
-	"name" : "DeleteProd",
+		 ],
+	"name" : "UpdateProdWithDesc",
 	"pools" : [
 		 ],
 	"super" : "CommandWithParam",

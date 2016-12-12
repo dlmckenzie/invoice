@@ -1,4 +1,4 @@
-as yet unclassified
+testing - interface
 testBuildFailureMsg_interface
 	"test interface"
 
