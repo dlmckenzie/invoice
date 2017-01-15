@@ -3,7 +3,7 @@ help: aString
 	"provides detailed help info for each command"
 
 	| cmdString validCommands |
-	validCommands := #('addCustWithFirst:Last:' 'viewCust:' 'viewAllCustomers' 'searchCustByLast:' 'updateCust:WithFirst:' 'updateCust:WithLast:' 'deleteCust:' 'addProdWithKey:' 'addProdWithKey:Desc:Price:' 'deleteProd:').
+	validCommands := #('addCustWithFirst:Last:' 'viewCust:' 'viewAllCustomers' 'searchCustByLast:' 'updateCust:WithFirst:' 'updateCust:WithLast:' 'deleteCust:' 'addProdWithKey:' 'addProdWithKey:Desc:Price:' 'deleteProd:' 'updateProd:WithDesc:').
 	(validCommands includes: aString)
 		ifTrue: [ cmdString := aString capitalized copyWithoutAll: ':'.
 			cmdString := cmdString , ' showHelpFull'.
@@ -26,15 +26,9 @@ help: aString
 				cr;
 				show: '  View all products containing provided description';
 				cr ].
-	aString = 'updateProd:WithDesc:'
-		ifTrue: [ Transcript
-				show: 'updateProd: {product key} WithDesc: {new product description}';
-				cr;
-				show: '  Update product''s description';
-				cr ].
 	aString = 'updateProd:WithPrice:'
 		ifTrue: [ Transcript
 				show: 'updateProd: {product key} WithPrice: {new product price}';
 				cr;
 				show: '  Update product''s price';
-				cr ].
+				cr ]

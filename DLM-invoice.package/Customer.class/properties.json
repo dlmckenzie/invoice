@@ -13,7 +13,8 @@
 		"validForDeletion",
 		"attachedInvoices",
 		"isValid",
-		"validationError" ],
+		"validationError",
+		"newCust" ],
 	"name" : "Customer",
 	"pools" : [
 		 ],
