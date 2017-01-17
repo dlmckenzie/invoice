@@ -1,15 +1,12 @@
 private - validation
 validate
-	"validate command"
+	"validate the command"
 
 	self
 		validateCust;
 		validateLast.
 	validArguments := custIsValid
-		ifTrue: [ lastIsValid ].
+		ifTrue: [ lastIsValid ]
+		ifFalse: [ false ].
 	validationError := custValidationFailureReason
-		ifEmpty: [ lastValidationFailureReason ifEmpty: [ '' ] ].
-
-	"validArguments := true.
-	self validateCust.
-	cust ifNotNil: [ self validateLast ]"
+		ifEmpty: [ lastValidationFailureReason ifEmpty: [ '' ] ]

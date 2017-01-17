@@ -1,12 +1,12 @@
 private - validation
 validate
-	"validate command"
+	"validate the command"
 
 	self
 		validateKey;
 		validateDesc.
 	validArguments := keyIsValid
 		ifTrue: [ descIsValid ]
-		ifFalse: [false].
+		ifFalse: [ false ].
 	validationError := keyValidationFailureReason
 		ifEmpty: [ descValidationFailureReason ifEmpty: [ '' ] ]

@@ -1,15 +1,12 @@
 private - validation
 validateLast
-	"comment"
+	"validate the customers last name"
 
 	lastIsValid := newCust name lastIsValid.
 	cust
-		ifNotNil: [ cust name lastIsValid
+		ifNotNil: [ lastValidationFailureReason := cust name lastIsValid
 				ifTrue: [ last = origLast
-						ifTrue: [ lastValidationFailureReason := 'New last name matches current name'.
-							validArguments := false ]
-						ifFalse: [ validArguments := true.
-							lastValidationFailureReason := '' ] ]
-				ifFalse: [ lastValidationFailureReason := 'Invalid last name'.
-					validArguments := false ] ]
-		ifNil: [ validArguments := false ]
+						ifTrue: [ 'New last name matches current name' ]
+						ifFalse: [ '' ] ]
+				ifFalse: [ 'Invalid last name' ] ]
+		ifNil: [ ]
