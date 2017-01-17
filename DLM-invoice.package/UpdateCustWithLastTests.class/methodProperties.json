@@ -12,6 +12,12 @@
 		"testShowHelpShort_interface" : "DaveMcKenzie 11/1/2016 12:55",
 		"testValidateCust_interface" : "DaveMcKenzie 1/15/2017 09:01",
 		"testValidateCust_setsValidArgumentsToTrueWhenCustomerExists" : "DaveMcKenzie 1/16/2017 10:03",
+		"testValidateLast_interface" : "DaveMcKenzie 1/17/2017 09:29",
+		"testValidateLast_setsLastIsValidToFalseForEmptyLastName" : "DaveMcKenzie 1/17/2017 09:58",
+		"testValidateLast_setsLastIsValidToFalseForNilLastName" : "DaveMcKenzie 1/17/2017 10:03",
+		"testValidateLast_setsLastIsValidToFalseForNonStringLastName" : "DaveMcKenzie 1/17/2017 10:01",
+		"testValidateLast_setsLastIsValidToFalseForUnchangedLastName" : "DaveMcKenzie 1/17/2017 10:06",
+		"testValidateLast_setsLastIsValidToTrueForValidLastName" : "DaveMcKenzie 1/17/2017 09:56",
 		"testValidate_interface" : "DaveMcKenzie 10/25/2016 10:39",
 		"testValidate_setsValidArgumentsToFalseWhenAnyValidationFails" : "DaveMcKenzie 1/10/2017 09:00",
 		"testValidate_setsValidArgumentsToTrueWhenAllValidationsPass" : "DaveMcKenzie 1/16/2017 10:19" } }
