@@ -1,9 +1,8 @@
 private - validation
 validateCust
-	"comment"
+	"validate that a customer with this id exists"
 
-	cust := Application customers retrieveByID: id.
-	cust
-		ifNil: [ validationError := 'Invalid cust id'.
-			validArguments := false ]
-		ifNotNil: [ origLast := cust name last ]
+	custIsValid := origCust isNotNil.
+	custValidationFailureReason := custIsValid
+		ifTrue: [ '' ]
+		ifFalse: [ 'Customer id not found' ]

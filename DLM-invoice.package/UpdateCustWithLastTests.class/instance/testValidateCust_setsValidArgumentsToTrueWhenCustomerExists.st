@@ -1,17 +1,16 @@
 testing - happy path
-testValidate_setsValidArgumentsToTrueWhenAllValidationsPass
+testValidateCust_setsValidArgumentsToTrueWhenCustomerExists
 	"ValidArguments should be set to true when all validations pass"
 
-	| app cli cmd cust |
+	| app cmd cust |
 	app := App new.
 	app start.
-	cli := CLI new.
-	cli start: app.
+	Command initializeWithApp: app.
 	cust := Customer newWithName: (CustomerName newWithFirst: 'Joey' Last: 'Smith').
 	app customers addCust: cust.
 	cmd := UpdateCustWithLast newWithCust: cust id Last: 'Smithe'.
-	"Command initializeWithApp: app."
-	cmd validate.
+
+	"cmd validateCust."
 	self
 		assert: [ cmd validArguments ]
-		description: 'validArguments should be set to true when all validations pass'
+		description: 'validArguments should be set to true when customer exists'

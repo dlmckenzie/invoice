@@ -6,5 +6,5 @@ testValidateCust_interface
 		assert: [ UpdateCustWithLast new respondsTo: #validateCust ]
 		description: 'validateCust method not recognzied'.
 	self
-		assert: [ (UpdateCustWithLast newWithCust: Customer new Last: 'Dave') isMemberOf: UpdateCustWithLast ]
+		assert: [ (UpdateCustWithLast newWithCust:9 Last: 'McKenzie')isMemberOf: UpdateCustWithLast ]
 		description: 'method did not answer with UpdateCustWithLast'

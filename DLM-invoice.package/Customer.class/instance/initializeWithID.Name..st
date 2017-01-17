@@ -1,8 +1,8 @@
 initialization
-initializeWithID: anID Name: aName
+initializeWithID: anID Name: aCustomerName
 	"answers an initialized customer"
 
 	id := anID.
-	name := aName.
+	name := aCustomerName.
 	invoices := self class invoices.
 	self validate.

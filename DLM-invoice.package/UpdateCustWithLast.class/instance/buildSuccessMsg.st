@@ -7,8 +7,8 @@ buildSuccessMsg
 		nextPutAll: 'Customer ';
 		nextPutAll: id asString;
 		nextPutAll: '''s last name updated from ''';
-		nextPutAll: origLast;
+		nextPutAll: origCust name last;
 		nextPutAll: ''' to ''';
-		nextPutAll: last;
+		nextPutAll: newCust name last;
 		nextPutAll: '''.';
 		cr

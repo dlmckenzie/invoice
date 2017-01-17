@@ -1,0 +1,3 @@
+private - validation
+lastIsValid
+	^ lastIsValid 

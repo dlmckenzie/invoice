@@ -2,10 +2,14 @@ private - validation
 validateLast
 	"comment"
 
-	cust name lastIsValid
-		ifTrue: [ last = origLast
-				ifTrue: [ validationError := 'New last name matches current name'.
-					validArguments := false ]
-				ifFalse: [ validArguments := true ] ]
-		ifFalse: [ validationError := 'Invalid last name'.
-			validArguments := false ]
+	lastIsValid := newCust name lastIsValid.
+	cust
+		ifNotNil: [ cust name lastIsValid
+				ifTrue: [ last = origLast
+						ifTrue: [ lastValidationFailureReason := 'New last name matches current name'.
+							validArguments := false ]
+						ifFalse: [ validArguments := true.
+							lastValidationFailureReason := '' ] ]
+				ifFalse: [ lastValidationFailureReason := 'Invalid last name'.
+					validArguments := false ] ]
+		ifNil: [ validArguments := false ]
