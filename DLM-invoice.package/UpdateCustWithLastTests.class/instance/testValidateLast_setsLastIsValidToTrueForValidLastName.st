@@ -10,7 +10,7 @@ testValidateLast_setsLastIsValidToTrueForValidLastName
 	cust := Customer newWithName: (CustomerName newWithFirst: 'Joey' Last: 'Smith').
 	app customers addCust: cust.
 	cmd := UpdateCustWithLast newWithCust: cust id Last: 'Smithe'.
-	cmd validate.
+	cmd executeCmd.
 	self
 		assert: [ cmd lastIsValid ]
-		description: 'lastIsValid should be set to true when all validations pass'
+		description: 'lastIsValid should be set to true when last name is valid'

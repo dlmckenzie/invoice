@@ -6,6 +6,7 @@ initializeWithCust: aCustID Last: aLastNameString
 	last := aLastNameString.
 	cust := Application customers retrieveByID: id.
 	origCust := cust copy.
+	origLast := origCust name last.
 	newCust := Customer
 		newWithName: (CustomerName newWithFirst: cust name first Last: aLastNameString).
 	self validate

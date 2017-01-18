@@ -2,9 +2,8 @@ private - validation
 validateLast
 	"validate the customers last name"
 
-	lastIsValid := newCust name lastIsValid
-		ifTrue: [ last = origLast ]
-		ifFalse: [ false ].
+	lastIsValid := newCust name lastIsValid.
+	lastIsValid ifTrue: [last = origLast ifTrue: [lastIsValid := false] ifFalse: [ lastIsValid := true ]  ]  .
 	cust
 		ifNotNil: [ lastValidationFailureReason := cust name lastIsValid
 				ifTrue: [ last = origLast

@@ -14,4 +14,4 @@ testValidateLast_setsLastIsValidToFalseForUnchangedLastName
 	cmd validate.
 	self
 		deny: [ cmd lastIsValid ]
-		description: 'lastIsValid should be set to false for non string last name'
+		description: 'lastIsValid should be set to false for unchaged last name'
