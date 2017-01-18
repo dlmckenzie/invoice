@@ -8,8 +8,6 @@
 	"instvars" : [
 		"id",
 		"cust",
-		"last",
-		"origLast",
 		"custIsValid",
 		"custValidationFailureReason",
 		"lastIsValid",

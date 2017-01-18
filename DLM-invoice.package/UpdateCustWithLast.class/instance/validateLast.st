@@ -3,10 +3,13 @@ validateLast
 	"validate the customers last name"
 
 	lastIsValid := newCust name lastIsValid.
-	lastIsValid ifTrue: [last = origLast ifTrue: [lastIsValid := false] ifFalse: [ lastIsValid := true ]  ]  .
+	lastIsValid
+		ifTrue: [ lastIsValid := newCust name last = origCust name last
+				ifTrue: [ false ]
+				ifFalse: [ true ] ].
 	cust
 		ifNotNil: [ lastValidationFailureReason := cust name lastIsValid
-				ifTrue: [ last = origLast
+				ifTrue: [ newCust name last = origCust name last
 						ifTrue: [ 'New last name matches current name' ]
 						ifFalse: [ '' ] ]
 				ifFalse: [ 'Invalid last name' ] ]
