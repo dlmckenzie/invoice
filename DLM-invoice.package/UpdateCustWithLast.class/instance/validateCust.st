@@ -5,4 +5,4 @@ validateCust
 	custIsValid := origCust isNotNil.
 	custValidationFailureReason := custIsValid
 		ifTrue: [ '' ]
-		ifFalse: [ 'Customer id not found' ]
+		ifFalse: [ 'Customer id not found.' ]
