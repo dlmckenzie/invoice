@@ -10,5 +10,6 @@ validateLast
 					lastValidationError := 'Last name may not be empty.' ]
 				ifFalse: [ (last includesSubstring: ',')
 						ifTrue: [ lastIsValid := false.
-							lastValidationError := 'Last name may not contain a comma' ]
-						ifFalse: [ lastIsValid := true. lastValidationError := '' ] ] ]
+							lastValidationError := 'Last name may not contain a comma.' ]
+						ifFalse: [ lastIsValid := true.
+							lastValidationError := '' ] ] ]

@@ -6,6 +6,7 @@
 	"instance" : {
 		"buildFailureMsg" : "DaveMcKenzie 11/25/2016 08:20",
 		"buildSuccessMsg" : "DaveMcKenzie 1/23/2017 10:31",
+		"checkFirstEqualsLast" : "DaveMcKenzie 1/24/2017 09:46",
 		"custIsValid" : "DaveMcKenzie 1/15/2017 00:34",
 		"executeCmd" : "DaveMcKenzie 1/23/2017 10:31",
 		"id" : "DaveMcKenzie 10/25/2016 09:33",
@@ -13,4 +14,4 @@
 		"lastIsValid" : "DaveMcKenzie 1/15/2017 00:34",
 		"validate" : "DaveMcKenzie 1/17/2017 08:38",
 		"validateCust" : "DaveMcKenzie 1/22/2017 22:19",
-		"validateLast" : "DaveMcKenzie 1/18/2017 08:41" } }
+		"validateLast" : "DaveMcKenzie 1/24/2017 09:55" } }

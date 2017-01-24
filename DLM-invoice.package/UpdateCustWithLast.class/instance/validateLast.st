@@ -8,9 +8,9 @@ validateLast
 				ifTrue: [ false ]
 				ifFalse: [ true ] ].
 	cust
-		ifNotNil: [ lastValidationFailureReason := cust name lastIsValid
+		ifNotNil: [ lastValidationFailureReason := newCust name lastIsValid
 				ifTrue: [ newCust name last = origCust name last
-						ifTrue: [ 'New last name matches current name' ]
-						ifFalse: [ '' ] ]
-				ifFalse: [ 'Invalid last name' ] ]
+		ifTrue: [ 'New last name matches current name' ]
+		ifFalse: [ '' ] ]
+				ifFalse: [ newCust name lastValidationError ] ]
 		ifNil: [  ]
