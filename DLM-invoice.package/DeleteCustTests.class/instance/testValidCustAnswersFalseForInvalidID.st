@@ -8,4 +8,4 @@ testValidCustAnswersFalseForInvalidID
 	cli := CLI new.
 	cli start: app.
 	cmd := DeleteCust newWithID: 99.
-	self deny: [ cmd validCust ] description: 'should have answered false for invalid id'
+	self deny: [ cmd custExists ] description: 'should have answered false for invalid id'

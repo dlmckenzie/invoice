@@ -1,6 +1,6 @@
 testing
 testRetrieveByIDAnswersCustOnMatch
-	"test that dict is returned containing correct customer"
+	"test that method answers correct customer"
 
 	| customers cust id |
 	customers := Customers new.

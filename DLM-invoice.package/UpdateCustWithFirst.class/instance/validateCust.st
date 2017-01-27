@@ -1,8 +1,9 @@
 private - validation
 validateCust
-	"comment"
+	"validate that cust exists for the id"
 
-	cust := Application customers retrieveByID: id.
+	(Application customers custExistsForID: id)
+		ifTrue: [ cust := Application customers retrieveByID: id ].
 	cust
 		ifNil: [ validationError := 'Invalid cust id'.
 			validArguments := false ]

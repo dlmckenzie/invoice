@@ -1,5 +1,5 @@
 private - validation
-validCust
-	"answer whether cust id is valid"
+custExists
+	"answer whether requested cust was found"
 
 	cust ifNil: [ ^ false ] ifNotNil: [ ^ true ]

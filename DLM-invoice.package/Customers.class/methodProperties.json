@@ -3,7 +3,8 @@
 		 },
 	"instance" : {
 		"addCust:" : "DaveMcKenzie 7/26/2016 11:05",
+		"custExistsForID:" : "DaveMcKenzie 1/25/2017 10:51",
 		"delete:" : "DaveMcKenzie 9/22/2016 14:39",
 		"retrieveAll" : "DaveMcKenzie 2/11/2016 14:18",
-		"retrieveByID:" : "DaveMcKenzie 4/22/2016 10:41",
+		"retrieveByID:" : "DaveMcKenzie 1/25/2017 00:17",
 		"retrieveByLastName:" : "DaveMcKenzie 10/24/2016 11:00" } }
