@@ -1,6 +1,6 @@
 validation
 validate
-	"validate the cusTomer"
+	"validate the customer"
 
 	self name validate.
 	isValid := name isValid.

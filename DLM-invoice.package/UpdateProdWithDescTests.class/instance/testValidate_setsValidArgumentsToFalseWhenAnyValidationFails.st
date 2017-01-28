@@ -1,6 +1,6 @@
 testing - edge cases
 testValidate_setsValidArgumentsToFalseWhenAnyValidationFails
-	"test that validArguments set to true for valid prod key, and description"
+	"test that validArguments is set to false if any validation fails"
 
 	| app cmd prod |
 	app := App new start.

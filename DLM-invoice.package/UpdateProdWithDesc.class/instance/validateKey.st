@@ -5,4 +5,4 @@ validateKey
 	keyIsValid := origProd isNotNil.
 	keyValidationFailureReason := keyIsValid
 		ifTrue: [ '' ]
-		ifFalse: [ 'Product key not found' ]
+		ifFalse: [ 'product key not found.' ]

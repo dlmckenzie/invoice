@@ -4,7 +4,8 @@ initializeWithProd: aProductKeyString Desc: aProductDescriptionString
 
 	key := aProductKeyString.
 	desc := aProductDescriptionString.
-	prod := Application products retrieveByKey: key.
-	origProd := prod copy.
+	(Application products keyIsUnique: key)
+		ifFalse: [ prod := Application products retrieveByKey: key ].
+	origProd := prod deepCopy.
 	newProd := (Product newWithKey: key) updateDescription: desc.
 	self validate

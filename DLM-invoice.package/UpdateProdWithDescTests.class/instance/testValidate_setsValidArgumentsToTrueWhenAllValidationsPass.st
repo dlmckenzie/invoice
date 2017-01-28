@@ -1,6 +1,6 @@
-testing - happy path
+testing - edge cases
 testValidate_setsValidArgumentsToTrueWhenAllValidationsPass
-	"test that validArguments set to true for valid prod key, and description"
+	"test that validArguments set to true when all validations pass"
 
 	| app cmd prod |
 	app := App new start.
