@@ -6,5 +6,7 @@ testKeyIsUniqueAnswersFalseForDuplicateKey
 	products := Products new.
 	product := Product newWithKey: 'X101'.
 	products addProd: product.
-	result := products keyIsUnique: 'X101'.
-	self deny: [ result ] description: 'method should have answered true for unique key'
+	result := (products prodExistsForKey: 'X101') not.
+	self
+		deny: [ result ]
+		description: 'method should have answered true for unique key'

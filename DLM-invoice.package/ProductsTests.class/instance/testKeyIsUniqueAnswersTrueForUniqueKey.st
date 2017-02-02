@@ -4,7 +4,7 @@ testKeyIsUniqueAnswersTrueForUniqueKey
 
 	| products result |
 	products := Products new.
-	result := products keyIsUnique: 'X101'.
+	result := (products prodExistsForKey: 'X101') not.
 	self
 		assert: [ result ]
 		description: 'method should have answered true for unique key'

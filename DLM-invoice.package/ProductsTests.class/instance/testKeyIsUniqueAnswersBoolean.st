@@ -4,7 +4,7 @@ testKeyIsUniqueAnswersBoolean
 
 	| products result |
 	products := Products new.
-	result := products keyIsUnique: 'X101'.
+	result := products prodExistsForKey: 'X101'.
 	self
 		assert: [ result isKindOf: Boolean ]
 		description: 'method did not answer boolean'
