@@ -5,5 +5,5 @@ testValidate_setsValidationFailureReasonToNilWhenAllValidationsPass
 	cmd := SearchCustByLast newWithLast: 'Smith'.
 	cmd validate.
 	self
-		assert: [ cmd validationFailureReason isNil ]
+		assert: [ cmd validationError isNil ]
 		description: 'validationFailureReaspo should be set to nil when all validations pass'

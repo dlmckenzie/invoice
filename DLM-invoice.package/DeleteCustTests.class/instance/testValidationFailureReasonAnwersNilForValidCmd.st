@@ -10,5 +10,5 @@ testValidationFailureReasonAnwersNilForValidCmd
 	cmd := DeleteCust newWithID: custID.
 	cmd validate.
 	self
-		assert: [ cmd validationFailureReason isNil ]
+		assert: [ cmd validationError isNil ]
 		description: 'validationFailureReason should be nil'

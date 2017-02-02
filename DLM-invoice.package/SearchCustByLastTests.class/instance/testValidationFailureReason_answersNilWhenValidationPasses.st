@@ -6,6 +6,6 @@ testValidationFailureReason_answersNilWhenValidationPasses
 	cmd := SearchCustByLast newWithLast: 'Smith'.
 	cmd validate.
 	self
-		assert: [ cmd validationFailureReason isNil ]
+		assert: [ cmd validationError isNil ]
 		description: 'validationFailureReason should have been nil'.
 	

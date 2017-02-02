@@ -4,5 +4,5 @@ testValidateKey_setsKeyValidationFailureReasonToStringForInvalidKey
 	
 	AddProdWithKeyDescPrice initializeWithApp: (App new start).
 	self
-		deny: [(AddProdWithKeyDescPrice newWithKey: '' Desc: 'Part A100' Price: 59.99) keyValidationFailureReason isEmpty ]
+		deny: [(AddProdWithKeyDescPrice newWithKey: '' Desc: 'Part A100' Price: 59.99) keyValidationError isEmpty ]
 		description: 'For invalid key, keyValidationFaiulureReason should contain error' 

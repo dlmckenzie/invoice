@@ -7,5 +7,5 @@ testValidate_setsValidationErrorToStringWhenValidationFails
 	DeleteProd initializeWithApp: app.
 
 	self
-		assert: [ (DeleteProd newWithKey: 'A10') validationFailureReason isNotEmpty ]
+		assert: [ (DeleteProd newWithKey: 'A10') validationError isNotEmpty ]
 		description: 'validationFailureReason should have text'

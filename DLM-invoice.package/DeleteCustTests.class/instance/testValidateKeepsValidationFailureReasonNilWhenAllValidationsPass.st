@@ -12,5 +12,5 @@ testValidateKeepsValidationFailureReasonNilWhenAllValidationsPass
 	cmd := DeleteCust newWithID: cust id.
 	cmd validate.
 	self
-		assert: [ cmd validationFailureReason isNil ]
+		assert: [ cmd validationError isNil ]
 		description: 'validationFailureReason should still be nil'

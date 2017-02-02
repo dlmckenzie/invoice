@@ -6,5 +6,5 @@ testValidationFailureReason_answersStringWhenValidationFails
 	cmd := SearchCustByLast newWithLast: ''.
 	cmd validate.
 	self
-		assert: [ cmd validationFailureReason isString  ]
+		assert: [ cmd validationError isString  ]
 		description: 'validationFailureReason should have answered a string'

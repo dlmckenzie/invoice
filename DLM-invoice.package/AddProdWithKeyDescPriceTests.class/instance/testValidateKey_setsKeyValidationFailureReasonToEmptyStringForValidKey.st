@@ -4,5 +4,5 @@ testValidateKey_setsKeyValidationFailureReasonToEmptyStringForValidKey
 	
 	AddProdWithKeyDescPrice initializeWithApp: (App new start).
 	self
-		assert: [(AddProdWithKeyDescPrice newWithKey: 'A100' Desc: 'Part A100' Price: 59.99) keyValidationFailureReason isEmpty ]
+		assert: [(AddProdWithKeyDescPrice newWithKey: 'A100' Desc: 'Part A100' Price: 59.99) keyValidationError isEmpty ]
 		description: 'For valid key, keyValidationFaiulureReason should be emtpy' 

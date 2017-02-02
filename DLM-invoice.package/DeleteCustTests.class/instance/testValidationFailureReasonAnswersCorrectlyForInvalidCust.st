@@ -11,5 +11,5 @@ testValidationFailureReasonAnswersCorrectlyForInvalidCust
 	cmd := DeleteCust newWithID: 999.
 	cmd validate.
 	self
-		assert: [ cmd validationFailureReason = 'Cust ID is invalid or does not exist.' ]
+		assert: [ cmd validationError = 'Cust ID is invalid or does not exist.' ]
 		description: 'incorrect error message'

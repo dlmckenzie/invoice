@@ -12,5 +12,5 @@ testValidate_setsValidationFailureReasonWhenAnyValidationFails
 	cmd := ViewCust newWithID: -1.
 	cmd validate.
 	self
-		deny: [ cmd validationFailureReason isNil ]
+		deny: [ cmd validationError isNil ]
 		description: 'validationFailureReason should contain failure reason'

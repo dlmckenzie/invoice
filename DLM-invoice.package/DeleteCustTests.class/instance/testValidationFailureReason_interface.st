@@ -4,8 +4,8 @@ testValidationFailureReason_interface
 
 	| cmd |
 	self
-		assert: [ DeleteCust new respondsTo: #validationFailureReason ]
+		assert: [ DeleteCust new respondsTo: #validationError ]
 		description: 'DeleteCust validationFailureReason method does not exist'.
 	cmd := DeleteCust newWithID: 1.
 	cmd validate.
-	self assert: [ cmd validationFailureReason isKindOf: String ] description: 'method must answer self'
+	self assert: [ cmd validationError isKindOf: String ] description: 'method must answer self'

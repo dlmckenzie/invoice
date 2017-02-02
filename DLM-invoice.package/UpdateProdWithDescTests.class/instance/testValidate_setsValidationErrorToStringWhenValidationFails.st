@@ -11,6 +11,6 @@ testValidate_setsValidationErrorToStringWhenValidationFails
 	app products addProd: prod.
 	cmd := UpdateProdWithDesc newWithProd: 'A10' Desc: nil.
 	self
-		deny: [ cmd validate validationFailureReason = '' ]
+		deny: [ cmd validate validationError = '' ]
 		description:
 			'UpdateProdWithDesc validate should have set validationFailureReason to string describing error'

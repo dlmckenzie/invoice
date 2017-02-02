@@ -8,5 +8,5 @@ testValidate_setsValidationErrorToEmptyStringWhenAllValidationsPass
 	prod := Product newWithKey: 'A10'.
 	app products addProd: prod.
 	self
-		assert: [ (DeleteProd newWithKey: 'A10') validationFailureReason isEmpty ]
+		assert: [ (DeleteProd newWithKey: 'A10') validationError isEmpty ]
 		description: 'validationFailureReason should be empty'

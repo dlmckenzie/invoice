@@ -19,8 +19,8 @@
 		"testValidateKey_setsKeyIsValidFalseForDuplicateKey" : "DaveMcKenzie 12/7/2016 10:26",
 		"testValidateKey_setsKeyIsValidFalseForEmptyKey" : "DaveMcKenzie 12/7/2016 10:26",
 		"testValidateKey_setsKeyIsValidTrueForValidKey" : "DaveMcKenzie 12/7/2016 08:58",
-		"testValidateKey_setsKeyValidationFailureReasonToEmptyStringForValidKey" : "DaveMcKenzie 12/7/2016 10:05",
-		"testValidateKey_setsKeyValidationFailureReasonToStringForInvalidKey" : "DaveMcKenzie 12/7/2016 10:20",
+		"testValidateKey_setsKeyValidationFailureReasonToEmptyStringForValidKey" : "DaveMcKenzie 2/2/2017 09:32",
+		"testValidateKey_setsKeyValidationFailureReasonToStringForInvalidKey" : "DaveMcKenzie 2/2/2017 09:32",
 		"testValidatePrice_interface" : "DaveMcKenzie 12/7/2016 09:05",
 		"testValidatePrice_setsPriceIsValidFalseForNegatativePrice" : "DaveMcKenzie 12/8/2016 10:35",
 		"testValidatePrice_setsPriceIsValidFalseForNonNumericPrice" : "DaveMcKenzie 12/8/2016 10:36",
@@ -30,4 +30,4 @@
 		"testValidate_setsValidArgumentsToFalseWhenKeyValidationFails" : "DaveMcKenzie 12/7/2016 08:39",
 		"testValidate_setsValidArgumentsToFalseWhenPriceValidationFails" : "DaveMcKenzie 12/7/2016 09:35",
 		"testValidate_setsValidArgumentsToTrueWhenAllValidationsPass" : "DaveMcKenzie 12/7/2016 09:30",
-		"testValidate_setsValidationFailureReasonToEmptyStringWhenAllValidationsPass" : "DaveMcKenzie 12/7/2016 09:36" } }
+		"testValidate_setsValidationFailureReasonToEmptyStringWhenAllValidationsPass" : "DaveMcKenzie 2/2/2017 09:32" } }

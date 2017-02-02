@@ -11,4 +11,4 @@ testValidate_setsValidationFailureReasonNilWhenAllValidationsPass
 	app customers addCust: cust.
 	cmd := ViewCust newWithID: cust id.
 	cmd validate.
-	self assert: [ cmd validationFailureReason isNil ] description: 'validationFailureReason should still be nil'
+	self assert: [ cmd validationError isNil ] description: 'validationFailureReason should still be nil'
