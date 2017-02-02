@@ -1,3 +1,3 @@
 private - validation
 keyValidationError
-	^ keyValidationFailureReason 
+	^ keyValidationError 

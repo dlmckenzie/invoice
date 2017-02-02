@@ -9,7 +9,7 @@
 		"key",
 		"prod",
 		"keyIsValid",
-		"keyValidationFailureReason" ],
+		"keyValidationError" ],
 	"name" : "DeleteProd",
 	"pools" : [
 		 ],

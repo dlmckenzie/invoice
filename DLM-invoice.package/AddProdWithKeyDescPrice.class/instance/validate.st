@@ -7,7 +7,7 @@ validate
 	validArguments  := keyIsValid
 		ifTrue: [ descIsValid
 			ifTrue: [ priceIsValid ] ].
-	validationError := keyValidationFailureReason
-		ifEmpty: [ descValidationFailureReason
-			ifEmpty: [ priceValidationFailureReason
+	validationError := keyValidationError
+		ifEmpty: [ descValidationError
+			ifEmpty: [ priceValidationError
 				ifEmpty: [''] ] ]

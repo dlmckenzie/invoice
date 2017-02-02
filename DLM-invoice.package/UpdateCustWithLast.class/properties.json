@@ -9,11 +9,11 @@
 		"id",
 		"cust",
 		"custIsValid",
-		"custValidationFailureReason",
 		"lastIsValid",
 		"lastValidationFailureReason",
 		"origCust",
-		"newCust" ],
+		"newCust",
+		"custValidationError" ],
 	"name" : "UpdateCustWithLast",
 	"pools" : [
 		 ],

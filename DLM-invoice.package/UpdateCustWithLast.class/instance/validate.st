@@ -8,5 +8,5 @@ validate
 	validArguments := custIsValid
 		ifTrue: [ lastIsValid ]
 		ifFalse: [ false ].
-	validationError := custValidationFailureReason
+	validationError := custValidationError
 		ifEmpty: [ lastValidationFailureReason ifEmpty: [ '' ] ]

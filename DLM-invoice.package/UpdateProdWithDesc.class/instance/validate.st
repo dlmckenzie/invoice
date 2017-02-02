@@ -8,5 +8,5 @@ validate
 	validArguments := keyIsValid
 		ifTrue: [ descIsValid ]
 		ifFalse: [ false ].
-	validationError := keyValidationFailureReason
-		ifEmpty: [ descValidationFailureReason ifEmpty: [ '' ] ]
+	validationError := keyValidationError
+		ifEmpty: [ descValidationError ifEmpty: [ '' ] ]

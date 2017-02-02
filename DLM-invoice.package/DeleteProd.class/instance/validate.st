@@ -5,4 +5,4 @@ validate
 
 	self validateKey.
 	validArguments := keyIsValid.
-	validationError := keyValidationFailureReason
+	validationError := keyValidationError

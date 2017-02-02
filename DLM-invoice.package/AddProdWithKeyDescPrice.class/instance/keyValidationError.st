@@ -1,3 +1,3 @@
 private - testing
 keyValidationError
-	^ keyValidationFailureReason 
+	^ keyValidationError 

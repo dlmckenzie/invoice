@@ -3,6 +3,6 @@ validateCust
 	"validate that a customer with this id exists"
 
 	custIsValid := origCust isNotNil.
-	custValidationFailureReason := custIsValid
+	custValidationError := custIsValid
 		ifTrue: [ '' ]
 		ifFalse: [ 'Customer id not found.' ]
