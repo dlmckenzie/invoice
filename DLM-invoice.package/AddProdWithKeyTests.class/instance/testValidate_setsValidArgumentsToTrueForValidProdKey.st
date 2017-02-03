@@ -9,5 +9,5 @@ testValidate_setsValidArgumentsToTrueForValidProdKey
 	cli start: app.
 	app products addProd: (Product newWithKey: 'A100').
 	self 
-		assert: [ (AddProdWithKey newWithKey: 'A200') validArguments ]
+		assert: [ (AddProdWithKey newWithKey: 'A200') isValid ]
 		description: 'validate should have set validArguments instance variable to true'

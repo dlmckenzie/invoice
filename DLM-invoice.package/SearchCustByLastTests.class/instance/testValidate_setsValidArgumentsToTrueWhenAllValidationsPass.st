@@ -6,5 +6,5 @@ testValidate_setsValidArgumentsToTrueWhenAllValidationsPass
 	cmd := SearchCustByLast newWithLast: 'Smith'.
 	cmd validate.
 	self
-		assert: [ cmd validArguments ]
+		assert: [ cmd isValid ]
 		description: 'validArguments should be set to true when all validations pass'

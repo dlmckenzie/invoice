@@ -2,7 +2,7 @@ action
 executeCmd
 	"execute the cmd"
 
-	self validArguments
+	self isValid
 		ifTrue: [ self buildSuccessMsg ]
 		ifFalse: [ self buildFailureMsg ].
 	self displayResult

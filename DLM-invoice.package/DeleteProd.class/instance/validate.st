@@ -4,5 +4,5 @@ validate
 	If not valid, update validationFailureReason"
 
 	self validateKey.
-	validArguments := keyIsValid.
+	isValid := keyIsValid.
 	validationError := keyValidationError

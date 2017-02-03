@@ -3,9 +3,9 @@ validate
 	"validate that arguments are valid for command execution,
 	If not valid, update validationFailureReason"
 
-	validArguments := true.
+	isValid := true.
 	validationError := nil.
 	self validSearchString
 		ifTrue: [ ^ self ].
-	validArguments := false.
+	isValid := false.
 	validationError := 'Search string may not be empty'

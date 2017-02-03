@@ -10,4 +10,4 @@ testValidate_setsValidArgumentsToTrueWhenAllValidationsPass
 	cmd := UpdateCustWithFirst newWithCust: cust id First: 'Joe'.
 	Command initializeWithApp: app.
 	cmd validate.
-	self assert: [ cmd validArguments ] description: 'validArguments should be set to true when all validations pass'
+	self assert: [ cmd isValid ] description: 'validArguments should be set to true when all validations pass'

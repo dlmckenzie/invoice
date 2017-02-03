@@ -5,8 +5,8 @@ validate
 
 	self custExists
 		ifFalse: [ validationError := 'Cust ID is invalid or does not exist.'.
-			validArguments := false ]
+			isValid := false ]
 		ifTrue: [ self noAssociatedInvoices
 				ifFalse: [ validationError := 'Cust has associated invoices.'.
-					validArguments := false ]
-				ifTrue: [ validArguments := true ] ]
+					isValid := false ]
+				ifTrue: [ isValid := true ] ]

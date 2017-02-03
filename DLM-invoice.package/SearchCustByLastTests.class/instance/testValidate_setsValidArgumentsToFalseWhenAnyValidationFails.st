@@ -6,5 +6,5 @@ testValidate_setsValidArgumentsToFalseWhenAnyValidationFails
 	cmd := SearchCustByLast newWithLast: ''.
 	cmd validate.
 	self
-		deny: [ cmd validArguments ]
+		deny: [ cmd isValid ]
 		description: 'validArguments should be set to false when any validation fails'

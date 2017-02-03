@@ -9,5 +9,5 @@ testValidate_setsValidArgumentsToTrueWhenAllValidationsPass
 	prod := Product newWithKey: key.
 	app products addProd: prod.
 	self
-		assert: [ (DeleteProd newWithKey: key) validArguments ]
+		assert: [ (DeleteProd newWithKey: key) isValid ]
 		description: 'validArguments should be true'

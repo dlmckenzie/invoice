@@ -7,8 +7,8 @@
 	"commentStamp" : "DaveMcKenzie 9/5/2016 23:24",
 	"instvars" : [
 		"stream",
-		"validArguments",
-		"validationError" ],
+		"validationError",
+		"isValid" ],
 	"name" : "Command",
 	"pools" : [
 		 ],

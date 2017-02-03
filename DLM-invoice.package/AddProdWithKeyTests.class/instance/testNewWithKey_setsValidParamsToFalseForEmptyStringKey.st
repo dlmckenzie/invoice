@@ -5,7 +5,7 @@ testNewWithKey_setsValidParamsToFalseForEmptyStringKey
 	| cmd |
 	cmd := AddProdWithKey newWithKey: ''.
 	self
-		deny: [ cmd validArguments ]
+		deny: [ cmd isValid ]
 		description: 'validArguments should be false for empty string key' 
 	
 	

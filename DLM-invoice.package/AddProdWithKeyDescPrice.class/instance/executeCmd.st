@@ -2,7 +2,7 @@ action
 executeCmd
 	"execute the cmd to add the product"
 
-	self validate validArguments
+	self validate isValid
 		ifTrue: [ prod := Product newWithKey: key.
 			prod
 				updateDescription: desc;

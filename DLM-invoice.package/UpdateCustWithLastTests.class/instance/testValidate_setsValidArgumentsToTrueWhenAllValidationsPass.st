@@ -13,5 +13,5 @@ testValidate_setsValidArgumentsToTrueWhenAllValidationsPass
 	"Command initializeWithApp: app."
 	cmd validate.
 	self
-		assert: [ cmd validArguments ]
+		assert: [ cmd isValid ]
 		description: 'validArguments should be set to true when all validations pass'

@@ -10,5 +10,5 @@ testValidate_setsValidArgumentsToTrueWhenAllValidationsPass
 	app products addProd: prod.
 	cmd := UpdateProdWithDesc newWithProd: 'A10' Desc: 'Updated Part A10'.
 	self
-		assert: [ cmd validate validArguments ]
+		assert: [ cmd validate isValid ]
 		description: 'UpdateProdWithDesc validate should have set isValid instance variable to true'

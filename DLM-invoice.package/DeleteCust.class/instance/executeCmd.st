@@ -2,7 +2,7 @@ action
 executeCmd
 	"execute the command"
 
-	validArguments
+	isValid
 		ifTrue: [ 
 			Application customers delete: cust.
 			self buildSuccessMsg ]

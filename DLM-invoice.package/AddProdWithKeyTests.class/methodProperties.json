@@ -14,9 +14,9 @@
 		"testInitializeWithKey_setsInstanceVariables" : "DaveMcKenzie 11/28/2016 10:28",
 		"testNewWithKey_interface" : "DaveMcKenzie 11/10/2016 09:17",
 		"testNewWithKey_setsInstanceVariables" : "DaveMcKenzie 11/28/2016 08:40",
-		"testNewWithKey_setsValidParamsToFalseForEmptyStringKey" : "DaveMcKenzie 12/1/2016 09:05",
+		"testNewWithKey_setsValidParamsToFalseForEmptyStringKey" : "DaveMcKenzie 2/3/2017 09:51",
 		"testShowHelpFull_interface" : "DaveMcKenzie 12/1/2016 09:35",
 		"testShowHelpShort_interface" : "DaveMcKenzie 12/1/2016 09:32",
 		"testValidate_interface" : "DaveMcKenzie 12/1/2016 11:13",
-		"testValidate_setsValidArgumentsToFalseForDuplicateProdKey" : "DaveMcKenzie 12/6/2016 14:14",
-		"testValidate_setsValidArgumentsToTrueForValidProdKey" : "DaveMcKenzie 12/6/2016 14:05" } }
+		"testValidate_setsValidArgumentsToFalseForDuplicateProdKey" : "DaveMcKenzie 2/3/2017 09:51",
+		"testValidate_setsValidArgumentsToTrueForValidProdKey" : "DaveMcKenzie 2/3/2017 09:51" } }

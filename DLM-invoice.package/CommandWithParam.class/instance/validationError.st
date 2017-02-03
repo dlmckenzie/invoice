@@ -1,6 +1,6 @@
 private - testing
 validationError
 
-	validArguments isNil
+	isValid isNil
 		ifTrue: [ Error signal: 'method validate has not yet been run' ].
 	^ validationError

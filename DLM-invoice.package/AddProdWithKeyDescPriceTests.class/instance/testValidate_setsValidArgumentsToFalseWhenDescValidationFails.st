@@ -8,5 +8,5 @@ testValidate_setsValidArgumentsToFalseWhenDescValidationFails
 	Command initializeWithApp: app.
 	
 	self
-		deny: [ (AddProdWithKeyDescPrice  newWithKey: 'A100' Desc: 3 Price: 40.99) validArguments  ]
+		deny: [ (AddProdWithKeyDescPrice  newWithKey: 'A100' Desc: 3 Price: 40.99) isValid  ]
 		description: 'validate should have set validArguments to false because of invalid description'

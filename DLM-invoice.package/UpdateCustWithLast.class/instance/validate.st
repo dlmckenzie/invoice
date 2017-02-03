@@ -5,7 +5,7 @@ validate
 	self
 		validateCust;
 		validateLast.
-	validArguments := custIsValid
+	isValid := custIsValid
 		ifTrue: [ lastIsValid ]
 		ifFalse: [ false ].
 	validationError := custValidationError

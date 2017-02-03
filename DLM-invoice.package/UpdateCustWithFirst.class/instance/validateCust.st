@@ -6,5 +6,5 @@ validateCust
 		ifTrue: [ cust := Application customers retrieveByID: id ].
 	cust
 		ifNil: [ validationError := 'Invalid cust id'.
-			validArguments := false ]
+			isValid := false ]
 		ifNotNil: [ origFirst := cust name first ]

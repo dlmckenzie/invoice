@@ -10,4 +10,4 @@ testValidate_setsValidArgumentsToFalseWhenAnyValidationFails
 	cmd := UpdateCustWithLast newWithCust: cust id Last: ''.
 	Command initializeWithApp: app.
 	cmd validate.
-	self deny: [ cmd validArguments ] description: 'validArguments should be set to false as last name cannot be empty'
+	self deny: [ cmd isValid ] description: 'validArguments should be set to false as last name cannot be empty'

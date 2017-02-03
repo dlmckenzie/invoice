@@ -8,5 +8,5 @@ testValidate_setsValidArgumentsToFalseForDuplicateProdKey
 	app products addProd: (Product newWithKey: 'A100').
 	cmd := AddProdWithKey newWithKey: 'A100'.
 	self 
-		deny: [ cmd validArguments ]
+		deny: [ cmd isValid ]
 		description: 'validate should have set validArguments instance variable to false (duplicate key)'

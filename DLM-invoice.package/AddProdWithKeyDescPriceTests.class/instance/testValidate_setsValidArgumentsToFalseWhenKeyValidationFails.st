@@ -8,5 +8,5 @@ testValidate_setsValidArgumentsToFalseWhenKeyValidationFails
 	Command initializeWithApp: app.
 	app products addProd: (Product newWithKey: key).
 	self
-		deny: [ (AddProdWithKeyDescPrice  newWithKey: key Desc: 'Part A100' Price: 40.99) validArguments  ]
+		deny: [ (AddProdWithKeyDescPrice  newWithKey: key Desc: 'Part A100' Price: 40.99) isValid  ]
 		description: 'validate should have set validArguments to false because of duplicate key'

@@ -10,5 +10,5 @@ testValidate_setsValidArgumentsToFalseWhenAnyValidationFails
 	app products addProd: prod.
 	cmd := UpdateProdWithDesc newWithProd: 'A12' Desc: 'Updated Part A10'.
 	self
-		deny: [ cmd validate validArguments ]
+		deny: [ cmd validate isValid ]
 		description: 'UpdateProdWithDesc validate should have set isValid instance variable to false'

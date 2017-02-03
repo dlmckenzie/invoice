@@ -4,9 +4,9 @@ validate
 
 	prod isValid
 		ifTrue: [ (Application products prodExistsForKey: key) not
-				ifTrue: [ validArguments := true ]
-				ifFalse: [ validArguments := false.
+				ifTrue: [ isValid := true ]
+				ifFalse: [ isValid := false.
 					validationError := 'Product key is not unique' ] ]
-		ifFalse: [ validArguments := false.
+		ifFalse: [ isValid := false.
 			validationError := prod validationError ]
 	

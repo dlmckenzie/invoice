@@ -11,4 +11,4 @@ testValidate_setsValidArgumentsTrueWhenAllValidationsPass
 	app customers addCust: cust.
 	cmd := ViewCust newWithID: cust id.
 	cmd validate.
-	self assert: [ cmd validArguments ] description: 'validationFailureReason should still be nil'
+	self assert: [ cmd isValid ] description: 'validationFailureReason should still be nil'

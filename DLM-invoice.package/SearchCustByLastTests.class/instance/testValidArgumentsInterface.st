@@ -5,8 +5,8 @@ testValidArgumentsInterface
 	| cmd |
 	cmd := SearchCustByLast newWithLast: 'Smith'.
 	self
-		assert: [ cmd respondsTo: #validArguments ]
+		assert: [ cmd respondsTo: #isValid ]
 		description: 'SearchCustByNew validArguments does not exist'.
 	self
-		assert: [ cmd validArguments isKindOf: Boolean]
+		assert: [ cmd isValid isKindOf: Boolean]
 		description: 'SearchCustByNew should have answered with a boolean'

@@ -2,7 +2,7 @@ action
 executeCmd
 	"execute the command"
 
-	validArguments
+	isValid
 		ifTrue: [ prod updateDescription: newProd description.
 			self buildSuccessMsg ]
 		ifFalse: [ self buildFailureMsg ].

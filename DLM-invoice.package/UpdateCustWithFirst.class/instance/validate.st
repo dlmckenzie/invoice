@@ -1,6 +1,6 @@
 private - validation
 validate
-	validArguments := true.
+	isValid := true.
 	self validateCust.
 	cust ifNotNil: [ self validateFirst ]
 	

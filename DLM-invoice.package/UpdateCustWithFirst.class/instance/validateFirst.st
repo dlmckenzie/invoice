@@ -5,7 +5,7 @@ validateFirst
 	cust name firstIsValid
 		ifTrue: [ first = origFirst
 				ifTrue: [ validationError := 'New first name matches current name'.
-					validArguments := false ]
-				ifFalse: [ validArguments := true ] ]
+					isValid := false ]
+				ifFalse: [ isValid := true ] ]
 		ifFalse: [ validationError := 'Invalid first name'.
-			validArguments := false ]
+			isValid := false ]

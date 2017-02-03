@@ -4,10 +4,11 @@ validate
 		validateKey;
 		validateDesc;
 		validatePrice.
-	validArguments  := keyIsValid
+	isValid := keyIsValid
 		ifTrue: [ descIsValid
-			ifTrue: [ priceIsValid ] ].
+				ifTrue: [ priceIsValid ]
+				ifFalse: [ false ] ]
+		ifFalse: [false].
 	validationError := keyValidationError
-		ifEmpty: [ descValidationError
-			ifEmpty: [ priceValidationError
-				ifEmpty: [''] ] ]
+		ifEmpty:
+			[ descValidationError ifEmpty: [ priceValidationError ifEmpty: [ '' ] ] ]

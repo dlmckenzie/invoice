@@ -5,7 +5,7 @@ validate
 	self
 		validateKey;
 		validateDesc.
-	validArguments := keyIsValid
+	isValid := keyIsValid
 		ifTrue: [ descIsValid ]
 		ifFalse: [ false ].
 	validationError := keyValidationError

@@ -2,7 +2,7 @@ action
 executeCmd
 	"execute the command"
 
-	validArguments
+	isValid
 		ifTrue: [cust name last: newCust name last.
 			self buildSuccessMsg ]
 		ifFalse: [ self buildFailureMsg ].

@@ -8,5 +8,5 @@ testValidate_setsValidArgumentsToFalseWhenKeyValidationFails
 	prod := Product newWithKey: 'A10'.
 	app products addProd: prod.
 	self
-		deny: [ (DeleteProd newWithKey: 'A12') validArguments ]
+		deny: [ (DeleteProd newWithKey: 'A12') isValid ]
 		description: 'validArguments should be false'

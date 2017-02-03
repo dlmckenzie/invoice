@@ -11,4 +11,4 @@ testValidate_setsValidArgumentsFalseWhenAnyValidationFails
 	app customers addCust: cust.
 	cmd := ViewCust newWithID: -2.
 	cmd validate.
-	self deny: [ cmd validArguments ] description: 'validationFailureReason should still be nil'
+	self deny: [ cmd isValid ] description: 'validationFailureReason should still be nil'

@@ -26,8 +26,8 @@
 		"testValidatePrice_setsPriceIsValidFalseForNonNumericPrice" : "DaveMcKenzie 12/8/2016 10:36",
 		"testValidatePrice_setsPriceIsValidTrueForValidPrice" : "DaveMcKenzie 12/7/2016 09:01",
 		"testValidate_interface" : "DaveMcKenzie 12/3/2016 20:16",
-		"testValidate_setsValidArgumentsToFalseWhenDescValidationFails" : "DaveMcKenzie 12/7/2016 08:41",
-		"testValidate_setsValidArgumentsToFalseWhenKeyValidationFails" : "DaveMcKenzie 12/7/2016 08:39",
-		"testValidate_setsValidArgumentsToFalseWhenPriceValidationFails" : "DaveMcKenzie 12/7/2016 09:35",
-		"testValidate_setsValidArgumentsToTrueWhenAllValidationsPass" : "DaveMcKenzie 12/7/2016 09:30",
+		"testValidate_setsValidArgumentsToFalseWhenDescValidationFails" : "DaveMcKenzie 2/3/2017 09:51",
+		"testValidate_setsValidArgumentsToFalseWhenKeyValidationFails" : "DaveMcKenzie 2/3/2017 09:51",
+		"testValidate_setsValidArgumentsToFalseWhenPriceValidationFails" : "DaveMcKenzie 2/3/2017 09:51",
+		"testValidate_setsValidArgumentsToTrueWhenAllValidationsPass" : "DaveMcKenzie 2/3/2017 09:51",
 		"testValidate_setsValidationFailureReasonToEmptyStringWhenAllValidationsPass" : "DaveMcKenzie 2/2/2017 09:32" } }
