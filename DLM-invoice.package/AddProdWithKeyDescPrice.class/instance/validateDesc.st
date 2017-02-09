@@ -3,4 +3,4 @@ validateDesc
 	"validate the product description"
 	
 	descIsValid := prod descriptionIsValid .
-	descValidationError := ''
+	descValidationError := prod descriptionValidationError 
