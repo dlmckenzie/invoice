@@ -3,4 +3,4 @@ validatePrice
 	"validates the product price"
 	
 	priceIsValid := prod priceIsValid .
-	priceValidationError := ''
+	priceValidationError := prod priceValidationError 
