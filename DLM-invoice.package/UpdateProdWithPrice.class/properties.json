@@ -1,0 +1,22 @@
+{
+	"category" : "DLM-Invoice",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DaveMcKenzie 2/13/2017 10:29",
+	"instvars" : [
+		"key",
+		"price",
+		"prod",
+		"origProd",
+		"newProd",
+		"keyIsValid",
+		"keyValidationError",
+		"priceIsValid",
+		"priceValidationError" ],
+	"name" : "UpdateProdWithPrice",
+	"pools" : [
+		 ],
+	"super" : "CommandWithParam",
+	"type" : "normal" }

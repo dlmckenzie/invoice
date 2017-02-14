@@ -1,11 +1,11 @@
 initialization
-initializeWithProd: aProductKeyString Desc: aProductDescriptionString
+initializeWithKey: aProductKeyString Price: aProductPrice
 	"initialize self"
 
 	key := aProductKeyString.
-	desc := aProductDescriptionString.
+	price := aProductPrice.
 	(Application products prodExistsForKey: key)
 		ifTrue: [ prod := Application products retrieveByKey: key ].
 	origProd := prod deepCopy.
-	newProd := (Product newWithKey: key) updateDescription: desc.
+	newProd := (Product newWithKey: key) updatePrice: price.
 	self validate

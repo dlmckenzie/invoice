@@ -9,7 +9,7 @@
 		"deleteProd:" : "DaveMcKenzie 12/11/2016 12:49",
 		"displayHelp:" : "DaveMcKenzie 10/26/2016 10:25",
 		"help" : "DaveMcKenzie 12/1/2016 09:57",
-		"help:" : "DaveMcKenzie 1/14/2017 22:11",
+		"help:" : "DaveMcKenzie 2/14/2017 10:41",
 		"helpCust" : "DaveMcKenzie 10/26/2016 10:36",
 		"helpIntro" : "DaveMcKenzie 10/26/2016 10:34",
 		"helpProd" : "DaveMcKenzie 12/1/2016 10:18",
@@ -18,5 +18,6 @@
 		"updateCust:WithFirst:" : "DaveMcKenzie 10/7/2016 12:28",
 		"updateCust:WithLast:" : "DaveMcKenzie 10/25/2016 10:45",
 		"updateProd:WithDesc:" : "DaveMcKenzie 1/14/2017 21:41",
+		"updateProd:WithPrice:" : "DaveMcKenzie 2/14/2017 11:12",
 		"viewAllCustomers" : "DaveMcKenzie 9/28/2016 00:30",
 		"viewCust:" : "DaveMcKenzie 9/29/2016 10:59" } }

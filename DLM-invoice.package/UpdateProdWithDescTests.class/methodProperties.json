@@ -13,7 +13,7 @@
 		"testValidateDesc_setsDescIsValidToFalseForUnchangedDesc" : "DaveMcKenzie 1/27/2017 12:32",
 		"testValidateDesc_setsDescIsValidToTrueForChangedDesc" : "DaveMcKenzie 1/27/2017 11:00",
 		"testValidateDesc_setsDescIsValidToTrueForEmptyDesc" : "DaveMcKenzie 1/27/2017 22:25",
-		"testValidateDesc_setsDescIsValidToTrueForValidDesc" : "DaveMcKenzie 1/27/2017 14:32",
+		"testValidateDesc_setsDescIsValidToTrueForValidDesc" : "DaveMcKenzie 2/13/2017 11:50",
 		"testValidateKey_interface" : "DaveMcKenzie 1/10/2017 11:10",
 		"testValidateKey_setsKeyIsValidToFalseForNonExistantProduct" : "DaveMcKenzie 1/13/2017 11:53",
 		"testValidateKey_setsKeyIsValidToTrueForExistingProduct" : "DaveMcKenzie 1/13/2017 11:52",

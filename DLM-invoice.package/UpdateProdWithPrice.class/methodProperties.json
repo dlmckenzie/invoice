@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"newWithKey:Price:" : "DaveMcKenzie 2/13/2017 11:04",
+		"showHelpFull" : "DaveMcKenzie 2/14/2017 10:38",
+		"showHelpShort" : "DaveMcKenzie 2/14/2017 10:39" },
+	"instance" : {
+		"buildFailureMsg" : "DaveMcKenzie 2/14/2017 10:37",
+		"buildSuccessMsg" : "DaveMcKenzie 2/14/2017 11:25",
+		"executeCmd" : "DaveMcKenzie 2/14/2017 11:19",
+		"initializeWithKey:Price:" : "DaveMcKenzie 2/13/2017 11:02",
+		"key" : "DaveMcKenzie 2/13/2017 11:12",
+		"keyIsValid" : "DaveMcKenzie 2/13/2017 11:35",
+		"price" : "DaveMcKenzie 2/13/2017 11:13",
+		"priceIsValid" : "DaveMcKenzie 2/14/2017 08:57",
+		"priceValidationError" : "DaveMcKenzie 2/14/2017 09:43",
+		"validate" : "DaveMcKenzie 2/13/2017 11:38",
+		"validateKey" : "DaveMcKenzie 2/13/2017 11:20",
+		"validatePrice" : "DaveMcKenzie 2/13/2017 11:30" } }
