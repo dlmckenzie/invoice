@@ -1,3 +1,3 @@
 interface - product
-updateProd: aProdKeyInteger WithDesc: aProdDescString
-	(UpdateProdWithDesc newWithProd: aProdKeyInteger Desc: aProdDescString) executeCmd
+updateProd: aProdKeyString WithDesc: aProdDescString
+	(UpdateProdWithDesc newWithProd: aProdKeyString Desc: aProdDescString) executeCmd
