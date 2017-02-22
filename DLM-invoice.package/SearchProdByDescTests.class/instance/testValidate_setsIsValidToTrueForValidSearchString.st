@@ -1,0 +1,2 @@
+testing - happy path
+testValidate_setsIsValidToTrueForValidSearchString

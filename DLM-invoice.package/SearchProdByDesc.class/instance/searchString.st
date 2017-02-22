@@ -1,0 +1,3 @@
+private - accessing
+searchString
+	^ searchString

@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testInitializeWithDesc_interface" : "DaveMcKenzie 2/22/2017 10:46",
+		"testNewWithDescInterface" : "DaveMcKenzie 2/22/2017 00:54",
+		"testNewWithDesc_setsInstanceVariables" : "DaveMcKenzie 2/22/2017 10:53",
+		"testValidateInterface" : "DaveMcKenzie 2/22/2017 11:00",
+		"testValidateSearchStringInterface" : "DaveMcKenzie 2/22/2017 11:11",
+		"testValidate_setsIsValidToFalseForEmptySearchString" : "DaveMcKenzie 2/22/2017 11:16",
+		"testValidate_setsIsValidToFalseForNilSearchString" : "DaveMcKenzie 2/22/2017 11:16",
+		"testValidate_setsIsValidToFalseForNonStringSearchString" : "DaveMcKenzie 2/22/2017 11:16",
+		"testValidate_setsIsValidToTrueForValidSearchString" : "DaveMcKenzie 2/22/2017 11:13",
+		"testValidate_setsValidationErrorToEmptyStringForValidSearchString" : "DaveMcKenzie 2/22/2017 11:14",
+		"testValidate_setsValidationErrorToStringForEmptyStringSearchString" : "DaveMcKenzie 2/22/2017 11:17",
+		"testValidate_setsValidationErrorToStringForNilSearchString" : "DaveMcKenzie 2/22/2017 11:17",
+		"testValidate_setsValidationErrorToStringForNonStringSearchString" : "DaveMcKenzie 2/22/2017 11:17" } }
