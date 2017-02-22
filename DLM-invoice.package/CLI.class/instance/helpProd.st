@@ -8,22 +8,14 @@ helpProd
 		cr.
 	self displayHelp: stream.
 	AddProdWithKey showHelpShort.
-	Transcript
-		show: '     Add  -  addProdWithKey:Desc:Price:';
-		cr.
+	AddProdWithKeyDescPrice showHelpShort.
 	Transcript
 		show: '     View  -  viewProd:';
 		cr.
 	Transcript
 		show: '     View all  -  viewAllProducts';
 		cr.
-	SearchProdByDesc showHelpShort. 
-	Transcript
-		show: '     Update description  -  updateProd:WithDesc:';
-		cr.
-	Transcript
-		show: '     Update price  -  updateProd:WithPrice:';
-		cr.
-	Transcript
-		show: '     Delete  -  deleteProd:';
-		cr
+	SearchProdByDesc showHelpShort.
+	UpdateProdWithDesc showHelpShort.
+	UpdateProdWithPrice showHelpShort.
+	DeleteProd showHelpShort
