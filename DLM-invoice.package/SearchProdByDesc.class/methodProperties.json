@@ -2,7 +2,9 @@
 	"class" : {
 		"newWithDesc:" : "DaveMcKenzie 2/22/2017 10:50" },
 	"instance" : {
+		"buildSuccessMsg" : "DaveMcKenzie 2/22/2017 12:25",
+		"executeCmd" : "DaveMcKenzie 2/22/2017 12:22",
 		"initializeWithDesc:" : "DaveMcKenzie 2/22/2017 10:51",
 		"searchString" : "DaveMcKenzie 2/22/2017 01:24",
-		"validate" : "DaveMcKenzie 2/22/2017 10:53",
+		"validate" : "DaveMcKenzie 2/22/2017 12:02",
 		"validateSearchString" : "DaveMcKenzie 2/22/2017 11:11" } }
