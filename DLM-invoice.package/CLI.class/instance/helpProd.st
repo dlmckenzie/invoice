@@ -17,9 +17,7 @@ helpProd
 	Transcript
 		show: '     View all  -  viewAllProducts';
 		cr.
-	Transcript
-		show: '     Search by description  -  searchProdByDesc:';
-		cr.
+	SearchProdByDesc showHelpShort. 
 	Transcript
 		show: '     Update description  -  updateProd:WithDesc:';
 		cr.

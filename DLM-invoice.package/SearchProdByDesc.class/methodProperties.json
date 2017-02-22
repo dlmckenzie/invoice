@@ -1,9 +1,11 @@
 {
 	"class" : {
-		"newWithDesc:" : "DaveMcKenzie 2/22/2017 10:50" },
+		"newWithDesc:" : "DaveMcKenzie 2/22/2017 10:50",
+		"showHelpFull" : "DaveMcKenzie 2/22/2017 14:55",
+		"showHelpShort" : "DaveMcKenzie 2/22/2017 14:54" },
 	"instance" : {
-		"buildSuccessMsg" : "DaveMcKenzie 2/22/2017 12:25",
-		"executeCmd" : "DaveMcKenzie 2/22/2017 12:22",
+		"buildSuccessMsg" : "DaveMcKenzie 2/22/2017 15:14",
+		"executeCmd" : "DaveMcKenzie 2/22/2017 13:18",
 		"initializeWithDesc:" : "DaveMcKenzie 2/22/2017 10:51",
 		"searchString" : "DaveMcKenzie 2/22/2017 01:24",
 		"validate" : "DaveMcKenzie 2/22/2017 12:02",
