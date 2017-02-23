@@ -1,17 +1,13 @@
 private - printing
 buildSuccessMsg
-	"build success message for printing"
-
 	| orderedKeys prod |
 	stream := String new writeStream.
 	stream
-		nextPutAll: 'Products (sorted by product key) whose description matches ''';
-		nextPutAll: searchString;
-		nextPutAll: ''':';
+		nextPutAll: 'All Products: (key, description, price) ';
 		cr.
 	queryResult isEmpty
 		ifTrue: [ stream
-				nextPutAll: '  <No matching products found>';
+				nextPutAll: '  <No products exist>';
 				cr ]
 		ifFalse: [ orderedKeys := queryResult keysSortedSafely.
 			orderedKeys
@@ -25,5 +21,5 @@ buildSuccessMsg
 						nextPutAll: ''',';
 						space;
 						nextPutAll: (prod price ifNil: [ '' ] ifNotNil: [ '$' ]);
-						nextPutAll: (prod price ifNil: [ '[price unspecified' ] ifNotNil: [ prod price printShowingDecimalPlaces: 2 ]);
+						nextPutAll: (prod price ifNil: [ '[price unspecified]' ] ifNotNil: [ prod price printShowingDecimalPlaces: 2 ]);
 						cr ] ]

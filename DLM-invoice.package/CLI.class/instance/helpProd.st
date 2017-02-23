@@ -12,9 +12,7 @@ helpProd
 	Transcript
 		show: '     View  -  viewProd:';
 		cr.
-	Transcript
-		show: '     View all  -  viewAllProducts';
-		cr.
+	ViewAllProducts showHelpShort.
 	SearchProdByDesc showHelpShort.
 	UpdateProdWithDesc showHelpShort.
 	UpdateProdWithPrice showHelpShort.
