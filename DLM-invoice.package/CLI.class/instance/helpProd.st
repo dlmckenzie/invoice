@@ -9,9 +9,7 @@ helpProd
 	self displayHelp: stream.
 	AddProdWithKey showHelpShort.
 	AddProdWithKeyDescPrice showHelpShort.
-	Transcript
-		show: '     View  -  viewProd:';
-		cr.
+	ViewProd showHelpShort.
 	ViewAllProducts showHelpShort.
 	SearchProdByDesc showHelpShort.
 	UpdateProdWithDesc showHelpShort.

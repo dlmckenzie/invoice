@@ -1,0 +1,15 @@
+{
+	"category" : "DLM-Invoice",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DaveMcKenzie 2/23/2017 10:12",
+	"instvars" : [
+		"prod",
+		"key" ],
+	"name" : "ViewProd",
+	"pools" : [
+		 ],
+	"super" : "CommandWithParam",
+	"type" : "normal" }

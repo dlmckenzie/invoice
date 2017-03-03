@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testExecuteCmd_interface" : "DaveMcKenzie 3/3/2017 10:09",
+		"testInitializeWithKey_interface" : "DaveMcKenzie 2/23/2017 11:28",
+		"testInitializeWithKey_setsAttributes" : "DaveMcKenzie 3/1/2017 13:20",
+		"testNewWithKey_interface" : "DaveMcKenzie 2/23/2017 11:22",
+		"testShowHelpFull_interface" : "DaveMcKenzie 3/3/2017 11:05",
+		"testShowHelpShort_interface" : "DaveMcKenzie 3/3/2017 11:06",
+		"testValidate_answersFalseForInvalidProd" : "DaveMcKenzie 3/1/2017 23:04",
+		"testValidate_answersFalseForNilProdKey" : "DaveMcKenzie 3/1/2017 23:22",
+		"testValidate_answersFalseForNumericProdKey" : "DaveMcKenzie 3/1/2017 23:23",
+		"testValidate_answersTrueForValidProd" : "DaveMcKenzie 3/1/2017 23:03",
+		"testValidate_interface" : "DaveMcKenzie 2/23/2017 21:12" } }
