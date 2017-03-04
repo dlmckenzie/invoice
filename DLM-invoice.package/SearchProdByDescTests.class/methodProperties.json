@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testBuildFailureMsgInterface" : "DaveMcKenzie 3/3/2017 22:31",
+		"testBuildSuccessMsgInterface" : "DaveMcKenzie 3/3/2017 22:26",
 		"testExecuteCmd_interface" : "DaveMcKenzie 2/22/2017 12:13",
 		"testInitializeWithDesc_interface" : "DaveMcKenzie 2/22/2017 10:46",
 		"testNewWithDescInterface" : "DaveMcKenzie 2/22/2017 00:54",
