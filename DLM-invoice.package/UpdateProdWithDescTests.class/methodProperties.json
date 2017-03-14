@@ -12,7 +12,7 @@
 		"testValidateDesc_setsDescIsValidToFalseForNonStringDesc" : "DaveMcKenzie 1/27/2017 12:34",
 		"testValidateDesc_setsDescIsValidToFalseForUnchangedDesc" : "DaveMcKenzie 1/27/2017 12:32",
 		"testValidateDesc_setsDescIsValidToTrueForChangedDesc" : "DaveMcKenzie 1/27/2017 11:00",
-		"testValidateDesc_setsDescIsValidToTrueForEmptyDesc" : "DaveMcKenzie 3/3/2017 22:54",
+		"testValidateDesc_setsDescIsValidToTrueForEmptyDesc" : "DaveMcKenzie 3/14/2017 10:58",
 		"testValidateDesc_setsDescIsValidToTrueForValidDesc" : "DaveMcKenzie 3/3/2017 22:53",
 		"testValidateKey_interface" : "DaveMcKenzie 1/10/2017 11:10",
 		"testValidateKey_setsKeyIsValidToFalseForNonExistantProduct" : "DaveMcKenzie 1/13/2017 11:53",
