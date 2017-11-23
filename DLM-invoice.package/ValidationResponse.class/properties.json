@@ -1,14 +1,13 @@
 {
-	"category" : "DLM-Invoice",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "DaveMcKenzie 9/20/2016 10:24",
-	"instvars" : [
-		"failureReason" ],
-	"name" : "ValidationResponse",
-	"pools" : [
-		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"category" : "DLM-Invoice",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"failureReason"
+	],
+	"name" : "ValidationResponse",
+	"type" : "normal"
+}

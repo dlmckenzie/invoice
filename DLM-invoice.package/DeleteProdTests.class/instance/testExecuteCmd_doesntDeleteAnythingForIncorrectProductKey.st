@@ -5,9 +5,9 @@ testExecuteCmd_doesntDeleteAnythingForIncorrectProductKey
 	DeleteProd initializeWithApp: app.
 	key := 'A10'.
 	prod := Product newWithKey: key.
-	app products addProd: prod.
-	self assert: [ app products size = 1 ] description: 'test not valid'.
+	app domain products addProd: prod.
+	self assert: [ app domain products size = 1 ] description: 'test not valid'.
 	cmd := DeleteProd newWithKey: 'B10'.
 	cmd executeCmd.
-	self deny: [ app products isEmpty ] description: 'product should have been deleted'
+	self deny: [ app domain products isEmpty ] description: 'product should have been deleted'
 	

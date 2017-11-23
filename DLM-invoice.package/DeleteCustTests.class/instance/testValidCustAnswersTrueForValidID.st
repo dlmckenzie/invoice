@@ -8,6 +8,6 @@ testValidCustAnswersTrueForValidID
 	cli := CLI new.
 	cli start: app.
 	cust := Customer newWithName: (CustomerName newWithFirst: 'Sara' Last: 'Smith').
-	app customers addCust: cust.
+	app domain customers addCust: cust.
 	cmd := DeleteCust newWithID: cust id.
 	self assert: [ cmd custExists ] description: 'should have answered true for valid id'

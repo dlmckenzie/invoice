@@ -1,10 +1,10 @@
 {
-	"category" : "DLM-Invoice",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "DaveMcKenzie 10/7/2016 13:32",
+	"super" : "Object",
+	"category" : "DLM-Invoice",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"first",
 		"last",
@@ -13,9 +13,8 @@
 		"firstValidationError",
 		"lastValidationError",
 		"isValid",
-		"validationError" ],
+		"validationError"
+	],
 	"name" : "CustomerName",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

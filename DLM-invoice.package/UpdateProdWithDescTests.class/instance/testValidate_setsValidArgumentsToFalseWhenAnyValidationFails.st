@@ -7,7 +7,7 @@ testValidate_setsValidArgumentsToFalseWhenAnyValidationFails
 	Command initializeWithApp: app.
 	prod := Product newWithKey: 'A10'.
 	prod updateDescription: 'Part A10'.
-	app products addProd: prod.
+	app domain products addProd: prod.
 	cmd := UpdateProdWithDesc newWithProd: 'A12' Desc: 'Updated Part A10'.
 	self
 		deny: [ cmd validate isValid ]

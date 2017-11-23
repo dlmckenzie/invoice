@@ -9,8 +9,8 @@ buildSuccessMsg
 		nextPutAll: ':';
 		cr;
 		nextPutAll: '  First name: ';
-		nextPutAll: (Application customers retrieveByID: id) name first;
+		nextPutAll: (Application domain customers retrieveByID: id) name first;
 		cr;
 		nextPutAll: '  Last name: ';
-		nextPutAll: (Application customers retrieveByID: id) name last;
+		nextPutAll: (Application domain customers retrieveByID: id) name last;
 		cr.

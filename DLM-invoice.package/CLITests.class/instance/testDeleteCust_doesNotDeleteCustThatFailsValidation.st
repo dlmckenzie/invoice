@@ -5,7 +5,7 @@ testDeleteCust_doesNotDeleteCustThatFailsValidation
 	app start.
 	cli := CLI new.
 	cli start: app.
-	app customers addCust: (Customer newWithName: (CustomerName newWithFirst: 'Sara' Last: 'Smith')).
-	self assert: [ app customers size = 1 ] description: 'cust did not get added'.
+	app domain customers addCust: (Customer newWithName: (CustomerName newWithFirst: 'Sara' Last: 'Smith')).
+	self assert: [ app domain customers size = 1 ] description: 'cust did not get added'.
 	cli deleteCust: -1.
-	self assert: [ app customers size = 1 ] description: 'cust should not have been deleted'
+	self assert: [ app domain customers size = 1 ] description: 'cust should not have been deleted'

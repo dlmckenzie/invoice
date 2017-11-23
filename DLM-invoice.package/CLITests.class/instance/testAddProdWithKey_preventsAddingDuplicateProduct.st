@@ -10,6 +10,6 @@ testAddProdWithKey_preventsAddingDuplicateProduct
 	cli addProdWithKey: 'A10'.
 	cli addProdWithKey: 'A10'.
 	self
-		assert: [ app products size = 1 ]
+		assert: [ app domain products size = 1 ]
 		description: 'product with duplicate key should not have been successfully added'.
 

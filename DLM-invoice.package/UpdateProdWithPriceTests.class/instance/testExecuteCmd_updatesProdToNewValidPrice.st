@@ -10,8 +10,8 @@ testExecuteCmd_updatesProdToNewValidPrice
 	price := 20.
 	prod := Product newWithKey: 'A'.
 	prod updatePrice: 10.
-	app products addProd: prod.
-	self assert: [ app products size = 1 ] description: 'test setup failed'.
+	app domain products addProd: prod.
+	self assert: [ app domain products size = 1 ] description: 'test setup failed'.
 	cmd := UpdateProdWithPrice newWithKey: 'A' Price: price.
 	cmd executeCmd.
-	self assert: [ (app products retrieveByKey: 'A') price = price ] description: 'price not changed'
+	self assert: [ (app domain products retrieveByKey: 'A') price = price ] description: 'price not changed'

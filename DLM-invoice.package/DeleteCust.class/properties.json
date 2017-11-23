@@ -1,15 +1,14 @@
 {
-	"category" : "DLM-Invoice",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "DaveMcKenzie 9/21/2016 10:11",
+	"super" : "CommandWithParam",
+	"category" : "DLM-Invoice",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"id",
-		"cust" ],
+		"cust"
+	],
 	"name" : "DeleteCust",
-	"pools" : [
-		 ],
-	"super" : "CommandWithParam",
-	"type" : "normal" }
+	"type" : "normal"
+}

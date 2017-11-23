@@ -1,23 +1,24 @@
 {
-	"class" : {
-		 },
 	"instance" : {
+		"testValidationError_answersStringWhenIsValidIsFalse" : "DaveMcKenzie 11/9/2016 08:51",
 		"testDeletedCustIDNotReused" : "DaveMcKenzie 10/23/2016 00:44",
 		"testGenerateNextID_incrementsBy1" : "DaveMcKenzie 10/18/2016 10:13",
-		"testGenerateNextID_interface" : "DaveMcKenzie 10/18/2016 10:10",
 		"testGenerateNextID_setsNextIdTo1OnIntialRun" : "DaveMcKenzie 10/18/2016 10:12",
+		"testValidate_interface" : "DaveMcKenzie 11/10/2016 12:24",
+		"testisValid_interface" : "DaveMcKenzie 11/8/2016 20:20",
+		"testInitialize_setsNextIDTo0" : "DaveMcKenzie 10/18/2016 10:21",
 		"testInitializeWithIDName_interface" : "DaveMcKenzie 11/8/2016 20:22",
 		"testInitializeWithIDName_savesArguments" : "DaveMcKenzie 10/18/2016 11:06",
-		"testInitialize_interface" : "DaveMcKenzie 10/18/2016 10:25",
-		"testInitialize_setsNextIDTo0" : "DaveMcKenzie 10/18/2016 10:21",
+		"testNewWithName_createsCustWithIncrementedID" : "DaveMcKenzie 11/18/2016 09:29",
+		"testValidationError_answersEmptyStringWhenIsValidIsTrue" : "DaveMcKenzie 11/9/2016 08:52",
 		"testIsValid_answersFalseForInvalidCustomer" : "DaveMcKenzie 11/8/2016 13:59",
 		"testIsValid_answersTrueForValidCustomer" : "DaveMcKenzie 11/8/2016 13:58",
 		"testNewWithName_assignsUniqueID" : "DaveMcKenzie 10/22/2016 23:47",
-		"testNewWithName_createsCust" : "DaveMcKenzie 10/22/2016 23:47",
-		"testNewWithName_createsCustWithIncrementedID" : "DaveMcKenzie 11/18/2016 09:29",
+		"testGenerateNextID_interface" : "DaveMcKenzie 10/18/2016 10:10",
 		"testNewWithName_interface" : "DaveMcKenzie 10/18/2016 09:51",
-		"testValidate_interface" : "DaveMcKenzie 11/10/2016 12:24",
-		"testValidationError_answersEmptyStringWhenIsValidIsTrue" : "DaveMcKenzie 11/9/2016 08:52",
-		"testValidationError_answersStringWhenIsValidIsFalse" : "DaveMcKenzie 11/9/2016 08:51",
-		"testValidationError_interface" : "DaveMcKenzie 11/8/2016 20:58",
-		"testisValid_interface" : "DaveMcKenzie 11/8/2016 20:20" } }
+		"testNewWithName_createsCust" : "DaveMcKenzie 10/22/2016 23:47",
+		"testInitialize_interface" : "DaveMcKenzie 10/18/2016 10:25",
+		"testValidationError_interface" : "DaveMcKenzie 11/8/2016 20:58"
+	},
+	"class" : { }
+}

@@ -1,8 +1,8 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"customers" : "DaveMcKenzie 4/22/2016 10:15",
-		"invoices" : "DaveMcKenzie 9/20/2016 14:33",
-		"products" : "DaveMcKenzie 8/14/2016 15:44",
-		"start" : "DaveMcKenzie 9/22/2016 13:57" } }
+		"domain" : "DaveMcKenzie 7/3/2017 17:58",
+		"ui" : "DaveMcKenzie 7/6/2017 22:30",
+		"start" : "DaveMcKenzie 11/22/2017 17:47"
+	},
+	"class" : { }
+}

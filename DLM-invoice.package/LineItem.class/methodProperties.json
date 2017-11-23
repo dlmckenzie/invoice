@@ -1,9 +1,12 @@
 {
-	"class" : {
-		"newWithKey:Desc:Price:Qty:" : "DaveMcKenzie 7/21/2016 11:23" },
 	"instance" : {
-		"desc" : "DaveMcKenzie 7/21/2016 11:46",
+		"price" : "DaveMcKenzie 7/21/2016 11:47",
 		"initializeWithKey:Desc:Price:Qty:" : "DaveMcKenzie 7/21/2016 11:48",
 		"key" : "DaveMcKenzie 7/21/2016 11:46",
-		"price" : "DaveMcKenzie 7/21/2016 11:47",
-		"qty" : "DaveMcKenzie 7/21/2016 11:47" } }
+		"qty" : "DaveMcKenzie 7/21/2016 11:47",
+		"desc" : "DaveMcKenzie 7/21/2016 11:46"
+	},
+	"class" : {
+		"newWithKey:Desc:Price:Qty:" : "DaveMcKenzie 7/21/2016 11:23"
+	}
+}

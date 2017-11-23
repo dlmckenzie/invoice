@@ -8,4 +8,4 @@ testAddCustWithFirstLast_addsCustWithEmptyFirstName
 	cli := CLI new.
 	cli start: app.
 	cli addCustWithFirst: '' Last: 'Smith'.
-	self assert: [ app customers size = 1 ] description: 'customer not added'
+	self assert: [ app domain customers size = 1 ] description: 'customer not added'

@@ -10,7 +10,7 @@ testValidateDesc_setsDescIsValidToFalseForUnchangedDesc
 	desc := 'Part A'.
 	prod := Product newWithKey: 'A'.
 	prod updateDescription: desc.
-	app products addProd: prod.
+	app domain products addProd: prod.
 	cmd := UpdateProdWithDesc newWithProd: 'A' Desc: desc.
 	cmd validate.
 	self deny: [ cmd descIsValid ] description: 'descIsValid should be false for an unchangd product description'

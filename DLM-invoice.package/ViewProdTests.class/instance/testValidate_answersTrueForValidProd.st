@@ -7,7 +7,7 @@ testValidate_answersTrueForValidProd
 	Command initializeWithApp: app.
 	key := 'A10'.
 	prod := Product newWithKey: key.
-	app products addProd: prod.
+	app domain products addProd: prod.
 	cmd := ViewProd newWithKey: key.
 	self
 		assert: [ cmd isValid ]

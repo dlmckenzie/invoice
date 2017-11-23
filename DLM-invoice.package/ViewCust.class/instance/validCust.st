@@ -3,4 +3,4 @@ validCust
 	"answer whether cust id is valid"
 
 	"(Application customers retrieveByID: id) ifNotNil: [ ^ true ] ifNil: [ ^ false ]"
-	^ (Application customers custExistsForID: id)
+	^ (Application domain customers custExistsForID: id)

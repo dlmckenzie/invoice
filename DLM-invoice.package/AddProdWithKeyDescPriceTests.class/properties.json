@@ -1,14 +1,11 @@
 {
-	"category" : "DLM-Invoice",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "AddProdWithKeyDescPriceTests",
-	"pools" : [
-		 ],
 	"super" : "CommandTests",
-	"type" : "normal" }
+	"category" : "DLM-Invoice",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "AddProdWithKeyDescPriceTests",
+	"type" : "normal"
+}

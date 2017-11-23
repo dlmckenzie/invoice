@@ -1,10 +1,10 @@
 {
-	"category" : "DLM-Invoice",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "DaveMcKenzie 5/4/2016 10:27",
+	"super" : "Object",
+	"category" : "DLM-Invoice",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"key",
 		"description",
@@ -16,9 +16,8 @@
 		"validationError",
 		"keyValidationError",
 		"descriptionValidationError",
-		"priceValidationError" ],
+		"priceValidationError"
+	],
 	"name" : "Product",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

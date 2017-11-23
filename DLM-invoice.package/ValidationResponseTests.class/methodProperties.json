@@ -1,12 +1,13 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"testAddFailureReasonInterface" : "DaveMcKenzie 9/20/2016 11:04",
-		"testAddFailureReasonProperlyStoresReason" : "DaveMcKenzie 9/20/2016 11:09",
-		"testAddFailureReasonRaisesErrorIfFailureReasonNotPreviouslyNil" : "DaveMcKenzie 9/20/2016 11:37",
-		"testAddFailureReasonRaisesErrorWhenEmptyStringArg" : "DaveMcKenzie 9/20/2016 11:30",
 		"testAddFailureReasonRaisesErrorWhenNilArg" : "DaveMcKenzie 9/20/2016 11:30",
+		"testAddFailureReasonProperlyStoresReason" : "DaveMcKenzie 9/20/2016 11:09",
+		"testAddFailureReasonRaisesErrorWhenEmptyStringArg" : "DaveMcKenzie 9/20/2016 11:30",
+		"testAddFailureReasonRaisesErrorIfFailureReasonNotPreviouslyNil" : "DaveMcKenzie 9/20/2016 11:37",
 		"testPassedAnswersFalseWhenFailureReasonIsNotNIl" : "DaveMcKenzie 9/20/2016 11:34",
-		"testPassedAnswersTrueWhenFailureReasonIsNIl" : "DaveMcKenzie 9/20/2016 11:33",
-		"testPassedInterface" : "DaveMcKenzie 9/20/2016 10:35" } }
+		"testPassedInterface" : "DaveMcKenzie 9/20/2016 10:35",
+		"testAddFailureReasonInterface" : "DaveMcKenzie 9/20/2016 11:04",
+		"testPassedAnswersTrueWhenFailureReasonIsNIl" : "DaveMcKenzie 9/20/2016 11:33"
+	},
+	"class" : { }
+}

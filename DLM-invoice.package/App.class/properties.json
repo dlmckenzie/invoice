@@ -1,16 +1,14 @@
 {
-	"category" : "DLM-Invoice",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "DaveMcKenzie 12/6/2016 14:08",
-	"instvars" : [
-		"customers",
-		"products",
-		"invoices" ],
-	"name" : "App",
-	"pools" : [
-		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"category" : "DLM-Invoice",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"domain",
+		"ui"
+	],
+	"name" : "App",
+	"type" : "normal"
+}

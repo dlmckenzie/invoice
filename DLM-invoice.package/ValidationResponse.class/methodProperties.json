@@ -1,7 +1,8 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"addFailureReason:" : "DaveMcKenzie 9/20/2016 11:23",
 		"failureReason" : "DaveMcKenzie 9/15/2016 14:03",
-		"passed" : "DaveMcKenzie 9/20/2016 11:35" } }
+		"passed" : "DaveMcKenzie 9/20/2016 11:35",
+		"addFailureReason:" : "DaveMcKenzie 9/20/2016 11:23"
+	},
+	"class" : { }
+}

@@ -6,7 +6,7 @@ testValidate_setsValidationErrorToEmptyStringWhenAllValidationsPass
 	app := App new start.
 	DeleteProd initializeWithApp: app.
 	prod := Product newWithKey: 'A10'.
-	app products addProd: prod.
+	app domain products addProd: prod.
 	self
 		assert: [ (DeleteProd newWithKey: 'A10') validationError isEmpty ]
 		description: 'validationFailureReason should be empty'

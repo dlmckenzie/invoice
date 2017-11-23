@@ -5,10 +5,10 @@ testValidationFailureReasonAnswersCorrectlyForCustWithInvoices
 	app start.
 	cli := CLI new.
 	cli start: app.
-	cust := app customers addCust: (Customer newWithName: (CustomerName newWithFirst: 'Joe' Last: 'Smith')).
+	cust := app domain customers addCust: (Customer newWithName: (CustomerName newWithFirst: 'Joe' Last: 'Smith')).
 	custID := cust id.
 	invoice := Invoice newWithCust: cust.
-	app invoices addInvoice: invoice.
+	app domain invoices addInvoice: invoice.
 	cmd := DeleteCust newWithID: custID.
 	cmd validate.
 	self

@@ -8,7 +8,7 @@ testValidateKey_setsKeyIsValidToTrueForExistingProduct
 	Command initializeWithApp: app.
 	prod := Product newWithKey: 'A10'.
 	prod updateDescription: 20.
-	app products addProd: prod.
+	app domain products addProd: prod.
 	cmd := UpdateProdWithPrice newWithKey: 'A10' Price: 50.
 	self
 		assert: [ cmd keyIsValid   ]

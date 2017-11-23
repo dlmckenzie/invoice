@@ -5,7 +5,7 @@ testValidate_setsValidArgumentsToTrueWhenAllValidationsPass
 	| app |
 	app := App new start.
 	Command initializeWithApp: app.
-	app products addProd: (Product newWithKey: 'A100').
+	app domain products addProd: (Product newWithKey: 'A100').
 	self
 		assert: [ (AddProdWithKeyDescPrice  newWithKey: 'A200' Desc: 'Part A200' Price: 40.99) isValid  ]
 		description: 'validate should have set isValid instance variable to true'

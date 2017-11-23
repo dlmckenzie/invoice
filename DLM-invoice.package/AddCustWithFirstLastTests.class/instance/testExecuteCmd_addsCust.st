@@ -9,4 +9,4 @@ testExecuteCmd_addsCust
 	cli start: app.
 	cmd := AddCustWithFirstLast newWithFirst: 'Joe' Last: 'Smith'.
 	cmd executeCmd.
-	self assert: [ app customers size = 1 ] description: 'customer not added'
+	self assert: [ app domain customers size = 1 ] description: 'customer not added'

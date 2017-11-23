@@ -1,14 +1,11 @@
 {
-	"category" : "DLM-Invoice",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "DaveMcKenzie 7/21/2016 20:12",
-	"instvars" : [
-		 ],
-	"name" : "LineItems",
-	"pools" : [
-		 ],
 	"super" : "Dictionary",
-	"type" : "normal" }
+	"category" : "DLM-Invoice",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "LineItems",
+	"type" : "normal"
+}

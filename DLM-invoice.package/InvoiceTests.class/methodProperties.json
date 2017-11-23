@@ -1,17 +1,18 @@
 {
-	"class" : {
-		 },
 	"instance" : {
+		"testInitializeWithCustSetsNumber" : "DaveMcKenzie 10/24/2016 12:01",
+		"testNewWithCustInterface" : "DaveMcKenzie 10/24/2016 11:58",
 		"testDateInterface" : "DaveMcKenzie 7/21/2016 10:35",
-		"testGenerateNextNumberIncrementsBy1" : "DaveMcKenzie 7/20/2016 22:11",
-		"testGenerateNextNumberInterface" : "DaveMcKenzie 7/20/2016 22:07",
-		"testInitializeInterface" : "DaveMcKenzie 7/20/2016 22:33",
-		"testInitializeResetsInvoiceNumber" : "DaveMcKenzie 7/21/2016 09:58",
 		"testInitializeWithCustInterface" : "DaveMcKenzie 10/24/2016 11:56",
 		"testInitializeWithCustSetsCust" : "DaveMcKenzie 10/24/2016 12:00",
-		"testInitializeWithCustSetsNumber" : "DaveMcKenzie 10/24/2016 12:01",
+		"testGenerateNextNumberIncrementsBy1" : "DaveMcKenzie 7/20/2016 22:11",
+		"testNextNumberInterface" : "DaveMcKenzie 7/21/2016 09:57",
+		"testInitializeResetsInvoiceNumber" : "DaveMcKenzie 7/21/2016 09:58",
+		"testGenerateNextNumberInterface" : "DaveMcKenzie 7/20/2016 22:07",
+		"testInitializeInterface" : "DaveMcKenzie 7/20/2016 22:33",
 		"testInvoiceClassExists" : "DaveMcKenzie 7/20/2016 18:25",
-		"testNewWithCustInterface" : "DaveMcKenzie 10/24/2016 11:58",
 		"testNewWithCustSuccesfullyCreatesInvoice" : "DaveMcKenzie 10/24/2016 12:00",
-		"testNextNumberAnswersCorrectly" : "DaveMcKenzie 7/21/2016 09:57",
-		"testNextNumberInterface" : "DaveMcKenzie 7/21/2016 09:57" } }
+		"testNextNumberAnswersCorrectly" : "DaveMcKenzie 7/21/2016 09:57"
+	},
+	"class" : { }
+}

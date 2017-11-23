@@ -1,10 +1,10 @@
 {
-	"category" : "DLM-Invoice",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "DaveMcKenzie 12/3/2016 00:08",
+	"super" : "CommandWithParam",
+	"category" : "DLM-Invoice",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"key",
 		"desc",
@@ -15,9 +15,8 @@
 		"priceIsValid",
 		"descValidationError",
 		"keyValidationError",
-		"priceValidationError" ],
+		"priceValidationError"
+	],
 	"name" : "AddProdWithKeyDescPrice",
-	"pools" : [
-		 ],
-	"super" : "CommandWithParam",
-	"type" : "normal" }
+	"type" : "normal"
+}

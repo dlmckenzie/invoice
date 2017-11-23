@@ -1,14 +1,13 @@
 {
-	"category" : "DLM-Invoice",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "DaveMcKenzie 9/27/2016 21:29",
-	"instvars" : [
-		"queryResult" ],
-	"name" : "ViewAllCustomers",
-	"pools" : [
-		 ],
 	"super" : "Command",
-	"type" : "normal" }
+	"category" : "DLM-Invoice",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"queryResult"
+	],
+	"name" : "ViewAllCustomers",
+	"type" : "normal"
+}

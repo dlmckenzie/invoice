@@ -1,16 +1,19 @@
 {
-	"class" : {
-		"open" : "DaveMcKenzie 8/14/2016 10:24" },
 	"instance" : {
-		"accessApp:" : "DaveMcKenzie 8/16/2016 12:17",
 		"accessCustomers:" : "DaveMcKenzie 8/16/2016 12:17",
-		"accessProducts:" : "DaveMcKenzie 8/16/2016 12:17",
-		"buildBrowser" : "DaveMcKenzie 8/20/2016 20:02",
-		"categories" : "DaveMcKenzie 8/20/2016 20:01",
-		"categoriesIn:" : "DaveMcKenzie 8/14/2016 23:06",
-		"customers" : "DaveMcKenzie 8/14/2016 12:33",
 		"detailsIn:" : "DaveMcKenzie 8/15/2016 03:09",
-		"instancesIn:" : "DaveMcKenzie 8/15/2016 02:44",
+		"accessProducts:" : "DaveMcKenzie 8/16/2016 12:17",
+		"customers" : "DaveMcKenzie 8/14/2016 12:33",
+		"accessApp:" : "DaveMcKenzie 8/16/2016 12:17",
+		"categories" : "DaveMcKenzie 8/20/2016 20:01",
 		"open" : "DaveMcKenzie 8/16/2016 16:21",
-		"organizer" : "DaveMcKenzie 8/14/2016 10:24",
-		"parse:" : "DaveMcKenzie 8/16/2016 13:33" } }
+		"categoriesIn:" : "DaveMcKenzie 8/14/2016 23:06",
+		"buildBrowser" : "DaveMcKenzie 8/20/2016 20:02",
+		"parse:" : "DaveMcKenzie 8/16/2016 13:33",
+		"instancesIn:" : "DaveMcKenzie 8/15/2016 02:44",
+		"organizer" : "DaveMcKenzie 8/14/2016 10:24"
+	},
+	"class" : {
+		"open" : "DaveMcKenzie 8/14/2016 10:24"
+	}
+}

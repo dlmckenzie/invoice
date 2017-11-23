@@ -1,18 +1,21 @@
 {
-	"class" : {
-		"generateNextID" : "DaveMcKenzie 5/17/2016 10:14",
-		"initialize" : "DaveMcKenzie 5/17/2016 10:48",
-		"invoices" : "DaveMcKenzie 9/22/2016 14:05",
-		"knowsAbout:" : "DaveMcKenzie 9/22/2016 14:05",
-		"newWithName:" : "DaveMcKenzie 10/18/2016 11:01",
-		"nextID" : "DaveMcKenzie 5/17/2016 11:24" },
 	"instance" : {
+		"isValid" : "DaveMcKenzie 11/8/2016 14:00",
+		"name" : "DaveMcKenzie 10/18/2016 10:04",
+		"okToDelete" : "DaveMcKenzie 7/3/2017 19:41",
+		"validate" : "DaveMcKenzie 1/27/2017 11:03",
+		"validationError" : "DaveMcKenzie 11/8/2016 20:53",
 		"associatedInvoices" : "DaveMcKenzie 10/28/2016 10:15",
 		"associatedWithInvoices" : "DaveMcKenzie 9/20/2016 12:15",
 		"id" : "DaveMcKenzie 5/17/2016 12:02",
-		"initializeWithID:Name:" : "DaveMcKenzie 1/15/2017 00:39",
-		"isValid" : "DaveMcKenzie 11/8/2016 14:00",
-		"name" : "DaveMcKenzie 10/18/2016 10:04",
-		"okToDelete" : "DaveMcKenzie 9/22/2016 14:39",
-		"validate" : "DaveMcKenzie 1/27/2017 11:03",
-		"validationError" : "DaveMcKenzie 11/8/2016 20:53" } }
+		"initializeWithID:Name:" : "DaveMcKenzie 1/15/2017 00:39"
+	},
+	"class" : {
+		"generateNextID" : "DaveMcKenzie 5/17/2016 10:14",
+		"nextID" : "DaveMcKenzie 5/17/2016 11:24",
+		"knowsAbout:" : "DaveMcKenzie 9/22/2016 14:05",
+		"initialize" : "DaveMcKenzie 5/17/2016 10:48",
+		"invoices" : "DaveMcKenzie 9/22/2016 14:05",
+		"newWithName:" : "DaveMcKenzie 10/18/2016 11:01"
+	}
+}

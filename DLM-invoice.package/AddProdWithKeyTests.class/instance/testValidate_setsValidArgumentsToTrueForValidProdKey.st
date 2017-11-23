@@ -7,7 +7,7 @@ testValidate_setsValidArgumentsToTrueForValidProdKey
 	app start.
 	cli := CLI new.
 	cli start: app.
-	app products addProd: (Product newWithKey: 'A100').
+	app domain products addProd: (Product newWithKey: 'A100').
 	self 
 		assert: [ (AddProdWithKey newWithKey: 'A200') isValid ]
 		description: 'validate should have set validArguments instance variable to true'

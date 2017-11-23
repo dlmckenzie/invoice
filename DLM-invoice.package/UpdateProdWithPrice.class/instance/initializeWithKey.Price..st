@@ -4,8 +4,8 @@ initializeWithKey: aProductKeyString Price: aProductPrice
 
 	key := aProductKeyString.
 	price := aProductPrice.
-	(Application products prodExistsForKey: key)
-		ifTrue: [ prod := Application products retrieveByKey: key ].
+	(Application domain products prodExistsForKey: key)
+		ifTrue: [ prod := Application domain products retrieveByKey: key ].
 	origProd := prod deepCopy.
 	newProd := (Product newWithKey: key) updatePrice: price.
 	self validate

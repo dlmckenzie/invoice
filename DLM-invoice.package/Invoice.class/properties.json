@@ -1,16 +1,17 @@
 {
+	"commentStamp" : "DaveMcKenzie 7/20/2016 15:10",
+	"super" : "Object",
 	"category" : "DLM-Invoice",
 	"classinstvars" : [
-		"nextNumber" ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "DaveMcKenzie 7/20/2016 15:10",
+		"nextNumber"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"number",
 		"customer",
-		"date" ],
+		"date"
+	],
 	"name" : "Invoice",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

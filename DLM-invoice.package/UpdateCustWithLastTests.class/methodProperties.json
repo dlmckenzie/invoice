@@ -1,22 +1,23 @@
 {
-	"class" : {
-		 },
 	"instance" : {
+		"testValidate_setsValidArgumentsToTrueWhenAllValidationsPass" : "DaveMcKenzie 7/3/2017 18:08",
 		"testExecuteCmd_interface" : "DaveMcKenzie 10/25/2016 10:11",
-		"testExecuteCmd_modifesLastName" : "DaveMcKenzie 10/25/2016 10:43",
-		"testInitializeWithCustLast_interface" : "DaveMcKenzie 1/15/2017 00:26",
 		"testNewWithCustLast_interface" : "DaveMcKenzie 1/15/2017 09:03",
-		"testShowHelpFull_interface" : "DaveMcKenzie 11/1/2016 12:49",
-		"testShowHelpShort_interface" : "DaveMcKenzie 11/1/2016 12:55",
+		"testInitializeWithCustLast_interface" : "DaveMcKenzie 1/15/2017 00:26",
 		"testValidateCust_interface" : "DaveMcKenzie 1/15/2017 09:01",
-		"testValidateCust_setsCustIsValidToFalseWhenKeyNotFoud" : "DaveMcKenzie 1/17/2017 10:47",
-		"testValidateCust_setsCustIsValidToTrueWhenCustomerExists" : "DaveMcKenzie 1/17/2017 10:41",
-		"testValidateLast_interface" : "DaveMcKenzie 1/17/2017 09:29",
-		"testValidateLast_setsLastIsValidToFalseForEmptyLastName" : "DaveMcKenzie 1/17/2017 09:58",
-		"testValidateLast_setsLastIsValidToFalseForNilLastName" : "DaveMcKenzie 1/17/2017 10:03",
-		"testValidateLast_setsLastIsValidToFalseForNonStringLastName" : "DaveMcKenzie 1/17/2017 10:01",
-		"testValidateLast_setsLastIsValidToFalseForUnchangedLastName" : "DaveMcKenzie 1/17/2017 23:43",
-		"testValidateLast_setsLastIsValidToTrueForValidLastName" : "DaveMcKenzie 1/17/2017 11:06",
 		"testValidate_interface" : "DaveMcKenzie 10/25/2016 10:39",
-		"testValidate_setsValidArgumentsToFalseWhenAnyValidationFails" : "DaveMcKenzie 2/3/2017 09:51",
-		"testValidate_setsValidArgumentsToTrueWhenAllValidationsPass" : "DaveMcKenzie 2/3/2017 09:51" } }
+		"testValidate_setsValidArgumentsToFalseWhenAnyValidationFails" : "DaveMcKenzie 7/3/2017 18:08",
+		"testValidateLast_interface" : "DaveMcKenzie 1/17/2017 09:29",
+		"testShowHelpShort_interface" : "DaveMcKenzie 11/1/2016 12:55",
+		"testValidateCust_setsCustIsValidToTrueWhenCustomerExists" : "DaveMcKenzie 7/3/2017 18:07",
+		"testValidateLast_setsLastIsValidToFalseForEmptyLastName" : "DaveMcKenzie 7/3/2017 18:07",
+		"testValidateLast_setsLastIsValidToFalseForNilLastName" : "DaveMcKenzie 7/3/2017 18:07",
+		"testValidateLast_setsLastIsValidToFalseForNonStringLastName" : "DaveMcKenzie 7/3/2017 18:07",
+		"testValidateLast_setsLastIsValidToTrueForValidLastName" : "DaveMcKenzie 7/3/2017 18:07",
+		"testValidateCust_setsCustIsValidToFalseWhenKeyNotFoud" : "DaveMcKenzie 1/17/2017 10:47",
+		"testValidateLast_setsLastIsValidToFalseForUnchangedLastName" : "DaveMcKenzie 7/3/2017 18:07",
+		"testExecuteCmd_modifesLastName" : "DaveMcKenzie 7/3/2017 18:07",
+		"testShowHelpFull_interface" : "DaveMcKenzie 11/1/2016 12:49"
+	},
+	"class" : { }
+}

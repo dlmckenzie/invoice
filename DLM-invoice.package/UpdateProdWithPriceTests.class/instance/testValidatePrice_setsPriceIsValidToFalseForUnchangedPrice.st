@@ -10,6 +10,6 @@ testValidatePrice_setsPriceIsValidToFalseForUnchangedPrice
 	price := 12.
 	prod := Product newWithKey: 'A'.
 	prod updatePrice: price.
-	app products addProd: prod.
+	app domain products addProd: prod.
 	cmd := UpdateProdWithPrice newWithKey: 'A' Price: price.
 	self deny: [ cmd priceIsValid ] description: 'priceIsValid should be false for an unchangd price'

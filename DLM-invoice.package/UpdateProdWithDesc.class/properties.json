@@ -1,10 +1,10 @@
 {
-	"category" : "DLM-Invoice",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "DaveMcKenzie 12/12/2016 08:30",
+	"super" : "CommandWithParam",
+	"category" : "DLM-Invoice",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"key",
 		"desc",
@@ -14,9 +14,8 @@
 		"newProd",
 		"prod",
 		"descValidationError",
-		"keyValidationError" ],
+		"keyValidationError"
+	],
 	"name" : "UpdateProdWithDesc",
-	"pools" : [
-		 ],
-	"super" : "CommandWithParam",
-	"type" : "normal" }
+	"type" : "normal"
+}

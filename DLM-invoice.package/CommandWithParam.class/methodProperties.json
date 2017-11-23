@@ -1,8 +1,9 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"buildFailureMsg" : "DaveMcKenzie 9/28/2016 14:22",
 		"isValid" : "DaveMcKenzie 2/3/2017 10:12",
 		"validate" : "DaveMcKenzie 9/28/2016 14:21",
-		"validationError" : "DaveMcKenzie 2/3/2017 10:12" } }
+		"validationError" : "DaveMcKenzie 2/3/2017 10:12",
+		"buildFailureMsg" : "DaveMcKenzie 9/28/2016 14:22"
+	},
+	"class" : { }
+}

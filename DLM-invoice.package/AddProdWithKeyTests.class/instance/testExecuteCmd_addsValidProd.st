@@ -6,5 +6,5 @@ testExecuteCmd_addsValidProd
 	app := App new start.
 	AddProdWithKey initializeWithApp: app.
 	(AddProdWithKey newWithKey: 'A100') executeCmd .
-	self assert: [ app products size = 1 ] description: 'product not added'
+	self assert: [ app domain products size = 1 ] description: 'product not added'
 	

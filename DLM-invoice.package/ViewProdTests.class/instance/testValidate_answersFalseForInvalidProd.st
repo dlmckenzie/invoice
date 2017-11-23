@@ -6,7 +6,7 @@ testValidate_answersFalseForInvalidProd
 	app := App new start.
 	Command initializeWithApp: app.
 	prod := Product newWithKey: 'A10'.
-	app products addProd: prod.
+	app domain products addProd: prod.
 	cmd := ViewProd newWithKey: 'A20'.
 	self
 		deny: [ cmd isValid ]

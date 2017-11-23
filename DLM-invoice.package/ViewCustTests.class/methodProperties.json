@@ -1,22 +1,23 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"testExecuteCmd_interface" : "DaveMcKenzie 11/10/2016 10:26",
-		"testInitializeWithID_interface" : "DaveMcKenzie 10/24/2016 11:39",
-		"testInitializeWithID_setsInstanceVar" : "DaveMcKenzie 11/1/2016 13:10",
-		"testNewWithID_interface" : "DaveMcKenzie 11/1/2016 13:11",
-		"testNewWithID_setsInstanceVar" : "DaveMcKenzie 11/1/2016 13:11",
-		"testShowHelpFull_interface" : "DaveMcKenzie 11/1/2016 13:16",
-		"testShowHelpShort_interface" : "DaveMcKenzie 11/1/2016 13:18",
-		"testValidCust_answersFalseForEmptyStringArgument" : "DaveMcKenzie 11/1/2016 13:12",
 		"testValidCust_answersFalseForNilArgument" : "DaveMcKenzie 11/1/2016 13:12",
-		"testValidCust_answersFalseForNonIntegerArgument" : "DaveMcKenzie 11/1/2016 13:12",
-		"testValidCust_answersFalseWhenCustNotFound" : "DaveMcKenzie 11/1/2016 13:12",
-		"testValidCust_answersTrueWhenCustFound" : "DaveMcKenzie 11/1/2016 13:11",
-		"testValidCust_interface" : "DaveMcKenzie 11/1/2016 13:12",
+		"testExecuteCmd_interface" : "DaveMcKenzie 11/10/2016 10:26",
+		"testValidCust_answersFalseForEmptyStringArgument" : "DaveMcKenzie 11/1/2016 13:12",
+		"testValidCust_answersTrueWhenCustFound" : "DaveMcKenzie 7/3/2017 18:09",
 		"testValidate_interface" : "DaveMcKenzie 11/1/2016 13:13",
-		"testValidate_setsValidArgumentsFalseWhenAnyValidationFails" : "DaveMcKenzie 2/3/2017 09:51",
-		"testValidate_setsValidArgumentsTrueWhenAllValidationsPass" : "DaveMcKenzie 2/3/2017 09:51",
-		"testValidate_setsValidationFailureReasonNilWhenAllValidationsPass" : "DaveMcKenzie 2/2/2017 09:32",
-		"testValidate_setsValidationFailureReasonWhenAnyValidationFails" : "DaveMcKenzie 2/2/2017 09:32" } }
+		"testValidate_setsValidArgumentsFalseWhenAnyValidationFails" : "DaveMcKenzie 7/3/2017 18:08",
+		"testValidate_setsValidationFailureReasonWhenAnyValidationFails" : "DaveMcKenzie 7/3/2017 18:09",
+		"testValidate_setsValidationFailureReasonNilWhenAllValidationsPass" : "DaveMcKenzie 7/3/2017 18:09",
+		"testShowHelpShort_interface" : "DaveMcKenzie 11/1/2016 13:18",
+		"testValidCust_answersFalseWhenCustNotFound" : "DaveMcKenzie 11/1/2016 13:12",
+		"testValidate_setsValidArgumentsTrueWhenAllValidationsPass" : "DaveMcKenzie 7/3/2017 18:08",
+		"testNewWithID_interface" : "DaveMcKenzie 11/1/2016 13:11",
+		"testInitializeWithID_interface" : "DaveMcKenzie 10/24/2016 11:39",
+		"testNewWithID_setsInstanceVar" : "DaveMcKenzie 11/1/2016 13:11",
+		"testInitializeWithID_setsInstanceVar" : "DaveMcKenzie 11/1/2016 13:10",
+		"testValidCust_interface" : "DaveMcKenzie 11/1/2016 13:12",
+		"testValidCust_answersFalseForNonIntegerArgument" : "DaveMcKenzie 11/1/2016 13:12",
+		"testShowHelpFull_interface" : "DaveMcKenzie 11/1/2016 13:16"
+	},
+	"class" : { }
+}

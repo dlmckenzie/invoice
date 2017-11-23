@@ -7,8 +7,8 @@ testDeleteCustRaisesErrorIfAttachedToInvoice
 	app start.
 	cust := (Customer newWithName: (CustomerName newWithFirst: 'Lisa' Last: 'Smith')).
 	"customers := Customers new."
-	app customers addCust: cust.
+	app domain customers addCust: cust.
 	invoice := Invoice newWithCust: cust.
 	"invoices := Invoices new."
-	app invoices addInvoice: invoice.
-	self should: [ app customers delete: cust ] raise: Error
+	app domain invoices addInvoice: invoice.
+	self should: [ app domain customers delete: cust ] raise: Error

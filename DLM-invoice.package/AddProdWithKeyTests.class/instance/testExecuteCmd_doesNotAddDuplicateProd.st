@@ -6,9 +6,9 @@ testExecuteCmd_doesNotAddDuplicateProd
 	key := 'A100'.
 	app := App new start.
 	AddProdWithKey initializeWithApp:  app.
-	app products addProd: (Product newWithKey: key).
-	self assert: [ app products size = 1 ] description: 'Test setup failure'.
+	app domain products addProd: (Product newWithKey: key).
+	self assert: [ app domain products size = 1 ] description: 'Test setup failure'.
 	(AddProdWithKey newWithKey: key) executeCmd.
 	self
-		assert: [ app products size = 1 ]
+		assert: [ app domain products size = 1 ]
 		description: 'product with duplicate key should not have been added'

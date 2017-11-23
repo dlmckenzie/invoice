@@ -6,7 +6,7 @@ testValidateKey_setsIsValidTrueForExistingKey
 	key := 'A10'.
 	app := App new start.
 	prod := Product newWithKey: key.
-	app products addProd: prod.
+	app domain products addProd: prod.
 	DeleteProd initializeWithApp: app.
 	cmd := DeleteProd newWithKey: key.
 	cmd validateKey.

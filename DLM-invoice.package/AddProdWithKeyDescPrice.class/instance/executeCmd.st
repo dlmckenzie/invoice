@@ -7,7 +7,7 @@ executeCmd
 			prod
 				updateDescription: desc;
 				updatePrice: price.
-			Application products addProd: prod.
+			Application domain products addProd: prod.
 			self buildSuccessMsg ]
 		ifFalse: [ self buildFailureMsg ].
 	self displayResult

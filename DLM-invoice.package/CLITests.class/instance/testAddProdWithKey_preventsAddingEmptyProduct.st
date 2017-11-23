@@ -9,5 +9,5 @@ testAddProdWithKey_preventsAddingEmptyProduct
 	cli start: app.
 	cli addProdWithKey: String empty.
 	self
-		assert: [ app products isEmpty ]
+		assert: [ app domain products isEmpty ]
 		description: 'product with empty key should not have been added'.

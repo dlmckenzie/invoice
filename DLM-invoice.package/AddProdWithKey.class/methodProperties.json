@@ -1,13 +1,18 @@
 {
-	"class" : {
-		"newWithKey:" : "DaveMcKenzie 3/14/2017 10:07",
-		"showHelpFull" : "DaveMcKenzie 12/1/2016 09:55",
-		"showHelpShort" : "DaveMcKenzie 12/1/2016 09:19" },
 	"instance" : {
+		"initializeWithKey:domain:" : "DaveMcKenzie 7/8/2017 08:29",
 		"buildFailureMsg" : "DaveMcKenzie 11/29/2016 15:17",
-		"buildSuccessMsg" : "DaveMcKenzie 12/1/2016 09:11",
-		"executeCmd" : "DaveMcKenzie 2/3/2017 09:51",
-		"initializeWithKey:" : "DaveMcKenzie 12/1/2016 11:01",
+		"validate" : "DaveMcKenzie 11/22/2017 21:39",
 		"key" : "DaveMcKenzie 11/28/2016 10:23",
 		"prod" : "DaveMcKenzie 12/6/2016 12:32",
-		"validate" : "DaveMcKenzie 2/3/2017 10:12" } }
+		"executeCmd" : "DaveMcKenzie 11/22/2017 21:39",
+		"initializeWithKey:" : "DaveMcKenzie 12/1/2016 11:01",
+		"buildSuccessMsg" : "DaveMcKenzie 12/1/2016 09:11"
+	},
+	"class" : {
+		"newWithKey:" : "DaveMcKenzie 3/14/2017 10:07",
+		"newWithKey:domain:" : "DaveMcKenzie 7/8/2017 08:28",
+		"showHelpFull" : "DaveMcKenzie 12/1/2016 09:55",
+		"showHelpShort" : "DaveMcKenzie 12/1/2016 09:19"
+	}
+}

@@ -1,11 +1,14 @@
 {
-	"class" : {
-		"generateNextNumber" : "DaveMcKenzie 7/20/2016 22:18",
-		"initialize" : "DaveMcKenzie 7/25/2016 10:15",
-		"newWithCust:" : "DaveMcKenzie 7/21/2016 08:18",
-		"nextNumber" : "DaveMcKenzie 7/21/2016 07:48" },
 	"instance" : {
-		"customer" : "DaveMcKenzie 7/21/2016 07:55",
+		"number" : "DaveMcKenzie 7/21/2016 00:17",
 		"date" : "DaveMcKenzie 7/21/2016 10:35",
-		"initializeWithCust:" : "DaveMcKenzie 7/21/2016 10:36",
-		"number" : "DaveMcKenzie 7/21/2016 00:17" } }
+		"customer" : "DaveMcKenzie 7/21/2016 07:55",
+		"initializeWithCust:" : "DaveMcKenzie 7/21/2016 10:36"
+	},
+	"class" : {
+		"initialize" : "DaveMcKenzie 7/25/2016 10:15",
+		"nextNumber" : "DaveMcKenzie 7/21/2016 07:48",
+		"generateNextNumber" : "DaveMcKenzie 7/20/2016 22:18",
+		"newWithCust:" : "DaveMcKenzie 7/21/2016 08:18"
+	}
+}

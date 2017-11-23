@@ -3,5 +3,5 @@ initializeWithID: aCustID
 	"initialize myself"
 
 	id := aCustID.
-	(Application customers custExistsForID: id) ifTrue: [ cust := Application customers retrieveByID: id ].
+	(Application domain customers custExistsForID: id) ifTrue: [ cust := Application domain customers retrieveByID: id ].
 	self validate

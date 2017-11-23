@@ -4,7 +4,7 @@ executeCmd
 
 	isValid
 		ifTrue: [ cust := Customer newWithName: name.
-			Application customers addCust: cust.
+			Application domain customers addCust: cust.
 			self buildSuccessMsg ]
 		ifFalse: [ self buildFailureMsg ].
 	self displayResult

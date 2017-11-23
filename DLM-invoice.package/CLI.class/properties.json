@@ -1,15 +1,14 @@
 {
-	"category" : "DLM-Invoice",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "DaveMcKenzie 11/29/2016 13:03",
-	"instvars" : [
-		"app",
-		"stream" ],
-	"name" : "CLI",
-	"pools" : [
-		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"category" : "DLM-Invoice",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"domain",
+		"stream"
+	],
+	"name" : "CLI",
+	"type" : "normal"
+}

@@ -9,7 +9,7 @@ testExecuteCmd_modifesFirstName
 	cli start: app.
 	newFirst := 'Joe'.
 	cust := Customer newWithName: (CustomerName newWithFirst: 'Joey' Last: 'Smith').
-	app customers addCust: cust.
+	app domain customers addCust: cust.
 	cmd := UpdateCustWithFirst newWithCust: cust id First: newFirst.
 	cmd executeCmd.
 	self assert: [ cust name first = newFirst ] description: 'first name not being set'

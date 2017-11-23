@@ -1,13 +1,16 @@
 {
-	"class" : {
-		"newWithFirst:Last:" : "DaveMcKenzie 9/14/2016 09:13",
-		"showHelpFull" : "DaveMcKenzie 11/1/2016 12:39",
-		"showHelpShort" : "DaveMcKenzie 11/1/2016 12:39" },
 	"instance" : {
 		"buildFailureMsg" : "DaveMcKenzie 11/30/2016 22:34",
-		"buildSuccessMsg" : "DaveMcKenzie 10/18/2016 11:57",
-		"executeCmd" : "DaveMcKenzie 2/3/2017 10:12",
-		"first" : "DaveMcKenzie 9/6/2016 12:22",
-		"initializeWithFirst:Last:" : "DaveMcKenzie 11/10/2016 09:10",
 		"last" : "DaveMcKenzie 9/6/2016 12:22",
-		"validate" : "DaveMcKenzie 2/3/2017 10:12" } }
+		"validate" : "DaveMcKenzie 2/3/2017 10:12",
+		"first" : "DaveMcKenzie 9/6/2016 12:22",
+		"executeCmd" : "DaveMcKenzie 7/3/2017 18:00",
+		"buildSuccessMsg" : "DaveMcKenzie 10/18/2016 11:57",
+		"initializeWithFirst:Last:" : "DaveMcKenzie 11/10/2016 09:10"
+	},
+	"class" : {
+		"showHelpFull" : "DaveMcKenzie 11/1/2016 12:39",
+		"newWithFirst:Last:" : "DaveMcKenzie 9/14/2016 09:13",
+		"showHelpShort" : "DaveMcKenzie 11/1/2016 12:39"
+	}
+}

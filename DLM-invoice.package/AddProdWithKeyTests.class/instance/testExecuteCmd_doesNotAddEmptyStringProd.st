@@ -8,5 +8,5 @@ testExecuteCmd_doesNotAddEmptyStringProd
 	AddProdWithKey initializeWithApp: app.
 	(AddProdWithKey newWithKey: '') executeCmd.
 	self
-		assert: [ app products isEmpty ]
+		assert: [ app domain products isEmpty ]
 		description: 'product with empty string for key should not have been added'

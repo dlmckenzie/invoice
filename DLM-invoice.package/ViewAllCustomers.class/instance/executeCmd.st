@@ -1,5 +1,5 @@
 action
 executeCmd
-	queryResult := Application customers retrieveAll.
+	queryResult := Application domain customers retrieveAll.
 	self buildSuccessMsg.
 	self displayResult

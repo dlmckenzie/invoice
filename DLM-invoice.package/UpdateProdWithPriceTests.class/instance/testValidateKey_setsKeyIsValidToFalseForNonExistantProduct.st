@@ -8,7 +8,7 @@ testValidateKey_setsKeyIsValidToFalseForNonExistantProduct
 	Command initializeWithApp: app.
 	prod := Product newWithKey: 'A10'.
 	prod updatePrice: 30.
-	app products addProd: prod.
+	app domain products addProd: prod.
 	cmd := UpdateProdWithDesc newWithProd: 'A12' Desc: 40.
 	self
 		deny: [ cmd keyIsValid ]

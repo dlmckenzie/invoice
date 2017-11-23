@@ -1,18 +1,21 @@
 {
-	"class" : {
-		"newWithFirst:Last:" : "DaveMcKenzie 10/7/2016 14:41" },
 	"instance" : {
+		"validateLast" : "DaveMcKenzie 1/24/2017 08:51",
 		"first" : "DaveMcKenzie 10/7/2016 16:01",
 		"first:" : "DaveMcKenzie 10/19/2016 08:31",
-		"firstIsValid" : "DaveMcKenzie 10/18/2016 08:37",
-		"firstValidationError" : "DaveMcKenzie 10/20/2016 10:09",
 		"initializeWithFirst:Last:" : "DaveMcKenzie 10/24/2016 09:10",
-		"isValid" : "DaveMcKenzie 11/8/2016 13:16",
-		"last" : "DaveMcKenzie 10/7/2016 16:01",
-		"last:" : "DaveMcKenzie 10/22/2016 22:32",
-		"lastIsValid" : "DaveMcKenzie 10/18/2016 08:37",
-		"lastValidationError" : "DaveMcKenzie 10/20/2016 10:09",
-		"validate" : "DaveMcKenzie 11/8/2016 13:19",
 		"validateFirst" : "DaveMcKenzie 10/20/2016 10:15",
-		"validateLast" : "DaveMcKenzie 1/24/2017 08:51",
-		"validationError" : "DaveMcKenzie 11/8/2016 13:19" } }
+		"last" : "DaveMcKenzie 10/7/2016 16:01",
+		"firstIsValid" : "DaveMcKenzie 10/18/2016 08:37",
+		"isValid" : "DaveMcKenzie 11/8/2016 13:16",
+		"lastValidationError" : "DaveMcKenzie 10/20/2016 10:09",
+		"validationError" : "DaveMcKenzie 11/8/2016 13:19",
+		"firstValidationError" : "DaveMcKenzie 10/20/2016 10:09",
+		"lastIsValid" : "DaveMcKenzie 10/18/2016 08:37",
+		"last:" : "DaveMcKenzie 10/22/2016 22:32",
+		"validate" : "DaveMcKenzie 11/8/2016 13:19"
+	},
+	"class" : {
+		"newWithFirst:Last:" : "DaveMcKenzie 10/7/2016 14:41"
+	}
+}

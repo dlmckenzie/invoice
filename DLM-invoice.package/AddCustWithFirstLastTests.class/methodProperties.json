@@ -1,19 +1,20 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"testExecuteCmd_addsCust" : "DaveMcKenzie 10/21/2016 00:24",
-		"testExecuteCmd_interface" : "DaveMcKenzie 11/29/2016 13:14",
-		"testInitializeWithFirstLast_acceptsEmtpyAgs" : "DaveMcKenzie 10/21/2016 00:27",
-		"testInitializeWithFirstLast_interface" : "DaveMcKenzie 10/21/2016 00:28",
-		"testInitializeWithFirstLast_setsInstanceVariables" : "DaveMcKenzie 10/21/2016 00:29",
-		"testNewWithFirstLast_acceptsEmtpyAgs" : "DaveMcKenzie 10/21/2016 00:29",
-		"testNewWithFirstLast_interface" : "DaveMcKenzie 10/21/2016 00:30",
-		"testNewWithFirstLast_setsInstanceVariables" : "DaveMcKenzie 10/21/2016 00:30",
 		"testShowHelpFull_interface" : "DaveMcKenzie 11/1/2016 12:00",
-		"testShowHelpShort_interface" : "DaveMcKenzie 11/1/2016 12:02",
-		"testValidArgumentsAnswersFalse_whenAnyArent" : "DaveMcKenzie 2/3/2017 09:51",
+		"testExecuteCmd_interface" : "DaveMcKenzie 11/29/2016 13:14",
+		"testInitializeWithFirstLast_setsInstanceVariables" : "DaveMcKenzie 10/21/2016 00:29",
 		"testValidateArguments_interface" : "DaveMcKenzie 2/3/2017 09:51",
-		"testValidateFirstName_answersFalseForInvalidFirstName" : "DaveMcKenzie 12/6/2016 09:25",
 		"testValidate_interface" : "DaveMcKenzie 11/28/2016 11:29",
-		"testValidate_setsValidArguments" : "DaveMcKenzie 2/3/2017 09:51" } }
+		"testValidate_setsValidArguments" : "DaveMcKenzie 2/3/2017 09:51",
+		"testValidateFirstName_answersFalseForInvalidFirstName" : "DaveMcKenzie 12/6/2016 09:25",
+		"testNewWithFirstLast_interface" : "DaveMcKenzie 10/21/2016 00:30",
+		"testInitializeWithFirstLast_interface" : "DaveMcKenzie 10/21/2016 00:28",
+		"testShowHelpShort_interface" : "DaveMcKenzie 11/1/2016 12:02",
+		"testInitializeWithFirstLast_acceptsEmtpyAgs" : "DaveMcKenzie 10/21/2016 00:27",
+		"testValidArgumentsAnswersFalse_whenAnyArent" : "DaveMcKenzie 2/3/2017 09:51",
+		"testNewWithFirstLast_acceptsEmtpyAgs" : "DaveMcKenzie 10/21/2016 00:29",
+		"testNewWithFirstLast_setsInstanceVariables" : "DaveMcKenzie 10/21/2016 00:30",
+		"testExecuteCmd_addsCust" : "DaveMcKenzie 7/3/2017 18:00"
+	},
+	"class" : { }
+}

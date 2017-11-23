@@ -1,22 +1,23 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"testBuildFailureMsg_interface" : "DaveMcKenzie 12/11/2016 15:59",
-		"testBuildSuccessMsg_interface" : "DaveMcKenzie 12/11/2016 15:57",
-		"testDeleteProd_exists" : "DaveMcKenzie 12/9/2016 09:46",
 		"testDeleteProd_interface" : "DaveMcKenzie 12/11/2016 16:32",
-		"testExecuteCmd_deletesProduct" : "DaveMcKenzie 12/11/2016 12:33",
-		"testExecuteCmd_doesntDeleteAnythingForIncorrectProductKey" : "DaveMcKenzie 12/11/2016 12:37",
 		"testExecuteCmd_interface" : "DaveMcKenzie 12/11/2016 10:13",
-		"testInitializeWithKey_setsInstanceVariables" : "DaveMcKenzie 12/9/2016 10:13",
+		"testBuildFailureMsg_interface" : "DaveMcKenzie 12/11/2016 15:59",
 		"testNewWithKey_interface" : "DaveMcKenzie 12/9/2016 10:07",
 		"testShowHelpFull_interface" : "DaveMcKenzie 12/11/2016 16:30",
-		"testValidateKey_interface" : "DaveMcKenzie 12/11/2016 17:43",
 		"testValidateKey_setsIsValidFalseForNonExistantKey" : "DaveMcKenzie 12/11/2016 00:18",
-		"testValidateKey_setsIsValidTrueForExistingKey" : "DaveMcKenzie 12/11/2016 00:16",
 		"testValidate_interface" : "DaveMcKenzie 12/11/2016 17:42",
-		"testValidate_setsValidArgumentsToFalseWhenKeyValidationFails" : "DaveMcKenzie 2/3/2017 09:51",
-		"testValidate_setsValidArgumentsToTrueWhenAllValidationsPass" : "DaveMcKenzie 2/3/2017 09:51",
-		"testValidate_setsValidationErrorToEmptyStringWhenAllValidationsPass" : "DaveMcKenzie 2/2/2017 09:32",
-		"testValidate_setsValidationErrorToStringWhenValidationFails" : "DaveMcKenzie 2/2/2017 09:32" } }
+		"testValidateKey_interface" : "DaveMcKenzie 12/11/2016 17:43",
+		"testValidate_setsValidationErrorToEmptyStringWhenAllValidationsPass" : "DaveMcKenzie 7/3/2017 19:30",
+		"testValidate_setsValidArgumentsToFalseWhenKeyValidationFails" : "DaveMcKenzie 7/3/2017 19:30",
+		"testValidate_setsValidationErrorToStringWhenValidationFails" : "DaveMcKenzie 2/2/2017 09:32",
+		"testInitializeWithKey_setsInstanceVariables" : "DaveMcKenzie 12/9/2016 10:13",
+		"testExecuteCmd_deletesProduct" : "DaveMcKenzie 7/3/2017 19:29",
+		"testValidateKey_setsIsValidTrueForExistingKey" : "DaveMcKenzie 7/3/2017 19:30",
+		"testExecuteCmd_doesntDeleteAnythingForIncorrectProductKey" : "DaveMcKenzie 7/3/2017 19:29",
+		"testValidate_setsValidArgumentsToTrueWhenAllValidationsPass" : "DaveMcKenzie 7/3/2017 19:30",
+		"testBuildSuccessMsg_interface" : "DaveMcKenzie 12/11/2016 15:57",
+		"testDeleteProd_exists" : "DaveMcKenzie 12/9/2016 09:46"
+	},
+	"class" : { }
+}

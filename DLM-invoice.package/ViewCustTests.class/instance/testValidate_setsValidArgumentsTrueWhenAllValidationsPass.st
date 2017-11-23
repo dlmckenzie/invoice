@@ -8,7 +8,7 @@ testValidate_setsValidArgumentsTrueWhenAllValidationsPass
 	cli := CLI new.
 	cli start: app.
 	cust := Customer newWithName: (CustomerName newWithFirst: 'Sam' Last: 'Barry').
-	app customers addCust: cust.
+	app domain customers addCust: cust.
 	cmd := ViewCust newWithID: cust id.
 	cmd validate.
 	self assert: [ cmd isValid ] description: 'validationFailureReason should still be nil'

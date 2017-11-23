@@ -1,16 +1,19 @@
 {
+	"instance" : {
+		"keyIsValid" : "DaveMcKenzie 12/10/2016 23:30",
+		"executeCmd" : "DaveMcKenzie 7/3/2017 19:29",
+		"initializeWithKey:" : "DaveMcKenzie 7/3/2017 19:29",
+		"key" : "DaveMcKenzie 12/9/2016 10:20",
+		"prod" : "DaveMcKenzie 12/11/2016 12:30",
+		"buildFailureMsg" : "DaveMcKenzie 12/11/2016 17:34",
+		"validateKey" : "DaveMcKenzie 2/2/2017 09:48",
+		"validate" : "DaveMcKenzie 2/3/2017 10:12",
+		"buildSuccessMsg" : "DaveMcKenzie 12/11/2016 17:40",
+		"keyValidationError" : "DaveMcKenzie 2/2/2017 09:48"
+	},
 	"class" : {
 		"newWithKey:" : "DaveMcKenzie 12/9/2016 10:06",
 		"showHelpFull" : "DaveMcKenzie 12/11/2016 16:36",
-		"showHelpShort" : "DaveMcKenzie 12/11/2016 16:37" },
-	"instance" : {
-		"buildFailureMsg" : "DaveMcKenzie 12/11/2016 17:34",
-		"buildSuccessMsg" : "DaveMcKenzie 12/11/2016 17:40",
-		"executeCmd" : "DaveMcKenzie 2/3/2017 09:51",
-		"initializeWithKey:" : "DaveMcKenzie 12/11/2016 10:42",
-		"key" : "DaveMcKenzie 12/9/2016 10:20",
-		"keyIsValid" : "DaveMcKenzie 12/10/2016 23:30",
-		"keyValidationError" : "DaveMcKenzie 2/2/2017 09:48",
-		"prod" : "DaveMcKenzie 12/11/2016 12:30",
-		"validate" : "DaveMcKenzie 2/3/2017 10:12",
-		"validateKey" : "DaveMcKenzie 2/2/2017 09:48" } }
+		"showHelpShort" : "DaveMcKenzie 12/11/2016 16:37"
+	}
+}

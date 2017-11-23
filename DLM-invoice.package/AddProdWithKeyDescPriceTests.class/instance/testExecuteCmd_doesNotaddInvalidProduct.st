@@ -6,4 +6,4 @@ testExecuteCmd_doesNotaddInvalidProduct
 	app := App new start.
 	AddProdWithKeyDescPrice initializeWithApp: app.
 	(AddProdWithKeyDescPrice newWithKey: 'A100' Desc: 'Part A100' Price: 'unknown') executeCmd.
-	self deny: [ app products size = 1 ] description: 'product did not get added'
+	self deny: [ app domain products size = 1 ] description: 'product did not get added'

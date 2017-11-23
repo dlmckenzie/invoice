@@ -1,5 +1,6 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"decoratorTestWithStrings" : "DaveMcKenzie 10/28/2016 10:10" } }
+		"decoratorTestWithStrings" : "DaveMcKenzie 10/28/2016 10:10"
+	},
+	"class" : { }
+}

@@ -6,7 +6,7 @@ testValidatePrice_setsPriceValidationErrorToEmptyStringForPositivePrice
 	app := App new start.
 	CLI new start: app.
 	prod := Product newWithKey: 'A'.
-	app products addProd: prod.
+	app domain products addProd: prod.
 	prod updatePrice: 4.
 	self
 		assert: [ (UpdateProdWithPrice newWithKey: 'A' Price: 10) priceValidationError isEmpty ]

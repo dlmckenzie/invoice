@@ -8,7 +8,7 @@ testValidateDesc_setsDescIsValidToTrueForChangedDesc
 	cli := CLI new.
 	cli start: app.
 	prod := Product newWithKey: 'A'.
-	app products addProd: prod.
+	app domain products addProd: prod.
 	cmd := UpdateProdWithDesc newWithProd: 'A' Desc: 'B'.
 	cmd validate.
 	self

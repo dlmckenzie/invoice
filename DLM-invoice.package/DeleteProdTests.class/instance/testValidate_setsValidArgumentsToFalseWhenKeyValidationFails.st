@@ -6,7 +6,7 @@ testValidate_setsValidArgumentsToFalseWhenKeyValidationFails
 	app := App new start.
 	DeleteProd initializeWithApp: app.
 	prod := Product newWithKey: 'A10'.
-	app products addProd: prod.
+	app domain products addProd: prod.
 	self
 		deny: [ (DeleteProd newWithKey: 'A12') isValid ]
 		description: 'validArguments should be false'

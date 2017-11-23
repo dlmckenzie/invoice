@@ -1,11 +1,13 @@
 {
+	"commentStamp" : "DaveMcKenzie 2/14/2016 09:42",
+	"super" : "Object",
 	"category" : "DLM-Invoice",
 	"classinstvars" : [
 		"nextID",
-		"invoices" ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "DaveMcKenzie 2/14/2016 09:42",
+		"invoices"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"id",
 		"name",
@@ -13,9 +15,8 @@
 		"validForDeletion",
 		"attachedInvoices",
 		"isValid",
-		"validationError" ],
+		"validationError"
+	],
 	"name" : "Customer",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

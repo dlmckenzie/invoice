@@ -1,3 +1,3 @@
 interface - product
 viewAllProducts
-	ViewAllProducts new executeCmd
+	(ViewAllProducts newWithDomain: domain) executeCmd

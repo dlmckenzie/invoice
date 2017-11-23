@@ -1,5 +1,6 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"testLineItemsClassExists" : "DaveMcKenzie 7/21/2016 20:11" } }
+		"testLineItemsClassExists" : "DaveMcKenzie 7/21/2016 20:11"
+	},
+	"class" : { }
+}

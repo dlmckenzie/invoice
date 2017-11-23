@@ -4,7 +4,7 @@ executeCmd
 
 	isValid
 		ifTrue: [ 
-			Application customers delete: cust.
+			Application domain customers delete: cust.
 			self buildSuccessMsg ]
 		ifFalse: [ self buildFailureMsg ].
 	self displayResult

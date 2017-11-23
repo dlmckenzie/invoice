@@ -6,7 +6,7 @@ testValidate_setsValidArgumentsToTrueWhenAllValidationsPass
 	app := App new.
 	app start.
 	cust := Customer newWithName: (CustomerName newWithFirst: 'Joey' Last: 'Smith').
-	app customers addCust: cust.
+	app domain customers addCust: cust.
 	cmd := UpdateCustWithFirst newWithCust: cust id First: 'Joe'.
 	Command initializeWithApp: app.
 	cmd validate.

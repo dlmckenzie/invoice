@@ -5,7 +5,7 @@ testValidate_setsValidArgumentsToFalseForDuplicateProdKey
 	| app cmd |
 	app := App new start.
 	AddProdWithKey initializeWithApp: app.
-	app products addProd: (Product newWithKey: 'A100').
+	app domain products addProd: (Product newWithKey: 'A100').
 	cmd := AddProdWithKey newWithKey: 'A100'.
 	self 
 		deny: [ cmd isValid ]

@@ -7,7 +7,7 @@ testValidate_setsValidArgumentsToTrueWhenAllValidationsPass
 	key := 'A10'.
 	DeleteProd initializeWithApp: app.
 	prod := Product newWithKey: key.
-	app products addProd: prod.
+	app domain products addProd: prod.
 	self
 		assert: [ (DeleteProd newWithKey: key) isValid ]
 		description: 'validArguments should be true'

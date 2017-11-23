@@ -8,7 +8,7 @@ testValidateLast_setsLastIsValidToTrueForValidLastName
 	cli := CLI new.
 	cli start: app.
 	cust := Customer newWithName: (CustomerName newWithFirst: 'Joey' Last: 'Smith').
-	app customers addCust: cust.
+	app domain customers addCust: cust.
 	cmd := UpdateCustWithLast newWithCust: cust id Last: 'Smithe'.
 	cmd executeCmd.
 	self

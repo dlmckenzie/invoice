@@ -1,9 +1,12 @@
 {
-	"class" : {
-		"open" : "DaveMcKenzie 8/14/2016 10:14" },
 	"instance" : {
-		"buildBrowser" : "DaveMcKenzie 8/14/2016 11:46",
-		"classesIn:" : "DaveMcKenzie 8/14/2016 10:48",
+		"packagesIn:" : "DaveMcKenzie 8/14/2016 11:44",
 		"open" : "DaveMcKenzie 8/14/2016 10:15",
 		"organizer" : "DaveMcKenzie 8/14/2016 10:15",
-		"packagesIn:" : "DaveMcKenzie 8/14/2016 11:44" } }
+		"buildBrowser" : "DaveMcKenzie 8/14/2016 11:46",
+		"classesIn:" : "DaveMcKenzie 8/14/2016 10:48"
+	},
+	"class" : {
+		"open" : "DaveMcKenzie 8/14/2016 10:14"
+	}
+}

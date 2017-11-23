@@ -7,6 +7,6 @@ testValidateCust_setsCustIsValidToTrueWhenCustomerExists
 	app start.
 	Command initializeWithApp: app.
 	cust := Customer newWithName: (CustomerName newWithFirst: 'Joey' Last: 'Smith').
-	app customers addCust: cust.
+	app domain customers addCust: cust.
 	cmd := UpdateCustWithLast newWithCust: cust id Last: 'Smithe'.
 	self assert: [ cmd custIsValid  ] description: 'validArguments should be set to true when customer exists'

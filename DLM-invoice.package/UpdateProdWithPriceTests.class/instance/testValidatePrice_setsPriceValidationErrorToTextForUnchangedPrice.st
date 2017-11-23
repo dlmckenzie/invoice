@@ -10,7 +10,7 @@ testValidatePrice_setsPriceValidationErrorToTextForUnchangedPrice
 	price := 12.
 	prod := Product newWithKey: 'A'.
 	prod updatePrice: price.
-	app products addProd: prod.
+	app domain products addProd: prod.
 	cmd := UpdateProdWithPrice newWithKey: 'A' Price: price.
 	self
 		assert: [ cmd priceValidationError isNotEmpty ]

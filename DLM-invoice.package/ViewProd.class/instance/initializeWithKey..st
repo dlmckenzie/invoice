@@ -3,6 +3,6 @@ initializeWithKey: aProductKeyString
 	"initialize self"
 	
 	key := aProductKeyString.
-	(Application products prodExistsForKey: aProductKeyString)
-		ifTrue: [ prod := Application products retrieveByKey: aProductKeyString ].
+	(Application domain products prodExistsForKey: aProductKeyString)
+		ifTrue: [ prod := Application domain products retrieveByKey: aProductKeyString ].
 	self validate

@@ -4,8 +4,8 @@ initializeWithProd: aProductKeyString Desc: aProductDescriptionString
 
 	key := aProductKeyString.
 	desc := aProductDescriptionString.
-	(Application products prodExistsForKey: key)
-		ifTrue: [ prod := Application products retrieveByKey: key. origProd := prod deepCopy.]
+	(Application domain products prodExistsForKey: key)
+		ifTrue: [ prod := Application domain products retrieveByKey: key. origProd := prod deepCopy.]
 		ifFalse: [prod := nil].
 	
 	newProd := (Product newWithKey: key) updateDescription: desc.

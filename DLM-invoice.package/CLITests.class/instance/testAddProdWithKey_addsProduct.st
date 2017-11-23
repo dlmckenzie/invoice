@@ -8,4 +8,4 @@ testAddProdWithKey_addsProduct
 	cli := CLI new.
 	cli start: app.
 	cli addProdWithKey: 'A10'.
-	self assert: [ app products size = 1 ] description: 'product not added'.
+	self assert: [ app domain products size = 1 ] description: 'product not added'.

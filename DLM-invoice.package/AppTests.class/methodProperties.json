@@ -1,6 +1,8 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"testAppExists" : "DaveMcKenzie 4/14/2016 22:58",
-		"testAppStartExists" : "DaveMcKenzie 4/14/2016 23:06" } }
+		"testAppStartExists" : "DaveMcKenzie 4/14/2016 23:06",
+		"testDomain_interface" : "DaveMcKenzie 7/3/2017 17:57",
+		"testAppExists" : "DaveMcKenzie 4/14/2016 22:58"
+	},
+	"class" : { }
+}

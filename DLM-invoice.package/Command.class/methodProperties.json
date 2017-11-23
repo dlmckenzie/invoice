@@ -1,15 +1,18 @@
 {
+	"instance" : {
+		"application" : "DaveMcKenzie 12/6/2016 12:48",
+		"stream" : "DaveMcKenzie 11/29/2016 14:49",
+		"displayResult" : "DaveMcKenzie 9/13/2016 22:32",
+		"executeCmd" : "DaveMcKenzie 9/6/2016 13:07",
+		"buildSuccessMsg" : "DaveMcKenzie 9/21/2016 14:14"
+	},
 	"class" : {
 		"application" : "DaveMcKenzie 12/6/2016 13:06",
 		"displayHelp:" : "DaveMcKenzie 10/26/2016 09:59",
 		"displayHelpFullUsing:and:" : "DaveMcKenzie 11/1/2016 12:30",
-		"displayHelpShort:" : "DaveMcKenzie 11/1/2016 11:13",
+		"showHelpShort" : "DaveMcKenzie 10/26/2016 09:33",
 		"initializeWithApp:" : "DaveMcKenzie 10/7/2016 08:39",
 		"showHelpFull" : "DaveMcKenzie 10/26/2016 11:28",
-		"showHelpShort" : "DaveMcKenzie 10/26/2016 09:33" },
-	"instance" : {
-		"application" : "DaveMcKenzie 12/6/2016 12:48",
-		"buildSuccessMsg" : "DaveMcKenzie 9/21/2016 14:14",
-		"displayResult" : "DaveMcKenzie 9/13/2016 22:32",
-		"executeCmd" : "DaveMcKenzie 9/6/2016 13:07",
-		"stream" : "DaveMcKenzie 11/29/2016 14:49" } }
+		"displayHelpShort:" : "DaveMcKenzie 11/1/2016 11:13"
+	}
+}
